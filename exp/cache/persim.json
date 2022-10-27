@@ -1,0 +1,1772 @@
+{
+  "persim": {
+    "summary": "Distances and representations of persistence diagrams",
+    "potential_require": [
+      "joblib",
+      "deprecated",
+      "hopcroftkarp",
+      "scipy",
+      "matplotlib",
+      "numpy",
+      "scikit-learn"
+    ],
+    "version_list": [
+      {
+        "version": "0.3.1",
+        "upload_time": "2021-05-24T03:17:48",
+        "python_require": [
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp310",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "joblib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deprecated",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2021-03-15T15:36:42",
+        "python_require": [
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp310",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "joblib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deprecated",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2021-01-09T17:46:17",
+        "python_require": [
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp310",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "joblib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deprecated",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp311",
+              "cp39",
+              "cp310",
+              "cp38",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.3",
+        "upload_time": "2020-07-15T02:57:34",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.2",
+        "upload_time": "2020-01-12T14:26:30",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2019-08-31T17:35:33",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2019-07-16T14:40:35",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.10",
+        "upload_time": "2019-07-13T16:26:09",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.9",
+        "upload_time": "2019-06-09T19:55:37",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.8",
+        "upload_time": "2019-02-14T07:54:05",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.7",
+        "upload_time": "2018-11-08T21:33:17",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hopcroftkarp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.0.6",
+        "upload_time": "2018-06-08T15:16:56",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.0.5",
+        "upload_time": "2018-06-08T15:01:02",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.4",
+        "upload_time": "2018-04-13T19:26:36",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.3",
+        "upload_time": "2018-04-13T18:59:55",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.2",
+        "upload_time": "2018-04-13T17:42:34",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp34",
+          "cp33",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp34",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

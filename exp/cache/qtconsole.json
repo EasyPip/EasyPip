@@ -1,0 +1,4713 @@
+{
+  "qtconsole": {
+    "summary": "Jupyter Qt console",
+    "potential_require": [
+      "traitlets",
+      "ipython-genutils",
+      "jupyter-core",
+      "jupyter-client",
+      "pygments",
+      "ipykernel",
+      "qtpy",
+      "pyzmq"
+    ],
+    "version_list": [
+      {
+        "version": "5.3.1",
+        "upload_time": "2022-06-05T17:30:57",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "5.2.1!=5.2.2"
+            ],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "2.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.3.0",
+        "upload_time": "2022-03-28T17:07:14",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "2.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.2.2",
+        "upload_time": "2021-12-13T17:55:59",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.2.1",
+        "upload_time": "2021-11-23T16:30:41",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.2.0",
+        "upload_time": "2021-11-08T17:20:37",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.1.1",
+        "upload_time": "2021-06-29T17:22:52",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.1.0",
+        "upload_time": "2021-05-02T17:55:58",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.0.3",
+        "upload_time": "2021-03-16T16:48:26",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.0.2",
+        "upload_time": "2021-01-21T17:49:48",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.0.1",
+        "upload_time": "2020-11-24T17:28:10",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.0.0",
+        "upload_time": "2020-11-23T21:33:18",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp39",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp39",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp39",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp39",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp39",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp39",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp39",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp39",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.7.7",
+        "upload_time": "2020-09-03T04:03:30",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.7.6",
+        "upload_time": "2020-08-17T17:25:11",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.7.5",
+        "upload_time": "2020-06-22T16:44:56",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.7.4",
+        "upload_time": "2020-05-13T15:05:27",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.7.3",
+        "upload_time": "2020-04-16T15:25:11",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.7.2",
+        "upload_time": "2020-03-25T16:37:44",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.7.1",
+        "upload_time": "2020-03-03T01:26:26",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.7.0",
+        "upload_time": "2020-02-29T19:24:12",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "qtpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.6.0",
+        "upload_time": "2019-11-17T19:11:34",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.5.5",
+        "upload_time": "2019-09-02T07:32:32",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.5.4",
+        "upload_time": "2019-08-22T12:27:01",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.5.3",
+        "upload_time": "2019-08-16T09:41:57",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.5.2",
+        "upload_time": "2019-07-23T11:59:11",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.5.1",
+        "upload_time": "2019-05-27T13:11:38",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.5.0",
+        "upload_time": "2019-05-24T12:15:04",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.4.4",
+        "upload_time": "2019-05-03T09:32:30",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.4.3",
+        "upload_time": "2018-11-10T21:09:58",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.4.2",
+        "upload_time": "2018-10-12T20:47:20",
+        "python_require": [
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "4.4.1",
+        "upload_time": "2018-08-19T03:00:58",
+        "python_require": [
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "4.4.0",
+        "upload_time": "2018-08-13T14:03:34",
+        "python_require": [
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "4.3.1",
+        "upload_time": "2017-08-12T16:16:37",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.3.0",
+        "upload_time": "2017-03-29T12:57:50",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ipython-genutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.2.1",
+        "upload_time": "2016-03-30T16:37:18",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.2.0",
+        "upload_time": "2016-02-23T08:02:31",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ipykernel",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.1.1",
+        "upload_time": "2015-11-25T14:43:20",
+        "python_require": [
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "4.1.0",
+        "upload_time": "2015-10-16T11:40:23",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "4.0.1",
+        "upload_time": "2015-08-17T21:22:03",
+        "python_require": [
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "4.0.0",
+        "upload_time": "2015-07-20T20:03:46",
+        "python_require": [
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

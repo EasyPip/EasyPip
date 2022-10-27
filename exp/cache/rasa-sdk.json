@@ -1,0 +1,6985 @@
+{
+  "rasa-sdk": {
+    "summary": "Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants",
+    "potential_require": [
+      "coloredlogs",
+      "requests",
+      "sanic",
+      "sanic-cors",
+      "typing-extensions",
+      "urllib3",
+      "uvloop",
+      "Sanic-Cors",
+      "prompt-toolkit",
+      "multidict",
+      "ConfigArgParse",
+      "gevent",
+      "flask-cors",
+      "flask",
+      "future",
+      "six",
+      "typing"
+    ],
+    "version_list": [
+      {
+        "version": "3.2.0",
+        "upload_time": "2022-06-14T08:08:55",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4",
+            "end_node": "2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.2",
+        "upload_time": "2022-06-08T11:30:48",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.1",
+        "upload_time": "2022-03-24T14:07:29",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.0",
+        "upload_time": "2022-03-24T10:36:07",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "2.0.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.6",
+        "upload_time": "2022-03-07T15:36:56",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.5",
+        "upload_time": "2022-02-09T17:05:15",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.4",
+        "upload_time": "2022-01-27T15:28:57",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "2.0.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.3",
+        "upload_time": "2022-01-19T13:18:09",
+        "python_require": [
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "2.0.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.2",
+        "upload_time": "2021-12-06T11:02:49",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "2.0.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.1",
+        "upload_time": "2021-12-03T11:27:30",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "2.0.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2021-11-23T14:38:02",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "2.0.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.0rc3",
+        "upload_time": "2021-11-18T14:05:41",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "2.0.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.0rc1",
+        "upload_time": "2021-11-04T09:24:47",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Sanic-Cors",
+            "start_node": "2.0.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.8.8",
+        "upload_time": "2022-07-12T08:09:42",
+        "python_require": [
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.8.7",
+        "upload_time": "2022-07-01T08:31:55",
+        "python_require": [
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "22.0.0",
+            "end_node": "21.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.8.6",
+        "upload_time": "2022-06-02T15:55:03",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.8.5",
+        "upload_time": "2022-04-05T18:05:45",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.8.4",
+        "upload_time": "2022-01-19T13:24:26",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.8.3",
+        "upload_time": "2021-11-25T13:14:16",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.8.2",
+        "upload_time": "2021-09-02T12:29:43",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.8.1",
+        "upload_time": "2021-07-21T09:25:53",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "2.0.0",
+            "end_node": "1.26.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.8.0",
+        "upload_time": "2021-07-12T13:38:48",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.7.0",
+        "upload_time": "2021-06-03T10:13:25",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.6.0",
+        "upload_time": "2021-05-06T13:38:49",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.5.0",
+        "upload_time": "2021-04-12T12:27:00",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.1",
+        "upload_time": "2021-03-23T15:28:12",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.0",
+        "upload_time": "2021-03-11T12:40:32",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "16",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.3.1",
+        "upload_time": "2021-02-11T13:53:09",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.3.0",
+        "upload_time": "2021-02-11T09:49:49",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.0",
+        "upload_time": "2020-12-15T10:27:12",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.0a1",
+        "upload_time": "2020-12-02T14:40:35",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.2",
+        "upload_time": "2020-11-19T10:16:38",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.1.1",
+        "upload_time": "2020-11-17T20:07:31",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2020-11-17T12:33:24",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2020-10-07T13:48:28",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.23",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.0rc1",
+        "upload_time": "2020-09-17T14:59:01",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0a5",
+        "upload_time": "2020-09-04T12:57:21",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "21.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.0a4",
+        "upload_time": "2020-09-03T07:36:20",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0a3",
+        "upload_time": "2020-08-31T14:30:45",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.0a2",
+        "upload_time": "2020-08-14T16:18:10",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.0a1",
+        "upload_time": "2020-07-13T14:36:23",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.10.3",
+        "upload_time": "2020-09-23T13:09:23",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.10.2",
+        "upload_time": "2020-06-25T15:27:00",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.10.1",
+        "upload_time": "2020-05-11T16:14:18",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.10.0",
+        "upload_time": "2020-04-28T10:20:03",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "15",
+            "end_node": "10",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.10.0a1",
+        "upload_time": "2020-04-03T15:11:59",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "11.0",
+            "end_node": "10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.9.0",
+        "upload_time": "2020-03-24T19:49:11",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "11.0",
+            "end_node": "10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.8.1",
+        "upload_time": "2020-03-09T14:24:10",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "11.0",
+            "end_node": "10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.8.0",
+        "upload_time": "2020-02-26T17:08:58",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "11.0",
+            "end_node": "10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "20.0.0",
+            "end_node": "19.12.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0b1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.7.0",
+        "upload_time": "2020-01-29T15:49:31",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "4.6.1",
+            "end_node": "4.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.9.9.post1",
+            "end_node": "0.9.9.post1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "START",
+            "end_node": "19.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.6.1",
+        "upload_time": "2020-01-07T09:50:53",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "START",
+            "end_node": "19.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.9.9.post1",
+            "end_node": "0.9.9.post1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "4.6.1",
+            "end_node": "4.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.6.0",
+        "upload_time": "2019-12-18T15:05:37",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "4.6.1",
+            "end_node": "4.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.9.9.post1",
+            "end_node": "0.9.9.post1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "START",
+            "end_node": "19.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.2",
+        "upload_time": "2019-12-11T18:11:20",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "START",
+            "end_node": "19.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.9.9.post1",
+            "end_node": "0.9.9.post1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "4.6.1",
+            "end_node": "4.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.1",
+        "upload_time": "2019-11-27T14:46:13",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "START",
+            "end_node": "19.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.9.9.post1",
+            "end_node": "0.9.9.post1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.0",
+        "upload_time": "2019-11-22T13:32:39",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-cors",
+            "start_node": "0.9.9.post1",
+            "end_node": "0.9.9.post1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sanic",
+            "start_node": "START",
+            "end_node": "19.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.0",
+        "upload_time": "2019-10-19T14:19:53",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.3",
+        "upload_time": "2019-09-27T23:46:44",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.2",
+        "upload_time": "2019-09-06T09:19:21",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.1",
+        "upload_time": "2019-09-05T14:10:20",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.0",
+        "upload_time": "2019-09-05T06:41:34",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.0a1",
+        "upload_time": "2019-08-22T08:59:46",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.22",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.2.0",
+        "upload_time": "2019-08-13T12:36:25",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.22",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.1",
+        "upload_time": "2019-07-25T22:36:28",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.22",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2019-06-13T09:39:41",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.22",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2019-05-21T11:14:51",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.0rc4",
+        "upload_time": "2019-05-13T18:47:28",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.0rc3",
+        "upload_time": "2019-05-13T12:49:46",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ConfigArgParse",
+            "start_node": "START",
+            "end_node": "0.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coloredlogs",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flask-cors",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gevent",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

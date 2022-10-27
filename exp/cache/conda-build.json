@@ -1,0 +1,143 @@
+{
+  "conda-build": {
+    "summary": "tools for building conda packages",
+    "potential_require": [
+      "conda",
+      "filelock",
+      "requests"
+    ],
+    "version_list": [
+      {
+        "version": "2.1.5",
+        "upload_time": "2017-02-21T19:29:44",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "conda",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "filelock",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.20.1",
+        "upload_time": "2016-04-21T20:28:53",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.19.2",
+        "upload_time": "2016-03-11T01:38:08",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.19.1",
+        "upload_time": "2016-03-09T20:12:20",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

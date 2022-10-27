@@ -1,0 +1,222 @@
+{
+  "intel-numpy": {
+    "summary": "NumPy is the fundamental package for array computing with Python.",
+    "potential_require": [
+      "dpcpp_cpp_rt",
+      "mkl",
+      "tbb4py",
+      "mkl-service",
+      "icc-rt",
+      "mkl-fft",
+      "mkl-random"
+    ],
+    "version_list": [
+      {
+        "version": "1.21.4",
+        "upload_time": "2022-03-04T13:25:43",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dpcpp_cpp_rt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkl",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tbb4py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkl-service",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.15.1",
+        "upload_time": "2018-09-25T15:29:05",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "icc-rt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkl",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkl-fft",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkl-random",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tbb4py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.14.3",
+        "upload_time": "2018-06-14T11:15:11",
+        "python_require": [
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "icc-rt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkl",
+            "start_node": "START",
+            "end_node": "2018.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkl-random",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkl-fft",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

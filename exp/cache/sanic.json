@@ -1,0 +1,6713 @@
+{
+  "sanic": {
+    "summary": "A web server and web framework that's written to go fast. Build fast. Run fast.",
+    "potential_require": [
+      "sanic-routing",
+      "httptools",
+      "aiofiles",
+      "websockets",
+      "multidict",
+      "uvloop",
+      "ujson",
+      "httpx",
+      "requests-async"
+    ],
+    "version_list": [
+      {
+        "version": "22.6.1",
+        "upload_time": "2022-07-31T11:33:01",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "22.6.0",
+            "end_node": "22.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "7.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "21.12.2",
+        "upload_time": "2022-07-31T11:32:20",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "20.12.7",
+        "upload_time": "2022-07-31T11:27:31",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.1",
+            "end_node": "8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.15.4",
+            "end_node": "0.15.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "22.6.0",
+        "upload_time": "2022-06-30T10:26:41",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "22.6.0",
+            "end_node": "22.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "7.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "22.3.2",
+        "upload_time": "2022-05-11T06:36:55",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "22.6.0",
+            "end_node": "22.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "7.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "22.3.1",
+        "upload_time": "2022-04-17T09:27:59",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "22.6.0",
+            "end_node": "22.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "7.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "22.3.0",
+        "upload_time": "2022-03-31T11:32:36",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "22.6.0",
+            "end_node": "22.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "7.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "20.12.6",
+        "upload_time": "2022-02-16T16:04:51",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.1",
+            "end_node": "8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.15.4",
+            "end_node": "0.15.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "20.12.5",
+        "upload_time": "2022-01-16T18:44:51",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.1",
+            "end_node": "8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.15.4",
+            "end_node": "0.15.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "21.12.1",
+        "upload_time": "2022-01-06T10:26:51",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "21.12.0",
+        "upload_time": "2021-12-26T11:20:06",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "21.9.3",
+        "upload_time": "2021-11-21T12:29:02",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "21.9.2",
+        "upload_time": "2021-11-21T08:25:24",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "21.9.1",
+        "upload_time": "2021-10-02T22:26:54",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "20.12.4",
+        "upload_time": "2021-10-02T22:25:13",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.15.4",
+            "end_node": "0.15.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "21.9.0",
+        "upload_time": "2021-09-30T19:38:00",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "21.6.2",
+        "upload_time": "2021-08-02T18:08:21",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "21.6.1",
+        "upload_time": "2021-07-28T09:02:44",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "21.6.0",
+        "upload_time": "2021-06-27T20:08:04",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "0.7.0",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "21.3.4",
+        "upload_time": "2021-04-19T22:44:50",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "21.3.2",
+        "upload_time": "2021-03-23T00:45:00",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "21.3.1",
+        "upload_time": "2021-03-21T13:18:51",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "21.3.0",
+        "upload_time": "2021-03-21T08:51:44",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sanic-routing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "20.12.3",
+        "upload_time": "2021-03-21T08:15:31",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.15.4",
+            "end_node": "0.15.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.5.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "20.12.2",
+        "upload_time": "2021-02-16T07:15:53",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.15.4",
+            "end_node": "0.15.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.5.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "19.12.5",
+        "upload_time": "2021-02-16T07:02:25",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0.0",
+            "end_node": "5.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.9.3",
+            "end_node": "0.9.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.5.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "20.12.1",
+        "upload_time": "2021-01-05T16:30:34",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.15.4",
+            "end_node": "0.15.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "20.12.0",
+        "upload_time": "2020-12-28T22:00:53",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.15.4",
+            "end_node": "0.15.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "19.12.4",
+        "upload_time": "2020-11-05T07:42:48",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0.0",
+            "end_node": "5.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.9.3",
+            "end_node": "0.9.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "20.9.1",
+        "upload_time": "2020-10-25T13:11:08",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0.0",
+            "end_node": "5.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.15.4",
+            "end_node": "0.15.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "19.12.3",
+        "upload_time": "2020-10-25T12:39:21",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0.0",
+            "end_node": "5.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.9.3",
+            "end_node": "0.9.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "20.9.0",
+        "upload_time": "2020-09-30T14:42:22",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.15.4",
+            "end_node": "0.15.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "20.6.3",
+        "upload_time": "2020-06-29T12:09:31",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.11.1",
+            "end_node": "0.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "20.6.2",
+        "upload_time": "2020-06-29T06:13:09",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.11.1",
+            "end_node": "0.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "20.6.1",
+        "upload_time": "2020-06-28T14:28:49",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.11.1",
+            "end_node": "0.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "20.6.0",
+        "upload_time": "2020-06-28T14:19:10",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.11.1",
+            "end_node": "0.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "20.3.0",
+        "upload_time": "2020-05-14T19:08:13",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.11.1",
+            "end_node": "0.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "19.12.2",
+        "upload_time": "2020-01-02T21:36:03",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.9.3",
+            "end_node": "0.9.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "19.12.0",
+        "upload_time": "2019-12-27T13:21:38",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.9.3",
+            "end_node": "0.9.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "19.9.0",
+        "upload_time": "2019-10-12T17:04:03",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "9.0",
+            "end_node": "7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-async",
+            "start_node": "0.5.0",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "19.6.3",
+        "upload_time": "2019-08-22T14:49:10",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "8.0",
+            "end_node": "7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-async",
+            "start_node": "0.5.0",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "19.6.2",
+        "upload_time": "2019-07-08T03:16:41",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-async",
+            "start_node": "0.5.0",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "19.6.0",
+        "upload_time": "2019-06-21T05:03:46",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-async",
+            "start_node": "0.5.0",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "19.3.1",
+        "upload_time": "2019-03-23T02:54:41",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "18.12.0",
+        "upload_time": "2018-12-27T19:34:47",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.3",
+        "upload_time": "2018-09-13T09:30:35",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.2",
+        "upload_time": "2018-09-13T08:57:14",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.1",
+        "upload_time": "2018-09-06T20:56:01",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2018-09-06T20:49:39",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "6.0",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "multidict",
+            "start_node": "5.0",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2017-12-06T03:32:01",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2017-08-03T02:27:00",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.4",
+        "upload_time": "2017-05-09T00:48:59",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httptools",
+            "start_node": "START",
+            "end_node": "0.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "1.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "0.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "websockets",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2017-05-09T00:43:16",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp32",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2017-04-14T19:04:59",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp27",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2017-04-11T21:09:04",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp27",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2017-02-28T15:11:03",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp27",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2017-02-25T19:54:13",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp27",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2017-02-09T01:28:12",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp27",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2017-01-28T01:48:31",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp27",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2017-01-14T17:32:56",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp27",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.9",
+        "upload_time": "2016-12-25T03:00:22",
+        "python_require": [
+          "cp35",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.8",
+        "upload_time": "2016-11-29T22:09:11",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.7",
+        "upload_time": "2016-10-25T09:56:28",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6",
+        "upload_time": "2016-10-25T09:38:46",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.5",
+        "upload_time": "2016-10-23T10:47:42",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4",
+        "upload_time": "2016-10-18T09:17:10",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.3",
+        "upload_time": "2016-10-16T09:46:22",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2016-10-15T22:55:24",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp27",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2016-10-15T22:54:12",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp27",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

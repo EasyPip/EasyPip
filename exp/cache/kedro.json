@@ -1,0 +1,7009 @@
+{
+  "kedro": {
+    "summary": "Kedro helps you build production-ready data and analytics pipelines",
+    "potential_require": [
+      "anyconfig",
+      "attrs",
+      "cachetools",
+      "click",
+      "cookiecutter",
+      "dynaconf",
+      "fsspec",
+      "gitpython",
+      "importlib-metadata",
+      "jmespath",
+      "pip-tools",
+      "pluggy",
+      "python-json-logger",
+      "PyYAML",
+      "rich",
+      "rope",
+      "setuptools",
+      "toml",
+      "toposort",
+      "jupyter-client",
+      "azure-storage-blob",
+      "azure-storage-file",
+      "azure-storage-queue",
+      "pandas-gbq",
+      "pandas",
+      "pyarrow",
+      "requests",
+      "s3fs",
+      "SQLAlchemy",
+      "tables",
+      "xlrd",
+      "xlsxwriter",
+      "memory-profiler",
+      "jinja2",
+      "thrift"
+    ],
+    "version_list": [
+      {
+        "version": "0.18.2",
+        "upload_time": "2022-07-08T15:55:49",
+        "python_require": [
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "21.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "3.0",
+            "end_node": "2.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dynaconf",
+            "start_node": "4.0",
+            "end_node": "3.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.1",
+            "end_node": "2021.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "6.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rich",
+            "start_node": "START",
+            "end_node": "12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rope",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.18.1",
+        "upload_time": "2022-05-09T21:13:47",
+        "python_require": [
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dynaconf",
+            "start_node": "4.0.0",
+            "end_node": "3.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.1",
+            "end_node": "2021.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "6.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rope",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.18.0",
+        "upload_time": "2022-03-31T16:07:31",
+        "python_require": [
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dynaconf",
+            "start_node": "4.0.0",
+            "end_node": "3.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.1",
+            "end_node": "2021.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "6.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rope",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.17.7",
+        "upload_time": "2022-02-22T16:01:08",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dynaconf",
+            "start_node": "4.0.0",
+            "end_node": "3.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.1",
+            "end_node": "2021.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "7.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rope",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "6.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "6.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.6",
+        "upload_time": "2021-12-09T16:01:14",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dynaconf",
+            "start_node": "4.0.0",
+            "end_node": "3.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.01",
+            "end_node": "2021.04",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "7.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "6.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rope",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.5",
+        "upload_time": "2021-09-14T15:12:54",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dynaconf",
+            "start_node": "3.1.6",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.01",
+            "end_node": "2021.04",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "7.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rope",
+            "start_node": "START",
+            "end_node": "0.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.4",
+        "upload_time": "2021-06-16T09:10:32",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dynaconf",
+            "start_node": "START",
+            "end_node": "3.1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.9",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "7.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.3",
+        "upload_time": "2021-04-21T15:12:51",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "7.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.9",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dynaconf",
+            "start_node": "START",
+            "end_node": "3.1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.2",
+        "upload_time": "2021-03-15T18:11:52",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dynaconf",
+            "start_node": "START",
+            "end_node": "3.1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.9",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "7.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.1",
+        "upload_time": "2021-03-04T14:46:45",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "7.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.9",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dynaconf",
+            "start_node": "START",
+            "end_node": "3.1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.0",
+        "upload_time": "2020-12-17T13:31:56",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.9.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.9",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gitpython",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "7.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "0.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.6",
+        "upload_time": "2020-10-23T10:48:09",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "7.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.7.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.7.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.9.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.5",
+        "upload_time": "2020-09-09T12:23:01",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.9.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.7.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.7.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "7.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.4",
+        "upload_time": "2020-07-30T10:23:11",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.9.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.7.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.7.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.3",
+        "upload_time": "2020-07-13T11:38:46",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "START",
+            "end_node": "0.9.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.7.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.7.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "START",
+            "end_node": "5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "START",
+            "end_node": "0.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "47.0",
+            "end_node": "38.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.2",
+        "upload_time": "2020-06-15T14:37:11",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "1.0.0",
+            "end_node": "0.13.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "6.0",
+            "end_node": "5.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "6.0",
+            "end_node": "5.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.7.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.7.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "5.0",
+            "end_node": "4.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.1",
+        "upload_time": "2020-05-21T12:47:03",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "5.0",
+            "end_node": "4.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.7.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.7.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "6.0",
+            "end_node": "5.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "6.0",
+            "end_node": "5.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "1.0.0",
+            "end_node": "0.13.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.0",
+        "upload_time": "2020-05-20T11:05:35",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "5.0",
+            "end_node": "4.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.7.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.7.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jmespath",
+            "start_node": "1.0",
+            "end_node": "0.9.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-client",
+            "start_node": "6.0",
+            "end_node": "5.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "6.0",
+            "end_node": "5.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pluggy",
+            "start_node": "1.0.0",
+            "end_node": "0.13.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.9",
+        "upload_time": "2020-04-06T14:51:52",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-file",
+            "start_node": "2.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-queue",
+            "start_node": "2.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "0.7.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas-gbq",
+            "start_node": "1.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "1.0",
+            "end_node": "0.24.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "5.0.0",
+            "end_node": "4.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "1.0.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "0.4.1",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.6",
+            "end_node": "3.4.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.8",
+        "upload_time": "2020-03-05T10:13:10",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-file",
+            "start_node": "2.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-queue",
+            "start_node": "2.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "1.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas-gbq",
+            "start_node": "1.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "1.0",
+            "end_node": "0.24.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "5.0.0",
+            "end_node": "4.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "1.0.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.6",
+            "end_node": "3.4.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.7",
+        "upload_time": "2020-02-26T17:14:05",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "1.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "1.0",
+            "end_node": "0.24.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "5.0.0",
+            "end_node": "4.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "1.0.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.6",
+            "end_node": "3.4.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.6",
+        "upload_time": "2020-02-26T11:56:56",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "1.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "1.0",
+            "end_node": "0.24.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "5.0.0",
+            "end_node": "4.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "1.0.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.6",
+            "end_node": "3.4.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.5",
+        "upload_time": "2019-12-12T13:29:51",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "1.0",
+            "end_node": "0.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "1.0",
+            "end_node": "0.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "5.0.0",
+            "end_node": "4.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "1.0.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.6",
+            "end_node": "3.4.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.4",
+        "upload_time": "2019-10-30T17:24:29",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "memory-profiler",
+            "start_node": "1.0",
+            "end_node": "0.50.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "1.0",
+            "end_node": "0.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "5.0.0",
+            "end_node": "4.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "1.0.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.6",
+            "end_node": "3.4.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.3",
+        "upload_time": "2019-10-17T14:48:56",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.6",
+            "end_node": "3.4.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "1.0.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "5.0.0",
+            "end_node": "4.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "1.0",
+            "end_node": "0.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "memory-profiler",
+            "start_node": "1.0",
+            "end_node": "0.50.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.2",
+        "upload_time": "2019-10-08T16:20:05",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "4.0",
+            "end_node": "3.4.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "1.0.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "5.0.0",
+            "end_node": "4.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "1.0",
+            "end_node": "0.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "memory-profiler",
+            "start_node": "1.0",
+            "end_node": "0.50.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.1",
+        "upload_time": "2019-09-12T16:08:04",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "memory-profiler",
+            "start_node": "1.0",
+            "end_node": "0.50.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "1.0",
+            "end_node": "0.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "5.0.0",
+            "end_node": "4.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "1.0.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "4.0",
+            "end_node": "3.4.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.0",
+        "upload_time": "2019-08-13T14:10:02",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "1.0",
+            "end_node": "0.9.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "memory-profiler",
+            "start_node": "1.0",
+            "end_node": "0.50.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "1.0",
+            "end_node": "0.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pip-tools",
+            "start_node": "5.0.0",
+            "end_node": "4.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "1.0.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "1.0",
+            "end_node": "0.1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "4.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "4.0",
+            "end_node": "3.4.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "2.0",
+            "end_node": "1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.14.3",
+        "upload_time": "2019-06-26T10:26:44",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "memory-profiler",
+            "start_node": "0.54.0",
+            "end_node": "0.54.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "0.1.9",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "0.9.7",
+            "end_node": "0.9.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "1.5",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "0.12.0",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.5.1",
+            "end_node": "3.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "0.25.0",
+            "end_node": "0.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.6.0",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "6.7",
+            "end_node": "6.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.14.2",
+        "upload_time": "2019-06-11T14:28:42",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "memory-profiler",
+            "start_node": "0.54.0",
+            "end_node": "0.54.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "0.1.9",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "0.9.7",
+            "end_node": "0.9.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "1.5",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "0.12.0",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.5.1",
+            "end_node": "3.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "0.25.0",
+            "end_node": "0.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.6.0",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "6.7",
+            "end_node": "6.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.14.1",
+        "upload_time": "2019-05-31T11:56:49",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "6.7",
+            "end_node": "6.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.6.0",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "0.25.0",
+            "end_node": "0.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.5.1",
+            "end_node": "3.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "0.12.0",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "1.5",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "0.9.7",
+            "end_node": "0.9.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "0.1.9",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "memory-profiler",
+            "start_node": "0.54.0",
+            "end_node": "0.54.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.14.0",
+        "upload_time": "2019-05-16T16:43:38",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "6.7",
+            "end_node": "6.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "1.6.0",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "3.0",
+            "end_node": "2.10.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "0.25.0",
+            "end_node": "0.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "6.0",
+            "end_node": "5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tables",
+            "start_node": "3.5.1",
+            "end_node": "3.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "thrift",
+            "start_node": "0.11",
+            "end_node": "0.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyarrow",
+            "start_node": "0.12.0",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "SQLAlchemy",
+            "start_node": "2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toposort",
+            "start_node": "1.5",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlsxwriter",
+            "start_node": "2.0",
+            "end_node": "1.0.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "anyconfig",
+            "start_node": "0.9.7",
+            "end_node": "0.9.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "0.1.9",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "memory-profiler",
+            "start_node": "0.54.0",
+            "end_node": "0.54.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "s3fs",
+            "start_node": "1.0",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

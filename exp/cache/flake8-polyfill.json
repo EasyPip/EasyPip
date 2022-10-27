@@ -1,0 +1,79 @@
+{
+  "flake8-polyfill": {
+    "summary": "Polyfill package for Flake8 plugins",
+    "potential_require": [
+      "flake8"
+    ],
+    "version_list": [
+      {
+        "version": "1.0.2",
+        "upload_time": "2017-12-30T13:46:54",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "flake8",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2016-07-20T00:56:32",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "flake8",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

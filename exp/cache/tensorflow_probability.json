@@ -1,0 +1,4846 @@
+{
+  "tensorflow_probability": {
+    "summary": "Probabilistic modeling and statistical inference in TensorFlow",
+    "potential_require": [
+      "absl-py",
+      "six",
+      "numpy",
+      "decorator",
+      "cloudpickle",
+      "gast",
+      "dm-tree",
+      "tensorflow"
+    ],
+    "version_list": [
+      {
+        "version": "0.17.0",
+        "upload_time": "2022-06-07T18:00:50",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.0",
+        "upload_time": "2022-02-14T17:03:04",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.16.0.dev20220214",
+        "upload_time": "2022-02-14T16:58:57",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.0",
+        "upload_time": "2021-11-17T17:40:22",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.14.1",
+        "upload_time": "2021-09-30T22:58:49",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.14.0",
+        "upload_time": "2021-09-15T20:38:49",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.13.0",
+        "upload_time": "2021-06-18T17:30:03",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.13.0rc0",
+        "upload_time": "2021-05-21T15:22:50",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.12.2",
+        "upload_time": "2021-04-14T20:34:15",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.12.1",
+        "upload_time": "2020-12-29T17:46:08",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.12.0",
+        "upload_time": "2020-12-22T18:12:54",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.12.0rc4",
+        "upload_time": "2020-12-09T04:59:50",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.12.0rc2",
+        "upload_time": "2020-11-21T00:16:01",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.12.0rc1",
+        "upload_time": "2020-11-11T05:06:46",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.12.0rc0",
+        "upload_time": "2020-11-09T22:52:22",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.11.1",
+        "upload_time": "2020-09-28T23:30:51",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.0",
+        "upload_time": "2020-07-28T01:49:49",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "1.3",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.0rc1",
+        "upload_time": "2020-07-20T19:31:45",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "1.3",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.0rc0",
+        "upload_time": "2020-07-16T21:59:37",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "1.3",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.10.1",
+        "upload_time": "2020-07-06T22:29:59",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "1.3",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.0",
+        "upload_time": "2020-05-14T21:53:28",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.0rc1",
+        "upload_time": "2020-04-30T20:03:37",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.0rc0",
+        "upload_time": "2020-04-15T18:25:54",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.0",
+        "upload_time": "2020-01-10T23:10:27",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "START",
+            "end_node": "0.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp38",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2019-10-01T15:17:59",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gast",
+            "start_node": "0.3",
+            "end_node": "0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "1.1.1",
+            "end_node": "1.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.0rc0",
+        "upload_time": "2019-08-30T04:22:41",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "1.1.1",
+            "end_node": "1.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2019-06-20T17:49:33",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "0.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.0rc0",
+        "upload_time": "2019-05-30T01:19:12",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudpickle",
+            "start_node": "START",
+            "end_node": "0.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2019-02-26T20:35:38",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.0rc1",
+        "upload_time": "2019-02-15T22:06:01",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.0rc0",
+        "upload_time": "2019-01-25T22:21:32",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2018-11-06T17:39:39",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.0rc1",
+        "upload_time": "2018-11-01T05:29:26",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.0rc0",
+        "upload_time": "2018-10-29T20:35:29",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow",
+            "start_node": "START",
+            "end_node": "1.12.0-rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2018-10-08T16:04:22",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0rc0",
+        "upload_time": "2018-10-01T20:59:25",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2018-08-14T16:47:09",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "1.14.5",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0rc2",
+        "upload_time": "2018-08-09T23:11:45",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "1.14.5",
+            "end_node": "1.13.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2018-07-19T19:19:47",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp27",
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp27",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp27",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp27",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.0rc0",
+        "upload_time": "2018-07-16T23:29:42",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp37",
+          "cp27",
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp27",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp27",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp27",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.0rc1",
+        "upload_time": "2018-06-16T17:18:13",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow",
+            "start_node": "START",
+            "end_node": "1.9.0rc1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0rc0",
+        "upload_time": "2018-06-15T22:30:19",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow",
+            "start_node": "START",
+            "end_node": "1.9.0rc1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.1",
+        "upload_time": "2018-03-10T00:39:00",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow",
+            "start_node": "START",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

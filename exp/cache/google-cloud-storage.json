@@ -1,0 +1,7421 @@
+{
+  "google-cloud-storage": {
+    "summary": "Google Cloud Storage API client library",
+    "potential_require": [
+      "google-auth",
+      "google-api-core",
+      "google-cloud-core",
+      "google-resumable-media",
+      "requests",
+      "protobuf",
+      "six",
+      "googleapis-common-protos"
+    ],
+    "version_list": [
+      {
+        "version": "2.5.0",
+        "upload_time": "2022-08-03T16:37:46",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.0.*!=2.1.*!=2.2.*!=2.3.0<3.0.0dev>=1.31.5"
+            ],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "2.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "2.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.4.0",
+        "upload_time": "2022-06-08T18:12:00",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.0.*!=2.1.*!=2.2.*!=2.3.0<3.0.0dev>=1.31.5"
+            ],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "2.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "2.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.3.0",
+        "upload_time": "2022-04-13T17:23:00",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "2.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "2.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.0.*!=2.1.*!=2.2.*!=2.3.0<3.0.0dev>=1.31.5"
+            ],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.1",
+        "upload_time": "2022-03-15T20:01:15",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.0.*!=2.1.*!=2.2.*!=2.3.0<3.0.0dev>=1.31.5"
+            ],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "2.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.0",
+        "upload_time": "2022-03-14T17:07:51",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "2.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.0.*!=2.1.*!=2.2.*!=2.3.0<3.0.0dev>=1.31.5"
+            ],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2022-01-19T17:37:50",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2022-01-12T18:35:50",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.44.0",
+        "upload_time": "2022-01-05T19:54:24",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "3.18.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "1.53.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "3.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.43.0",
+        "upload_time": "2021-11-17T19:52:11",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "3.18.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "1.53.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "3.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.42.3",
+        "upload_time": "2021-09-30T22:51:00",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "3.18.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "1.53.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "3.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.42.2",
+        "upload_time": "2021-09-16T21:05:55",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "3.18.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "1.53.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "3.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.42.1",
+        "upload_time": "2021-09-08T18:06:22",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "1.53.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "3.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.42.0",
+        "upload_time": "2021-08-11T18:44:21",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "1.53.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0dev",
+            "end_node": "1.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "3.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.41.1",
+        "upload_time": "2021-07-20T22:52:22",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.24.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "1.53.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "3.0dev",
+            "end_node": "1.24.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "3.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "3.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.41.0",
+        "upload_time": "2021-07-13T22:39:50",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.24.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "1.53.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.40.0",
+        "upload_time": "2021-06-30T17:29:13",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "1.53.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.39.0",
+        "upload_time": "2021-06-22T05:37:21",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "1.53.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.38.0",
+        "upload_time": "2021-04-26T20:01:17",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.37.1",
+        "upload_time": "2021-04-05T17:36:34",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.37.0",
+        "upload_time": "2021-03-25T17:55:24",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.36.2",
+        "upload_time": "2021-03-11T00:31:37",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.36.1",
+        "upload_time": "2021-02-23T23:22:25",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.36.0",
+        "upload_time": "2021-02-10T22:22:38",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.35.1",
+        "upload_time": "2021-02-02T18:52:51",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.35.0",
+        "upload_time": "2020-12-14T23:49:51",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.34.0",
+        "upload_time": "2020-12-11T18:51:32",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.33.0",
+        "upload_time": "2020-11-16T22:06:04",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.32.0",
+        "upload_time": "2020-10-19T16:36:06",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.31.2",
+        "upload_time": "2020-09-23T15:51:17",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.31.1",
+        "upload_time": "2020-09-21T16:19:14",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0dev",
+            "end_node": "2.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.31.0",
+        "upload_time": "2020-08-26T21:35:33",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.30.0",
+        "upload_time": "2020-07-24T20:50:38",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "2.0dev",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.29.0",
+        "upload_time": "2020-06-11T16:45:51",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.6dev",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.28.1",
+        "upload_time": "2020-05-04T19:50:40",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.6dev",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.28.0",
+        "upload_time": "2020-04-22T20:04:18",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.6dev",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.27.0",
+        "upload_time": "2020-04-02T14:04:22",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.6dev",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.26.0",
+        "upload_time": "2020-02-12T18:19:55",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.11.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.6dev",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.25.0",
+        "upload_time": "2020-01-16T20:54:31",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.6dev",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.24.1",
+        "upload_time": "2020-01-02T22:26:54",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.6dev",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.24.0",
+        "upload_time": "2020-01-02T21:15:20",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.6dev",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.23.0",
+        "upload_time": "2019-11-13T15:13:15",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.6dev",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.22.0",
+        "upload_time": "2019-11-05T19:10:42",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.4.0<0.5dev>=0.3.1"
+            ],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.21.0",
+        "upload_time": "2019-10-29T16:10:17",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.4.0<0.5dev>=0.3.1"
+            ],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.20.0",
+        "upload_time": "2019-09-26T17:16:59",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.4.0<0.5dev>=0.3.1"
+            ],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.11.1",
+        "upload_time": "2019-09-17T23:04:55",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.5.0dev",
+            "end_node": "0.3.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.12.1",
+        "upload_time": "2019-09-17T23:02:59",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.5.0dev",
+            "end_node": "0.3.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.13.3",
+        "upload_time": "2019-09-17T23:01:53",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.30dev",
+            "end_node": "0.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.5.0dev",
+            "end_node": "0.3.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.14.1",
+        "upload_time": "2019-09-17T23:00:56",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.30dev",
+            "end_node": "0.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.5.0dev",
+            "end_node": "0.3.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.15.2",
+        "upload_time": "2019-09-17T22:58:54",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "0.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.5.0dev",
+            "end_node": "0.3.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.16.2",
+        "upload_time": "2019-09-17T22:55:20",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.5.0dev",
+            "end_node": "0.3.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.17.1",
+        "upload_time": "2019-09-17T22:50:16",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.5.0dev",
+            "end_node": "0.3.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.18.1",
+        "upload_time": "2019-09-17T22:41:07",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.5.0dev",
+            "end_node": "0.3.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.19.1",
+        "upload_time": "2019-09-17T22:16:57",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.5.0dev",
+            "end_node": "0.3.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.19.0",
+        "upload_time": "2019-08-28T17:53:46",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.18.0",
+        "upload_time": "2019-08-07T16:39:02",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.17.0",
+        "upload_time": "2019-07-24T20:24:36",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.16.1",
+        "upload_time": "2019-06-04T23:20:52",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.16.0",
+        "upload_time": "2019-05-17T15:42:11",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.15.1",
+        "upload_time": "2019-05-15T17:17:55",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "2.0dev",
+            "end_node": "0.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.15.0",
+        "upload_time": "2019-04-17T23:52:26",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.30dev",
+            "end_node": "0.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.14.0",
+        "upload_time": "2019-02-06T22:37:05",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.30dev",
+            "end_node": "0.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.13.2",
+        "upload_time": "2018-12-18T23:40:56",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.30dev",
+            "end_node": "0.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.13.1",
+        "upload_time": "2018-12-11T00:42:14",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "1.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.30dev",
+            "end_node": "0.29.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.13.0",
+        "upload_time": "2018-10-01T17:39:58",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.12.0",
+        "upload_time": "2018-09-12T19:29:16",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.11.0",
+        "upload_time": "2018-08-29T17:20:03",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.10.0",
+        "upload_time": "2018-05-18T19:26:50",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.9.0",
+        "upload_time": "2018-05-04T22:55:54",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.8.0",
+        "upload_time": "2018-02-28T20:23:31",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.7.0",
+        "upload_time": "2018-01-16T16:09:32",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "0.2.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.6.0",
+        "upload_time": "2017-10-31T22:32:52",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "0.2.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.0",
+        "upload_time": "2017-10-18T00:32:51",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.28dev",
+            "end_node": "0.27.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.0",
+        "upload_time": "2017-08-24T21:46:46",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.28dev",
+            "end_node": "0.27.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.2.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.2",
+        "upload_time": "2017-08-15T18:50:10",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.27dev",
+            "end_node": "0.26.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.2.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.1",
+        "upload_time": "2017-08-07T18:18:05",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.27dev",
+            "end_node": "0.26.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.2.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.0",
+        "upload_time": "2017-08-05T00:07:12",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.27dev",
+            "end_node": "0.26.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.2.0",
+        "upload_time": "2017-06-26T23:45:47",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.26dev",
+            "end_node": "0.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "START",
+            "end_node": "0.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.1",
+        "upload_time": "2017-05-02T17:32:08",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.25dev",
+            "end_node": "0.24.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.0.2",
+            "end_node": "0.0.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2017-04-28T18:27:45",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.25dev",
+            "end_node": "0.24.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-resumable-media",
+            "start_node": "0.0.2",
+            "end_node": "0.0.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2017-03-31T19:12:49",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.25dev",
+            "end_node": "0.24.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.23.1",
+        "upload_time": "2017-03-06T22:46:03",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.24dev",
+            "end_node": "0.23.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.23.0",
+        "upload_time": "2017-02-25T00:43:02",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.24dev",
+            "end_node": "0.23.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.22.0",
+        "upload_time": "2016-12-10T20:30:09",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.23dev",
+            "end_node": "0.22.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.21.0",
+        "upload_time": "2016-11-14T22:53:00",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.20.0",
+        "upload_time": "2016-09-29T00:18:18",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

@@ -1,0 +1,940 @@
+{
+  "museval": {
+    "summary": "Evaluation tools for the SIGSEP MUS database",
+    "potential_require": [
+      "jsonschema",
+      "soundfile",
+      "simplejson",
+      "scipy",
+      "numpy",
+      "pandas",
+      "musdb",
+      "six"
+    ],
+    "version_list": [
+      {
+        "version": "0.4.0",
+        "upload_time": "2021-01-31T08:47:34",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "soundfile",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "1.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "musdb",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2020-10-04T12:18:09",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "soundfile",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "1.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "musdb",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0b1",
+        "upload_time": "2019-08-17T15:28:25",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "musdb",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "soundfile",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2019-08-24T14:30:46",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "soundfile",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.25.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "musdb",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2019-06-28T17:02:46",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "soundfile",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "musdb",
+            "start_node": "0.2.3",
+            "end_node": "0.2.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2018-02-27T14:50:41",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "musdb",
+            "start_node": "START",
+            "end_node": "0.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "soundfile",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

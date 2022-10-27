@@ -1,0 +1,2715 @@
+{
+  "flax": {
+    "summary": "Flax: A neural network library for JAX designed for flexibility",
+    "potential_require": [
+      "numpy",
+      "jax",
+      "matplotlib",
+      "msgpack",
+      "optax",
+      "rich",
+      "tensorstore",
+      "typing-extensions",
+      "PyYAML",
+      "dataclasses",
+      "jaxlib"
+    ],
+    "version_list": [
+      {
+        "version": "0.5.3",
+        "upload_time": "2022-07-25T21:26:22",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "optax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rich",
+            "start_node": "START",
+            "end_node": "11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorstore",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "5.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2022-06-21T23:20:45",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "5.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rich",
+            "start_node": "START",
+            "end_node": "11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "optax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2022-06-10T20:35:01",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rich",
+            "start_node": "START",
+            "end_node": "11.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "optax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2022-05-23T12:52:47",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "optax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.2",
+        "upload_time": "2022-05-05T12:48:08",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "optax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2022-03-23T14:34:29",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "optax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2022-01-27T14:47:49",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "optax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.2.21",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.6",
+        "upload_time": "2021-10-27T21:00:51",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.2.21",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "optax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.5",
+        "upload_time": "2021-09-21T07:47:24",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "optax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.2.13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.4",
+        "upload_time": "2021-05-18T11:27:56",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "optax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.2.13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.3",
+        "upload_time": "2021-03-31T14:19:21",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.2.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2021-03-01T15:56:50",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.2.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2021-02-26T06:44:27",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.2.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2020-12-08T15:14:03",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.2.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2020-10-01T14:05:25",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.1.59",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2020-09-08T04:47:49",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.1.59",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2020-07-18T22:01:14",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp32",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.1.59",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2020-04-30T20:03:36",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.1.59",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0rc2",
+        "upload_time": "2020-03-18T10:51:34",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jaxlib",
+            "start_node": "START",
+            "end_node": "0.1.41",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "0.1.59",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0rc1",
+        "upload_time": "2020-03-17T10:21:38",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jaxlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jax",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

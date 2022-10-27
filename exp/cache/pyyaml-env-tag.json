@@ -1,0 +1,42 @@
+{
+  "pyyaml-env-tag": {
+    "summary": "A custom YAML tag for referencing environment variables in YAML files. ",
+    "potential_require": [
+      "pyyaml"
+    ],
+    "version_list": [
+      {
+        "version": "0.1",
+        "upload_time": "2020-11-12T02:38:24",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

@@ -1,0 +1,2931 @@
+{
+  "django-ses": {
+    "summary": "A Django email backend for Amazon's Simple Email Service",
+    "potential_require": [
+      "boto3",
+      "pytz",
+      "django",
+      "importlib-metadata",
+      "cryptography",
+      "requests",
+      "future",
+      "boto"
+    ],
+    "version_list": [
+      {
+        "version": "3.1.2",
+        "upload_time": "2022-08-16T16:38:06",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "37.0.0",
+            "end_node": "36.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.27.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.0",
+        "upload_time": "2022-06-03T17:08:30",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.27.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "37.0.0",
+            "end_node": "36.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "2.0",
+            "end_node": "1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.1",
+        "upload_time": "2022-04-02T02:12:01",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "2.0",
+            "end_node": "1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "37.0.0",
+            "end_node": "36.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.27.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2022-03-31T23:50:52",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.27.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "37.0.0",
+            "end_node": "36.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "2.0",
+            "end_node": "1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.6.1",
+        "upload_time": "2022-03-17T16:24:34",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.6.0",
+        "upload_time": "2022-02-26T18:25:22",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.0",
+        "upload_time": "2022-02-17T03:03:53",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.0",
+        "upload_time": "2022-01-29T03:45:35",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.3.1",
+        "upload_time": "2021-11-19T21:32:00",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.3.0",
+        "upload_time": "2021-09-27T22:18:31",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.2",
+        "upload_time": "2021-09-24T14:11:06",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.1",
+        "upload_time": "2021-08-06T21:39:54",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.2.0",
+        "upload_time": "2021-07-19T16:28:00",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.1",
+        "upload_time": "2021-07-09T20:45:39",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2021-07-09T17:39:34",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp39",
+          "cp36",
+          "cp35",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2021-03-31T15:34:45",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.3",
+        "upload_time": "2020-09-07T17:13:52",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.2",
+        "upload_time": "2020-07-27T16:07:26",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2020-06-25T15:09:50",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2020-06-15T16:59:32",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "django",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp311",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.14",
+        "upload_time": "2020-01-17T20:24:27",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.13",
+        "upload_time": "2019-12-05T16:15:28",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.12",
+        "upload_time": "2019-08-22T16:28:06",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.11",
+        "upload_time": "2019-08-20T16:26:20",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.10",
+        "upload_time": "2019-02-28T02:50:16",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.9",
+        "upload_time": "2019-01-15T04:15:31",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.8",
+        "upload_time": "2019-01-13T21:25:43",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.7",
+        "upload_time": "2018-10-03T13:01:41",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.6",
+        "upload_time": "2018-08-07T17:19:15",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.5",
+        "upload_time": "2018-01-08T23:54:51",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.4",
+        "upload_time": "2017-11-30T00:09:49",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2016.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.3",
+        "upload_time": "2017-10-05T17:55:17",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.8.3.1",
+        "upload_time": "2017-10-09T15:17:57",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.8.2",
+        "upload_time": "2017-02-21T23:41:01",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto",
+            "start_node": "START",
+            "end_node": "2.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.1",
+        "upload_time": "2016-08-24T17:16:50",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2016-07-05T16:15:46",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.7.1",
+        "upload_time": "2016-04-12T15:36:15",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2014-11-20T17:09:29",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2014-02-27T22:05:46",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2012-03-17T22:17:00",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2012-02-21T16:36:35",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2012-02-05T15:45:40",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2",
+        "upload_time": "2011-04-16T13:53:58",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1",
+        "upload_time": "2011-03-07T11:29:09",
+        "python_require": [
+          "cp26"
+        ],
+        "requirement": [],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

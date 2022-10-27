@@ -1,0 +1,1817 @@
+{
+  "clikit": {
+    "summary": "CliKit is a group of utilities to build beautiful and testable command line interfaces.",
+    "potential_require": [
+      "enum34",
+      "typing-extensions",
+      "typing",
+      "crashtest",
+      "pylev",
+      "pastel",
+      "woops"
+    ],
+    "version_list": [
+      {
+        "version": "0.6.2",
+        "upload_time": "2020-06-09T20:17:17",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "crashtest",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.3.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2020-05-31T19:07:25",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "crashtest",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.3.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2020-04-17T16:35:42",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "crashtest",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.3.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2020-03-27T16:39:10",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "woops",
+            "start_node": "0.3.0",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.3.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2020-03-26T18:18:31",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "woops",
+            "start_node": "0.3.0",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.3.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.3",
+        "upload_time": "2020-03-20T13:05:32",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.3.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.2",
+        "upload_time": "2020-02-28T11:28:26",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.3.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2019-12-06T17:04:07",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2019-10-25T12:28:58",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2019-09-20T14:08:17",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2019-06-24T21:44:14",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2019-06-24T19:18:39",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.4",
+        "upload_time": "2019-05-11T17:09:23",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.3",
+        "upload_time": "2018-12-10T23:12:05",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2018-12-09T00:34:40",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2018-12-07T14:42:57",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2018-12-06T21:18:47",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2018-12-05T01:18:47",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp311",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "4.0",
+            "end_node": "3.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylev",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pastel",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp35",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

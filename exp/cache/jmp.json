@@ -1,0 +1,84 @@
+{
+  "jmp": {
+    "summary": "JMP is a Mixed Precision library for JAX.",
+    "potential_require": [
+      "dataclasses",
+      "numpy"
+    ],
+    "version_list": [
+      {
+        "version": "0.0.2",
+        "upload_time": "2021-04-15T09:38:50",
+        "python_require": [
+          "cp36",
+          "cp34",
+          "cp30",
+          "cp31",
+          "cp38",
+          "cp39",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp34",
+              "cp38",
+              "cp31",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp30",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp34",
+              "cp38",
+              "cp31",
+              "cp39",
+              "cp32",
+              "cp37",
+              "cp30",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.0.1",
+        "upload_time": "2019-09-08T20:49:45",
+        "python_require": [
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

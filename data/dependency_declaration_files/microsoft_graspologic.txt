@@ -1,0 +1,14 @@
+anytree>=2.8.0
+beartype>=0.10.0
+gensim>=4.0.0
+
+hyppo>=0.3.2 # bug with lower versions and scipy>=1.8
+joblib>=0.17.0  # Older versions of joblib cause issue #806.  Transitive dependency of hyppo.
+matplotlib>=3.0.0,!=3.3.*
+networkx>=2.1
+numpy>=1.8.1
+POT>=0.7.0
+seaborn>= 0.11.0
+scikit-learn>=0.22.0
+scipy>=1.4.0
+umap-learn>=0.4.6

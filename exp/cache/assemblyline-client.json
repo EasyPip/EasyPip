@@ -1,0 +1,4677 @@
+{
+  "assemblyline-client": {
+    "summary": "Assemblyline v4 client library",
+    "potential_require": [
+      "socketio-client",
+      "python-socketio",
+      "python-baseconv",
+      "requests",
+      "pycryptodome",
+      "pycrypto"
+    ],
+    "version_list": [
+      {
+        "version": "4.4.1",
+        "upload_time": "2022-05-30T13:41:18",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.4.0",
+        "upload_time": "2022-04-27T14:32:48",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.3.5",
+        "upload_time": "2022-03-31T14:21:05",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.3.4",
+        "upload_time": "2022-03-23T11:54:03",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.3.3",
+        "upload_time": "2022-03-15T14:18:56",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.3.2",
+        "upload_time": "2022-03-14T18:23:44",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.3.1",
+        "upload_time": "2022-03-14T17:39:12",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.3.0",
+        "upload_time": "2022-03-10T16:36:56",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.2.2",
+        "upload_time": "2021-10-28T19:04:50",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.2.1",
+        "upload_time": "2021-10-26T18:28:30",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.2.0",
+        "upload_time": "2021-08-26T11:57:03",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.1.0",
+        "upload_time": "2021-08-05T15:26:10",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.6",
+        "upload_time": "2021-07-30T14:12:10",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.5",
+        "upload_time": "2021-05-05T21:06:55",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.4",
+        "upload_time": "2021-04-23T14:00:09",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.3",
+        "upload_time": "2021-04-01T15:24:18",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.2",
+        "upload_time": "2021-01-27T17:38:58",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.1",
+        "upload_time": "2020-10-08T14:41:24",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp34",
+              "cp32",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0",
+        "upload_time": "2020-09-28T13:40:29",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0b11",
+        "upload_time": "2020-06-22T03:02:20",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0b10",
+        "upload_time": "2020-06-22T01:36:18",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0b9",
+        "upload_time": "2020-05-21T02:54:54",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0b8",
+        "upload_time": "2020-05-20T15:18:04",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0b5",
+        "upload_time": "2020-03-06T05:17:38",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0b4",
+        "upload_time": "2020-01-30T22:17:44",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0b3",
+        "upload_time": "2019-11-22T17:07:55",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.7.4",
+            "end_node": "0.5.7.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0b2",
+        "upload_time": "2019-11-22T16:06:38",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp38",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.6",
+            "end_node": "0.5.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-baseconv",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp38",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.7.3",
+        "upload_time": "2018-06-11T17:07:16",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.6",
+            "end_node": "0.5.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.7.2",
+        "upload_time": "2018-06-06T19:46:36",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.6",
+            "end_node": "0.5.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.7.0",
+        "upload_time": "2018-04-12T13:25:14",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.6",
+            "end_node": "0.5.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.6.1",
+        "upload_time": "2018-04-11T11:40:25",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.6",
+            "end_node": "0.5.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.4.0",
+        "upload_time": "2018-02-15T16:16:26",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.6",
+            "end_node": "0.5.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.3.0",
+        "upload_time": "2017-11-23T14:59:05",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.6",
+            "end_node": "0.5.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.2.2",
+        "upload_time": "2017-11-17T15:48:58",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycryptodome",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.6",
+            "end_node": "0.5.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.2.0",
+        "upload_time": "2017-10-19T14:16:49",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp32",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycrypto",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "socketio-client",
+            "start_node": "0.5.6",
+            "end_node": "0.5.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

@@ -1,0 +1,825 @@
+{
+  "mkdocs-markdownextradata-plugin": {
+    "summary": "A MkDocs plugin that injects the mkdocs.yml extra variables into the markdown template",
+    "potential_require": [
+      "pyyaml",
+      "mkdocs"
+    ],
+    "version_list": [
+      {
+        "version": "0.2.5",
+        "upload_time": "2021-12-16T09:47:01",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.2.4",
+        "upload_time": "2021-02-27T19:55:00",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2021-01-28T10:32:42",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2021-01-12T12:43:38",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2020-12-17T18:36:28",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.9",
+        "upload_time": "2020-11-19T07:16:36",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.7",
+        "upload_time": "2020-06-24T20:57:51",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.6",
+        "upload_time": "2020-06-16T21:55:43",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.5",
+        "upload_time": "2020-04-30T21:19:50",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.4",
+        "upload_time": "2020-04-30T21:07:57",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.3",
+        "upload_time": "2020-03-18T23:10:07",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.2",
+        "upload_time": "2020-02-27T20:03:40",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2019-11-04T11:11:30",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2019-11-04T09:01:40",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.6",
+        "upload_time": "2019-06-23T14:26:35",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.0.5",
+        "upload_time": "2018-08-05T06:16:04",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.0.4",
+        "upload_time": "2018-06-24T10:55:27",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.0.3",
+        "upload_time": "2018-06-23T16:47:14",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.2",
+        "upload_time": "2018-06-23T16:43:37",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "0.17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.1",
+        "upload_time": "2018-06-23T16:42:56",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

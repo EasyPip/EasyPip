@@ -1,0 +1,98 @@
+{
+  "mailbits": {
+    "summary": "Assorted e-mail utility functions",
+    "potential_require": [
+      "typing-extensions",
+      "attrs"
+    ],
+    "version_list": [
+      {
+        "version": "0.2.1",
+        "upload_time": "2021-03-16T19:54:01",
+        "python_require": [
+          "cp38",
+          "cp310",
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2021-03-14T03:51:07",
+        "python_require": [
+          "cp38",
+          "cp310",
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

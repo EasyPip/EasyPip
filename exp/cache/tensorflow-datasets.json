@@ -1,0 +1,6698 @@
+{
+  "tensorflow-datasets": {
+    "summary": "tensorflow/datasets is a library of datasets ready to use with TensorFlow.",
+    "potential_require": [
+      "absl-py",
+      "dill",
+      "etils",
+      "numpy",
+      "promise",
+      "protobuf",
+      "requests",
+      "six",
+      "tensorflow-metadata",
+      "termcolor",
+      "toml",
+      "tqdm",
+      "dataclasses",
+      "typing-extensions",
+      "importlib-resources",
+      "attrs",
+      "future",
+      "dm-tree",
+      "wrapt",
+      "bz2file",
+      "functools32",
+      "futures",
+      "psutil",
+      "enum34"
+    ],
+    "version_list": [
+      {
+        "version": "4.6.0",
+        "upload_time": "2022-06-02T09:17:35",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "etils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.12.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.5.2",
+        "upload_time": "2022-01-31T15:42:28",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.12.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.5.1",
+        "upload_time": "2022-01-31T12:01:21",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.12.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.5.0",
+        "upload_time": "2022-01-26T09:39:10",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.12.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.4.0",
+        "upload_time": "2021-07-28T12:24:01",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.12.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.3.0",
+        "upload_time": "2021-05-07T11:42:04",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.12.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.2.0",
+        "upload_time": "2021-01-07T09:50:58",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.12.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.1.0",
+        "upload_time": "2020-11-04T12:07:52",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.1",
+        "upload_time": "2020-10-09T17:47:49",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0",
+        "upload_time": "2020-10-06T19:15:21",
+        "python_require": [
+          "cp310",
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dm-tree",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.2.1",
+        "upload_time": "2020-07-15T01:10:08",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.2.0",
+        "upload_time": "2020-07-10T21:38:06",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.1.0",
+        "upload_time": "2020-04-29T19:35:39",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2020-04-16T02:56:04",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2020-02-25T21:39:22",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp27",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2020-01-24T19:54:52",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp27",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "18.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.2",
+        "upload_time": "2019-12-06T19:01:39",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp27",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.1",
+        "upload_time": "2019-12-06T18:07:45",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp27",
+              "cp30",
+              "cp32",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp27",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": []
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.0",
+        "upload_time": "2019-10-21T20:20:41",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp38",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.2.0",
+        "upload_time": "2019-08-20T07:51:45",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2019-07-22T21:10:27",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.19.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.2",
+        "upload_time": "2019-05-01T19:57:21",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bz2file",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dill",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2019-02-15T21:39:39",
+        "python_require": [
+          "cp34",
+          "cp33",
+          "cp35",
+          "cp30",
+          "cp27",
+          "cp32",
+          "cp37",
+          "cp31",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "futures",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wrapt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "termcolor",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tensorflow-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "3.6.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "promise",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "absl-py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp27",
+              "cp32",
+              "cp37",
+              "cp31",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "icc-rt": {
+    "summary": "Intel(R) Compiler Runtime",
+    "potential_require": [
+      "intel-openmp"
+    ],
+    "version_list": [
+      {
+        "version": "2020.0.133",
+        "upload_time": "2019-11-13T12:01:50",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "intel-openmp",
+            "start_node": "2020.*",
+            "end_node": "2020.*",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2019.0",
+        "upload_time": "2018-09-18T14:58:42",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "intel-openmp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2018.0.3",
+        "upload_time": "2018-06-14T11:05:13",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "intel-openmp",
+            "start_node": "2018.0.3",
+            "end_node": "2018.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "16.0.3",
+        "upload_time": "2017-10-31T13:09:25",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "intel-openmp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

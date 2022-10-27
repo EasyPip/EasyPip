@@ -1,0 +1,3039 @@
+{
+  "stix2": {
+    "summary": "Produce and consume STIX 2 JSON content",
+    "potential_require": [
+      "stix2-patterns",
+      "simplejson",
+      "requests",
+      "pytz",
+      "six",
+      "enum34",
+      "python-dateutil",
+      "taxii2-client",
+      "stix2-validator"
+    ],
+    "version_list": [
+      {
+        "version": "3.0.1",
+        "upload_time": "2021-09-24T13:37:24",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp311",
+          "cp38",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp311",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp311",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp311",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp311",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2021-07-13T14:49:46",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp311",
+          "cp38",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp311",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp311",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp311",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp311",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2020-11-20T22:38:39",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.2",
+        "upload_time": "2020-07-07T13:42:37",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.1",
+        "upload_time": "2020-07-06T20:45:39",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.0",
+        "upload_time": "2020-04-03T21:45:35",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.1",
+        "upload_time": "2020-03-06T14:50:36",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.0",
+        "upload_time": "2020-01-05T00:41:37",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.2.1",
+        "upload_time": "2019-10-16T21:25:40",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.2.0",
+        "upload_time": "2019-09-25T20:05:52",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.3",
+        "upload_time": "2019-08-12T17:51:18",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.2",
+        "upload_time": "2019-02-13T15:42:56",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.1",
+        "upload_time": "2019-01-11T19:33:26",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2018-12-11T19:20:29",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.4",
+        "upload_time": "2018-11-15T19:03:55",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.3",
+        "upload_time": "2018-10-31T18:19:50",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.2",
+        "upload_time": "2018-05-18T17:08:01",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2018-04-27T20:55:45",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2018-04-16T19:18:42",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2018-03-06T17:07:57",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "taxii2-client",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2017-11-13T21:55:14",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "taxii2-client",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2017-10-06T19:53:26",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-validator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "taxii2-client",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2017-05-31T15:30:24",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2017-05-22T15:56:33",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.1",
+        "upload_time": "2017-02-24T18:16:42",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "azure-storage-nspkg": {
+    "summary": "Microsoft Azure Storage Namespace Package [Internal]",
+    "potential_require": [
+      "azure-nspkg"
+    ],
+    "version_list": [
+      {
+        "version": "3.1.0",
+        "upload_time": "2018-11-10T02:23:17",
+        "python_require": [
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp30",
+          "cp27",
+          "cp37",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2018-01-23T03:07:19",
+        "python_require": [
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp30",
+          "cp27",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp27",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2017-10-05T00:54:37",
+        "python_require": [
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp30",
+          "cp27",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

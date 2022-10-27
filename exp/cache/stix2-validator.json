@@ -1,0 +1,4266 @@
+{
+  "stix2-validator": {
+    "summary": "APIs and scripts for validating STIX 2.x documents.",
+    "potential_require": [
+      "stix2-patterns",
+      "simplejson",
+      "requests-cache",
+      "requests",
+      "python-dateutil",
+      "jsonschema",
+      "cpe",
+      "colorama",
+      "appdirs",
+      "six"
+    ],
+    "version_list": [
+      {
+        "version": "3.0.2",
+        "upload_time": "2021-12-17T18:31:20",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp310",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp310",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp310",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp310",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp310",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp310",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp310",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cpe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp310",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp310",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp310",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.1",
+        "upload_time": "2021-07-27T18:55:06",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cpe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2021-04-29T04:17:40",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cpe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.4",
+        "upload_time": "2020-12-15T21:49:32",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cpe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.3",
+        "upload_time": "2020-12-15T21:35:28",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cpe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.2",
+        "upload_time": "2020-10-27T16:35:35",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cpe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.1",
+        "upload_time": "2020-06-10T13:10:37",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cpe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.4.2",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2020-05-05T14:04:45",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cpe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.4.2",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.0.dev3",
+        "upload_time": "2019-12-09T19:42:07",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cpe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.4.2",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0.dev2",
+        "upload_time": "2019-11-23T04:29:02",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cpe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0.dev1",
+        "upload_time": "2018-12-19T19:26:59",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0.dev0",
+        "upload_time": "2018-12-19T19:06:39",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.2",
+        "upload_time": "2018-12-18T21:34:56",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.1",
+        "upload_time": "2018-11-30T18:01:52",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2018-10-16T17:17:56",
+        "python_require": [
+          "cp37",
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "2.5.1",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2018-06-14T15:06:01",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "2.5.1",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2018-06-14T04:02:38",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "appdirs",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "2.5.1",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2017-08-17T12:34:21",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "2.5.1",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "simplejson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2017-05-05T20:30:01",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "2.5.1",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2017-03-07T22:34:17",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "2.5.1",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stix2-patterns",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2017-03-06T20:34:07",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "2.5.1",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2017-02-03T14:31:54",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "2.5.1",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.2",
+        "upload_time": "2017-01-24T17:29:41",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "2.5.1",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-cache",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.1",
+        "upload_time": "2017-01-05T17:21:54",
+        "python_require": [
+          "cp36",
+          "cp33",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "2.5.1",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp33",
+              "cp32",
+              "cp35",
+              "cp27",
+              "cp30",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

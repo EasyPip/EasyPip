@@ -1,0 +1,824 @@
+{
+  "pyls-black": {
+    "summary": "Black plugin for the Python Language Server",
+    "potential_require": [
+      "toml",
+      "black",
+      "python-language-server"
+    ],
+    "version_list": [
+      {
+        "version": "0.4.7",
+        "upload_time": "2021-06-04T23:02:19",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "19.3b0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.6",
+        "upload_time": "2020-07-04T15:54:14",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "19.3b0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.5",
+        "upload_time": "2020-07-04T15:32:05",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "19.3b0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.4",
+        "upload_time": "2019-03-26T01:02:41",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "19.3b0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.3",
+        "upload_time": "2019-03-26T00:29:22",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "19.3b0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.2",
+        "upload_time": "2019-03-25T23:17:59",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "18.9b0",
+            "end_node": "18.9b0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2019-03-25T23:13:59",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "18.9b0",
+            "end_node": "18.9b0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2019-03-03T18:49:50",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "18.9b0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2018-10-16T23:08:14",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "18.9b0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2018-06-18T21:41:15",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2018-06-16T18:52:30",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2018-06-14T23:52:39",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-language-server",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

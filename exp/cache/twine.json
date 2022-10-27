@@ -1,0 +1,6262 @@
+{
+  "twine": {
+    "summary": "Collection of utilities for publishing packages on PyPI",
+    "potential_require": [
+      "pkginfo",
+      "readme-renderer",
+      "requests",
+      "requests-toolbelt",
+      "urllib3",
+      "importlib-metadata",
+      "keyring",
+      "rfc3986",
+      "rich",
+      "tqdm",
+      "colorama",
+      "packaging",
+      "setuptools",
+      "argparse",
+      "clint",
+      "six"
+    ],
+    "version_list": [
+      {
+        "version": "4.0.1",
+        "upload_time": "2022-06-01T11:02:29",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "35.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.26.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rich",
+            "start_node": "START",
+            "end_node": "12.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0",
+        "upload_time": "2022-03-31T12:51:28",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.26.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rich",
+            "start_node": "START",
+            "end_node": "12.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.8.0",
+        "upload_time": "2022-02-02T18:50:21",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.26.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.7.1",
+        "upload_time": "2021-12-07T11:46:01",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.7.0",
+        "upload_time": "2021-12-01T15:03:28",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.6.0",
+        "upload_time": "2021-11-10T11:40:36",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.5.0",
+        "upload_time": "2021-11-03T15:07:44",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.4.2",
+        "upload_time": "2021-07-20T16:24:13",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.4.1",
+        "upload_time": "2021-03-17T00:42:30",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.4.0",
+        "upload_time": "2021-03-15T16:36:43",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "16.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "3.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.3.0",
+        "upload_time": "2020-12-24T11:05:10",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.3.0rc1",
+        "upload_time": "2020-12-23T11:36:56",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.2.0",
+        "upload_time": "2020-06-24T10:06:15",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.2.0rc1",
+        "upload_time": "2020-06-23T10:24:21",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "rfc3986",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "START",
+            "end_node": "0.4.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.1.1",
+        "upload_time": "2019-11-27T16:47:52",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.0",
+        "upload_time": "2019-11-23T12:56:37",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2019-11-18T21:00:52",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keyring",
+            "start_node": "START",
+            "end_node": "15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2019-09-24T15:31:21",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.15.0",
+        "upload_time": "2019-09-17T15:42:04",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.15!=2.16"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.14.0",
+        "upload_time": "2019-09-07T21:30:48",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.15!=2.16"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.13.0",
+        "upload_time": "2019-02-13T21:39:20",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.15!=2.16"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.9.0"
+            ],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.12.1",
+        "upload_time": "2018-09-24T18:41:52",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.15!=2.16"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.12.0",
+        "upload_time": "2018-09-24T12:07:15",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readme-renderer",
+            "start_node": "START",
+            "end_node": "21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.15!=2.16"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.11.0",
+        "upload_time": "2018-03-19T23:36:52",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.15!=2.16"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.11.0rc1",
+        "upload_time": "2018-03-16T01:32:09",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.15!=2.16"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.10.0",
+        "upload_time": "2018-03-07T20:56:20",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.15!=2.16"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.9.1",
+        "upload_time": "2017-05-27T12:51:59",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.15!=2.16"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.9.0",
+        "upload_time": "2017-05-22T22:13:02",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "4.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.8.1",
+        "upload_time": "2016-08-08T15:02:38",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "clint",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.8.0",
+        "upload_time": "2016-08-08T10:45:13",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "clint",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.7.4",
+        "upload_time": "2016-07-09T11:22:30",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "clint",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.7.3",
+        "upload_time": "2016-07-08T18:40:38",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "clint",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.7.2",
+        "upload_time": "2016-07-05T19:07:36",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "clint",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.7.1",
+        "upload_time": "2016-07-05T14:47:50",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "clint",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.7.0",
+        "upload_time": "2016-07-04T23:49:05",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.6.5",
+        "upload_time": "2015-12-16T23:36:40",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.6.4",
+        "upload_time": "2015-10-28T03:10:25",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.6.3",
+        "upload_time": "2015-10-05T12:43:07",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.6.2",
+        "upload_time": "2015-09-28T13:15:23",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.6.1",
+        "upload_time": "2015-09-19T01:45:51",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.6.0",
+        "upload_time": "2015-09-14T13:58:51",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.5.0",
+        "upload_time": "2015-03-11T00:32:30",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.0",
+        "upload_time": "2014-12-12T23:48:52",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.1",
+        "upload_time": "2014-04-20T17:49:00",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.0",
+        "upload_time": "2014-03-31T22:58:44",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.2.3",
+        "upload_time": "2014-03-04T18:08:02",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.2.2",
+        "upload_time": "2013-10-03T21:11:26",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.2.0",
+        "upload_time": "2013-10-02T12:08:08",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.1",
+        "upload_time": "2013-09-26T16:17:31",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp26",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2013-09-26T13:17:18",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2013-09-26T12:48:13",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pkginfo",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

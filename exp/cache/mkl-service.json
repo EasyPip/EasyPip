@@ -1,0 +1,124 @@
+{
+  "mkl-service": {
+    "summary": "MKL Support Functions",
+    "potential_require": [
+      "mkl",
+      "six"
+    ],
+    "version_list": [
+      {
+        "version": "2.4.0",
+        "upload_time": "2021-05-27T14:33:41",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mkl",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.3.0",
+        "upload_time": "2021-02-19T09:19:30",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mkl",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp39",
+              "cp34",
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

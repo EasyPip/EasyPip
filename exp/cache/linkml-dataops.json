@@ -1,0 +1,98 @@
+{
+  "linkml-dataops": {
+    "summary": "LinkML Data Operations API",
+    "potential_require": [
+      "ruamel.yaml",
+      "linkml-runtime",
+      "jsonpath-ng",
+      "jsonpatch",
+      "jinja2"
+    ],
+    "version_list": [
+      {
+        "version": "0.1.0",
+        "upload_time": "2022-01-08T01:00:42",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "linkml-runtime",
+            "start_node": "START",
+            "end_node": "1.1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonpath-ng",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonpatch",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

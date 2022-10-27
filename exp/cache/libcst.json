@@ -1,0 +1,3380 @@
+{
+  "libcst": {
+    "summary": "A concrete syntax tree with AST-like properties for Python 3.5, 3.6, 3.7, 3.8, 3.9, and 3.10 programs.",
+    "potential_require": [
+      "dataclasses",
+      "pyyaml",
+      "typing-inspect",
+      "typing-extensions",
+      "parso"
+    ],
+    "version_list": [
+      {
+        "version": "0.4.7",
+        "upload_time": "2022-07-12T15:12:04",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.6",
+        "upload_time": "2022-07-04T16:26:49",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.5",
+        "upload_time": "2022-06-17T12:54:39",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.4",
+        "upload_time": "2022-06-13T18:37:45",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.3",
+        "upload_time": "2022-05-11T13:13:44",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.2",
+        "upload_time": "2022-05-04T18:08:05",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2022-01-28T13:42:50",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0a1",
+        "upload_time": "2022-01-01T11:03:12",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2022-01-12T21:01:25",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.23",
+        "upload_time": "2021-11-23T13:05:48",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.22",
+        "upload_time": "2021-11-22T14:19:17",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.21",
+        "upload_time": "2021-09-21T18:41:21",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.20",
+        "upload_time": "2021-08-10T09:38:58",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.19",
+        "upload_time": "2021-05-13T14:37:00",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.18",
+        "upload_time": "2021-03-30T11:13:37",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.17",
+        "upload_time": "2021-02-09T04:02:05",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.16",
+        "upload_time": "2020-12-16T20:09:51",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.15",
+        "upload_time": "2020-12-01T19:21:38",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.14",
+        "upload_time": "2020-11-18T09:57:05",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.13",
+        "upload_time": "2020-10-12T21:52:19",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.12",
+        "upload_time": "2020-10-01T15:22:15",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.11",
+        "upload_time": "2020-09-28T16:38:42",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.10",
+        "upload_time": "2020-08-17T18:26:35",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.9",
+        "upload_time": "2020-08-07T18:43:49",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.8",
+        "upload_time": "2020-07-23T01:15:33",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.7",
+        "upload_time": "2020-06-25T15:52:40",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.6",
+        "upload_time": "2020-05-29T13:47:08",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.5",
+        "upload_time": "2020-05-13T03:26:09",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.4",
+        "upload_time": "2020-03-27T18:19:32",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.3",
+        "upload_time": "2020-03-05T11:48:52",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2020-02-26T00:28:42",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2020-02-06T21:21:56",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2020-01-17T21:39:16",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.7",
+        "upload_time": "2020-01-07T20:11:09",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.6",
+        "upload_time": "2020-01-02T18:17:50",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.5",
+        "upload_time": "2019-12-06T01:13:15",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.4",
+        "upload_time": "2019-11-14T02:01:50",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.3",
+        "upload_time": "2019-11-12T19:05:36",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2019-10-24T22:16:31",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2019-10-14T17:57:06",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2019-10-04T20:27:55",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1",
+        "upload_time": "2019-08-07T21:18:12",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "parso",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.3",
+        "upload_time": "2019-09-19T00:03:07",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.2",
+        "upload_time": "2019-08-29T21:31:30",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "parso",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2019-08-20T23:10:16",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-inspect",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "parso",
+            "start_node": "START",
+            "end_node": "0.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

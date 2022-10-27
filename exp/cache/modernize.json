@@ -1,0 +1,502 @@
+{
+  "modernize": {
+    "summary": "A hack on top of fissix (lib2to3 fork) for modernizing code for hybrid codebases.",
+    "potential_require": [
+      "fissix",
+      "alabaster",
+      "commonmark",
+      "docutils",
+      "mock",
+      "pillow",
+      "readthedocs-sphinx-ext",
+      "recommonmark",
+      "sphinx",
+      "sphinx-rtd-theme",
+      "pytest",
+      "pytest-cov",
+      "coverage"
+    ],
+    "version_list": [
+      {
+        "version": "0.9rc0",
+        "upload_time": "2020-10-01T08:43:26",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fissix",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "alabaster",
+            "start_node": "START",
+            "end_node": "0.7.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "commonmark",
+            "start_node": "START",
+            "end_node": "0.9.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mock",
+            "start_node": "START",
+            "end_node": "4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pillow",
+            "start_node": "START",
+            "end_node": "7.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "readthedocs-sphinx-ext",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "recommonmark",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-rtd-theme",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coverage",
+            "start_node": "START",
+            "end_node": "5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2020-09-27T13:29:42",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fissix",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8rc4",
+        "upload_time": "2020-09-27T13:11:08",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fissix",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8rc2",
+        "upload_time": "2020-09-22T16:09:19",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fissix",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8rc1",
+        "upload_time": "2020-07-20T13:13:28",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fissix",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.7",
+        "upload_time": "2019-02-24T12:40:27",
+        "python_require": [
+          "cp34",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp31",
+          "cp33"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2018-04-21T08:18:57",
+        "python_require": [
+          "cp34",
+          "cp30",
+          "cp32",
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp31",
+          "cp33"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6",
+        "upload_time": "2018-01-08T12:26:38",
+        "python_require": [
+          "cp34",
+          "cp30",
+          "cp32",
+          "cp35",
+          "cp36",
+          "cp31",
+          "cp33"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.5",
+        "upload_time": "2016-02-02T14:25:33",
+        "python_require": [
+          "cp34",
+          "cp311",
+          "cp310",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp38",
+          "cp27",
+          "cp35",
+          "cp39",
+          "cp36",
+          "cp31",
+          "cp33"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.4",
+        "upload_time": "2014-10-14T16:59:37",
+        "python_require": [
+          "cp34",
+          "cp311",
+          "cp310",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp38",
+          "cp27",
+          "cp35",
+          "cp39",
+          "cp36",
+          "cp31",
+          "cp33"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3",
+        "upload_time": "2014-08-12T23:19:30",
+        "python_require": [
+          "cp34",
+          "cp311",
+          "cp310",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp38",
+          "cp27",
+          "cp35",
+          "cp39",
+          "cp36",
+          "cp31",
+          "cp33"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2",
+        "upload_time": "2012-03-14T10:56:00",
+        "python_require": [
+          "cp34",
+          "cp311",
+          "cp310",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp38",
+          "cp27",
+          "cp35",
+          "cp39",
+          "cp36",
+          "cp31",
+          "cp33"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

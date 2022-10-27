@@ -1,0 +1,1030 @@
+[2022-10-27 14:58:44,147]-[EasyPip]-[INFO]-['testtools', 'docker', 'testtools', 'tzlocal', 'flake8', 'flake8-boto3', 'black', 'flake8-black', 'mypy', 'types-pycurl', 'types-requests', 'scipy', 'click']
+[2022-10-27 14:58:44,147]-[EasyPip]-[INFO]-['testtools==2.4.0', 'docker==4.2.0', 'testtools==2.4.0', 'tzlocal==2.1', 'click==7.1.2']
+[2022-10-27 14:58:44,148]-[EasyPip]-[INFO]-Start building transitive dependencies fortesttools, they are ['pbr', 'extras', 'fixtures']
+[2022-10-27 14:58:44,150]-[EasyPip]-[INFO]-Start building transitive dependencies fordocker, they are ['packaging', 'requests', 'urllib3', 'websocket-client', 'pywin32', 'six', 'ipaddress', 'backports.ssl-match-hostname', 'pypiwin32', 'docker-pycreds']
+[2022-10-27 14:58:44,155]-[EasyPip]-[INFO]-Start building transitive dependencies fortzlocal, they are ['pytz-deprecation-shim', 'tzdata', 'backports.zoneinfo', 'pytz']
+[2022-10-27 14:58:44,158]-[EasyPip]-[INFO]-Start building transitive dependencies forflake8, they are ['mccabe', 'pycodestyle', 'pyflakes', 'importlib-metadata', 'configparser', 'functools32', 'enum34', 'typing', 'entrypoints', 'setuptools', 'pep8']
+[2022-10-27 14:58:44,167]-[EasyPip]-[INFO]-Start building transitive dependencies forflake8-boto3, they are ['flake8', 'boto3', 'r2c-py-ast', 'astunparse', 'pytest']
+[2022-10-27 14:58:44,182]-[EasyPip]-[INFO]-Start building transitive dependencies forblack, they are ['click', 'platformdirs', 'pathspec', 'mypy-extensions', 'tomli', 'typing-extensions', 'dataclasses', 'typed-ast', 'regex', 'appdirs', 'toml', 'attrs']
+[2022-10-27 14:58:44,187]-[EasyPip]-[INFO]-Start building transitive dependencies forflake8-black, they are ['tomli', 'black', 'flake8', 'toml']
+[2022-10-27 14:58:44,188]-[EasyPip]-[INFO]-Start building transitive dependencies formypy, they are ['typing-extensions', 'mypy-extensions', 'tomli', 'typed-ast', 'toml', 'typing', 'psutil']
+[2022-10-27 14:58:44,190]-[EasyPip]-[INFO]-Start building transitive dependencies fortypes-pycurl, they are []
+[2022-10-27 14:58:44,191]-[EasyPip]-[INFO]-Start building transitive dependencies fortypes-requests, they are ['types-urllib3']
+[2022-10-27 14:58:44,192]-[EasyPip]-[INFO]-Start building transitive dependencies forscipy, they are ['numpy']
+[2022-10-27 14:58:44,237]-[EasyPip]-[INFO]-conflict checking lens of self.node_set：87
+[2022-10-27 14:58:44,237]-[EasyPip]-[INFO]-conflict checking self.node_set：{'contextlib2', 'mypy-extensions', 'wcwidth', 'dataclasses', 'ordereddict', 'pytz-deprecation-shim', 'botocore', 'pyparsing', 'flake8-boto3', 'jmespath', 'regex', 'fixtures', 'pep8', 'types-requests', 'docker-pycreds', 'pypiwin32', 'pycodestyle', 'functools32', 'futures', 'argparse', 'urllib3', 'funcsigs', 'typing', 'click', 'docker', 'boto3', 'flake8-black', 'charset-normalizer', 'pbr', 'appdirs', 'pytest-cov', 'colorama', 'types-urllib3', 'platformdirs', 'entrypoints', 'toml', 'scipy', 'pytest', 'python-dateutil', 'pathlib2', 'backports.zoneinfo', 'tzdata', 'setuptools', 'tzlocal', 'websocket-client', 's3transfer', 'certifi', 'typing-extensions', 'bcdoc', 'six', 'r2c-py-ast', 'tomli', 'pytest-randomly', 'ipaddress', 'wheel', 'pywin32', 'py', 'numpy', 'pytz', 'mypy', 'importlib-resources', 'flake8', 'backports.ssl-match-hostname', 'typed-ast', 'mccabe', 'black', 'importlib-metadata', 'configparser', 'psutil', 'zipp', 'packaging', 'more-itertools', 'attrs', 'testtools', 'requests', 'enum34', 'iniconfig', 'pluggy', 'chardet', 'types-pycurl', 'extras', 'atomicwrites', 'pyflakes', 'pathspec', 'pip', 'idna', 'astunparse'}
+[2022-10-27 14:58:44,237]-[EasyPip]-[INFO]-conflict checking lens of self.target_graph.keys()：30
+[2022-10-27 14:58:44,237]-[EasyPip]-[INFO]-conflict checking self.target_graph.keys()：dict_keys(['pbr', 'fixtures', 'testtools', 'packaging', 'requests', 'websocket-client', 'pypiwin32', 'docker-pycreds', 'docker', 'pytz-deprecation-shim', 'backports.zoneinfo', 'tzlocal', 'importlib-metadata', 'configparser', 'entrypoints', 'setuptools', 'flake8', 'boto3', 'astunparse', 'pytest', 'flake8-boto3', 'click', 'mypy-extensions', 'tomli', 'typing-extensions', 'black', 'flake8-black', 'mypy', 'types-requests', 'scipy'])
+[2022-10-27 14:58:44,237]-[EasyPip]-[INFO]-conflict checking lens of package_dict.keys()：12
+[2022-10-27 14:58:44,237]-[EasyPip]-[INFO]-conflict checking package_dict.keys()：dict_keys(['testtools', 'docker', 'tzlocal', 'flake8', 'flake8-boto3', 'black', 'flake8-black', 'mypy', 'types-pycurl', 'types-requests', 'scipy', 'click'])
+[2022-10-27 14:58:44,268]-[EasyPip]-[INFO]-conflict checking, finished
+[2022-10-27 14:58:44,268]-[EasyPip]-[INFO]-topo   lens of in_degre 41
+[2022-10-27 14:58:44,268]-[EasyPip]-[INFO]-topo   in_degre {'setuptools': 1, 'tzlocal': 0, 'mypy-extensions': 2, 'black': 1, 'websocket-client': 0, 'importlib-metadata': 3, 'docker-pycreds': 0, 'pypiwin32': 0, 'typing-extensions': 2, 'configparser': 2, 'six': 4, 'ordereddict': 1, 'packaging': 3, 'tzdata': 1, 'tomli': 4, 'urllib3': 1, 'pytz-deprecation-shim': 1, 'typing': 2, 'wheel': 2, 'click': 1, 'testtools': 1, 'attrs': 2, 'docker': 0, 'flake8-boto3': 0, 'pywin32': 2, 'requests': 1, 'flake8-black': 0, 'mypy': 0, 'flake8': 2, 'pbr': 2, 'typed-ast': 2, 'appdirs': 1, 'colorama': 2, 'fixtures': 0, 'entrypoints': 0, 'toml': 1, 'pytest': 2, 'python-dateutil': 2, 'pathlib2': 1, 'backports.zoneinfo': 1, 'astunparse': 0}
+[2022-10-27 14:58:44,268]-[EasyPip]-[INFO]-topo   self.conflict_node_set {'setuptools', 'tzlocal', 'mypy-extensions', 'black', 'websocket-client', 'importlib-metadata', 'docker-pycreds', 'pypiwin32', 'typing-extensions', 'configparser', 'six', 'ordereddict', 'packaging', 'tzdata', 'tomli', 'urllib3', 'pytz-deprecation-shim', 'typing', 'wheel', 'click', 'testtools', 'attrs', 'docker', 'flake8-boto3', 'pywin32', 'requests', 'flake8-black', 'mypy', 'flake8', 'pbr', 'typed-ast', 'appdirs', 'colorama', 'fixtures', 'entrypoints', 'toml', 'pytest', 'python-dateutil', 'pathlib2', 'backports.zoneinfo', 'astunparse'}
+[2022-10-27 14:58:44,268]-[EasyPip]-[INFO]-there is cycling ['tomli', 'pytest']
+[2022-10-27 14:58:44,268]-[EasyPip]-[INFO]-there is cycling ['tomli', 'pytest']
+[2022-10-27 14:58:44,269]-[EasyPip]-[INFO]-topo sorting results, ['tzlocal', 'websocket-client', 'docker-pycreds', 'pypiwin32', 'pytz-deprecation-shim', 'docker', 'flake8-boto3', 'pywin32', 'requests', 'flake8-black', 'mypy', 'flake8', 'fixtures', 'entrypoints', 'backports.zoneinfo', 'astunparse', 'black', 'tzdata', 'urllib3', 'click', 'testtools', 'pbr', 'typed-ast', 'mypy-extensions', 'setuptools', 'setuptools', 'setuptools', 'importlib-metadata', 'importlib-metadata', 'importlib-metadata', 'importlib-metadata', 'importlib-metadata', 'typing-extensions', 'typing-extensions', 'configparser', 'configparser', 'six', 'ordereddict', 'packaging', 'packaging', 'tomli', 'tomli', 'tomli', 'typing', 'wheel', 'attrs', 'appdirs', 'colorama', 'toml', 'pytest', 'python-dateutil', 'pathlib2']
+[2022-10-27 14:58:44,269]-[EasyPip]-[INFO]-topological_sort, finished
+[2022-10-27 14:58:44,269]-[EasyPip]-[INFO]-require_package:-['testtools', 'docker', 'testtools', 'tzlocal', 'flake8', 'flake8-boto3', 'black', 'flake8-black', 'mypy', 'types-pycurl', 'types-requests', 'scipy', 'click']-13
+[2022-10-27 14:58:44,269]-[EasyPip]-[INFO]-g.conflict_node_set:-{'setuptools', 'tzlocal', 'mypy-extensions', 'black', 'websocket-client', 'importlib-metadata', 'docker-pycreds', 'pypiwin32', 'typing-extensions', 'configparser', 'six', 'ordereddict', 'packaging', 'tzdata', 'tomli', 'urllib3', 'pytz-deprecation-shim', 'typing', 'wheel', 'click', 'testtools', 'attrs', 'docker', 'flake8-boto3', 'pywin32', 'requests', 'flake8-black', 'mypy', 'flake8', 'pbr', 'typed-ast', 'appdirs', 'colorama', 'fixtures', 'entrypoints', 'toml', 'pytest', 'python-dateutil', 'pathlib2', 'backports.zoneinfo', 'astunparse'}-41
+[2022-10-27 14:58:44,270]-[EasyPip]-[INFO]-name: testtools left_idx:1 right_idx: 1
+[2022-10-27 14:58:44,271]-[EasyPip]-[INFO]-name: docker left_idx:14 right_idx: 14
+[2022-10-27 14:58:44,271]-[EasyPip]-[INFO]-name: testtools left_idx:1 right_idx: 1
+[2022-10-27 14:58:44,272]-[EasyPip]-[INFO]-name: tzlocal left_idx:15 right_idx: 15
+[2022-10-27 14:58:44,272]-[EasyPip]-[INFO]-name: click left_idx:11 right_idx: 11
+[2022-10-27 14:58:44,285]-[EasyPip]-[INFO]-initial package information：['testtools==2.4.0', 'docker==4.2.0', 'testtools==2.4.0', 'tzlocal==2.1', 'click==7.1.2']
+[2022-10-27 14:58:44,285]-[EasyPip]-[INFO]-[Staarting ]
+[2022-10-27 14:58:44,285]-[EasyPip]-[INFO]-tzlocal-15searching down
+[2022-10-27 14:58:44,285]-[EasyPip]-[INFO]-[skip]-[websocket-client]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,285]-[EasyPip]-[INFO]-[skip]-[docker-pycreds]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,285]-[EasyPip]-[INFO]-[skip]-[pypiwin32]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,285]-[EasyPip]-[INFO]-[skip]-[pytz-deprecation-shim]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,294]-[EasyPip]-[INFO]-docker-14searching down
+[2022-10-27 14:58:44,300]-[EasyPip]-[INFO]-flake8-boto3-0searching down
+[2022-10-27 14:58:44,300]-[EasyPip]-[INFO]-[skip]-[pywin32]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,303]-[EasyPip]-[INFO]-requests-0searching down
+[2022-10-27 14:58:44,312]-[EasyPip]-[INFO]-flake8-black-0searching down
+[2022-10-27 14:58:44,316]-[EasyPip]-[INFO]-mypy-0searching down
+[2022-10-27 14:58:44,322]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:44,322]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,322]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,322]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,322]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,325]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,325]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,327]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,327]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,329]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,329]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,339]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:44,339]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,339]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,339]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,339]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,342]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,342]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,344]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,344]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,346]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,346]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,361]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:44,361]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,361]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:44,361]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,361]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,364]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,364]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,367]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,367]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,369]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,369]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,370]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:44,370]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,370]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,373]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,373]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,375]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,375]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,378]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,378]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,385]-[EasyPip]-[INFO]-mypy-4searching down
+[2022-10-27 14:58:44,391]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:44,391]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,392]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,392]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,392]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,394]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,394]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,396]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,396]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,399]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,399]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,408]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:44,408]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,408]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,408]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,408]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,411]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,411]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,413]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,413]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,416]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,417]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,430]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:44,431]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,431]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:44,431]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,431]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,433]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,433]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,435]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,435]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,438]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,438]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,439]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:44,439]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,439]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,441]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,441]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,444]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,444]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,446]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,446]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,454]-[EasyPip]-[INFO]-mypy-9searching down
+[2022-10-27 14:58:44,460]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:44,461]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,461]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,461]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,461]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,463]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,463]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,467]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,467]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,469]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,470]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,484]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:44,484]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,484]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,484]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,484]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,486]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,487]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,489]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,489]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,492]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,492]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,508]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:44,508]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,509]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:44,509]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,509]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,512]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,512]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,515]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,515]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,518]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,518]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,519]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:44,519]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,519]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,522]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,522]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,524]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,524]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,527]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,527]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,533]-[EasyPip]-[INFO]-mypy-11searching down
+[2022-10-27 14:58:44,554]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:44,554]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,554]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,554]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,554]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,557]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,557]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,560]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,561]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,564]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,565]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,579]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:44,579]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,579]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,579]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,579]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,582]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,583]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,586]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,586]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,588]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,588]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,606]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:44,606]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,606]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:44,606]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,606]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,608]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,608]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,611]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,611]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,613]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,613]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,614]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:44,615]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,615]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,617]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,617]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,619]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,619]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,621]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,621]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,628]-[EasyPip]-[INFO]-mypy-15searching down
+[2022-10-27 14:58:44,635]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:44,635]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,636]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,636]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,636]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,638]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,638]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,640]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,641]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,643]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,643]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,658]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:44,658]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,658]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,658]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,658]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,660]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,660]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,663]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,663]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,665]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,665]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,683]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:44,683]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,683]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:44,683]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,683]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,685]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,685]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,688]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,688]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,690]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,690]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,691]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:44,691]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,691]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,694]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,694]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,696]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,696]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,699]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,699]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,714]-[EasyPip]-[INFO]-mypy-24searching down
+[2022-10-27 14:58:44,720]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:44,720]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,720]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,720]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,720]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,723]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,723]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,725]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,725]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,727]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,727]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,737]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:44,737]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,737]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,738]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,738]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,740]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,740]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,742]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,742]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,744]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,744]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,759]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:44,759]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,760]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:44,760]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,760]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,762]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,762]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,764]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,764]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,766]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,767]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,768]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:44,768]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,768]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,770]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,770]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,772]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,772]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,774]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,774]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,808]-[EasyPip]-[INFO]-mypy-54searching down
+[2022-10-27 14:58:44,814]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:44,814]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,814]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,814]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,814]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,816]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,816]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,818]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,818]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,821]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,821]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,830]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:44,830]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,830]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,830]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,830]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,833]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,833]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,835]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,835]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,837]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,837]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,851]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:44,851]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,851]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:44,851]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,851]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,853]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,853]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,855]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,856]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,858]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,858]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,859]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:44,859]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,859]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,861]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,861]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,863]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,863]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,866]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,866]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,917]-[EasyPip]-[INFO]-flake8-black-2searching down
+[2022-10-27 14:58:44,921]-[EasyPip]-[INFO]-mypy-0searching down
+[2022-10-27 14:58:44,927]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:44,927]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,927]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,927]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,927]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,929]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,929]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,931]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,931]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,933]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,934]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,943]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:44,943]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,943]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,943]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,943]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,945]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,945]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,947]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,948]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,950]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,950]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,964]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:44,964]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,964]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:44,964]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,964]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,967]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,967]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,969]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,969]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,971]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,971]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,972]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:44,972]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,972]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,974]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,975]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,977]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,977]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,979]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,979]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,986]-[EasyPip]-[INFO]-mypy-4searching down
+[2022-10-27 14:58:44,992]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:44,992]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,992]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,992]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,993]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:44,995]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,995]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,997]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,997]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:44,999]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:44,999]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,009]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,009]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,009]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,009]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,009]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,011]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,011]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,014]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,014]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,016]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,016]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,029]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,029]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,030]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,030]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,030]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,032]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,032]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,034]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,034]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,036]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,036]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,037]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,037]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,038]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,040]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,040]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,042]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,042]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,044]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,044]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,052]-[EasyPip]-[INFO]-mypy-9searching down
+[2022-10-27 14:58:45,070]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,070]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,070]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,070]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,070]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,072]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,072]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,074]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,075]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,077]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,077]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,086]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,086]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,086]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,086]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,086]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,088]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,088]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,091]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,091]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,093]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,093]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,107]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,107]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,107]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,107]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,107]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,109]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,109]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,111]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,111]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,114]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,114]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,115]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,115]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,115]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,117]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,117]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,119]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,119]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,122]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,122]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,126]-[EasyPip]-[INFO]-mypy-11searching down
+[2022-10-27 14:58:45,132]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,132]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,132]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,132]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,132]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,135]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,135]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,137]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,137]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,139]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,139]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,149]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,149]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,149]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,149]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,149]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,151]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,151]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,153]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,153]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,156]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,156]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,170]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,170]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,170]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,170]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,170]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,172]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,172]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,174]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,174]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,177]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,177]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,178]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,178]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,178]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,180]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,180]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,182]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,182]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,185]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,185]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,191]-[EasyPip]-[INFO]-mypy-15searching down
+[2022-10-27 14:58:45,197]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,197]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,198]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,198]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,198]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,200]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,200]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,202]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,202]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,204]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,204]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,214]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,214]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,214]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,214]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,214]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,217]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,217]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,219]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,219]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,221]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,221]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,235]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,235]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,235]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,235]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,235]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,237]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,237]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,239]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,240]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,242]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,242]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,243]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,243]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,243]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,245]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,245]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,247]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,247]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,250]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,250]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,261]-[EasyPip]-[INFO]-mypy-24searching down
+[2022-10-27 14:58:45,267]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,267]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,267]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,267]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,267]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,270]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,270]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,272]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,272]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,274]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,274]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,283]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,283]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,284]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,284]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,284]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,286]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,286]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,288]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,288]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,290]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,290]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,304]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,304]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,304]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,304]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,304]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,307]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,307]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,309]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,309]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,311]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,311]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,313]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,313]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,313]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,316]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,316]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,318]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,318]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,321]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,321]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,353]-[EasyPip]-[INFO]-mypy-54searching down
+[2022-10-27 14:58:45,359]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,359]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,359]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,359]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,359]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,362]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,362]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,364]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,364]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,366]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,366]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,375]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,375]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,376]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,376]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,376]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,378]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,378]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,380]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,380]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,382]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,382]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,396]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,396]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,396]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,396]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,396]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,398]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,398]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,401]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,401]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,403]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,403]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,404]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,404]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,404]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,406]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,406]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,409]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,409]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,411]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,411]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,461]-[EasyPip]-[INFO]-flake8-black-3searching down
+[2022-10-27 14:58:45,465]-[EasyPip]-[INFO]-mypy-0searching down
+[2022-10-27 14:58:45,471]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,471]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,471]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,471]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,471]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,474]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,474]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,476]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,476]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,478]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,478]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,487]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,487]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,488]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,488]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,488]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,490]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,490]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,492]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,492]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,494]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,494]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,508]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,508]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,508]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,508]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,508]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,510]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,510]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,513]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,513]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,515]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,515]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,516]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,516]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,516]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,518]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,518]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,520]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,521]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,523]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,523]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,530]-[EasyPip]-[INFO]-mypy-4searching down
+[2022-10-27 14:58:45,536]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,536]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,536]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,536]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,536]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,538]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,538]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,540]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,540]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,542]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,543]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,564]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,564]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,564]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,565]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,565]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,567]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,567]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,569]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,569]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,571]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,571]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,585]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,585]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,585]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,585]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,585]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,587]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,587]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,589]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,589]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,591]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,592]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,593]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,593]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,593]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,595]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,595]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,597]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,597]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,599]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,599]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,607]-[EasyPip]-[INFO]-mypy-9searching down
+[2022-10-27 14:58:45,613]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,613]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,613]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,614]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,614]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,616]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,616]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,618]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,618]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,620]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,620]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,629]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,630]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,630]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,630]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,630]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,632]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,632]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,634]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,634]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,636]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,636]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,650]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,650]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,650]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,650]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,650]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,652]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,652]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,655]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,655]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,657]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,657]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,658]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,658]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,658]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,660]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,660]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,663]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,663]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,665]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,665]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,670]-[EasyPip]-[INFO]-mypy-11searching down
+[2022-10-27 14:58:45,676]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,676]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,676]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,676]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,676]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,678]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,678]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,680]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,680]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,682]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,682]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,692]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,692]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,692]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,692]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,692]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,694]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,694]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,696]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,696]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,698]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,699]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,712]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,712]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,712]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,712]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,712]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,715]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,715]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,717]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,717]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,719]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,719]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,720]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,720]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,720]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,723]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,723]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,725]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,725]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,727]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,727]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,733]-[EasyPip]-[INFO]-mypy-15searching down
+[2022-10-27 14:58:45,739]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,739]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,739]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,739]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,739]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,742]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,742]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,744]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,744]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,746]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,746]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,755]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,755]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,755]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,755]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,755]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,758]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,758]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,760]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,760]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,762]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,762]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,776]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,776]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,776]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,776]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,776]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,778]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,778]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,781]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,781]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,783]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,783]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,784]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,784]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,784]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,787]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,787]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,789]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,789]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,791]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,791]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,803]-[EasyPip]-[INFO]-mypy-24searching down
+[2022-10-27 14:58:45,809]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,809]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,809]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,809]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,809]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,812]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,812]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,814]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,814]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,816]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,816]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,826]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,826]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,826]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,826]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,826]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,828]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,828]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,830]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,830]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,833]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,833]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,846]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,846]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,846]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,846]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,846]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,849]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,849]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,851]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,851]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,853]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,853]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,854]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,854]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,854]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,857]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,857]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,859]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,859]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,861]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,861]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,893]-[EasyPip]-[INFO]-mypy-54searching down
+[2022-10-27 14:58:45,899]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:45,899]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,899]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,899]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,899]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,902]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,902]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,904]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,904]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,906]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,906]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,915]-[EasyPip]-[INFO]-flake8-5searching down
+[2022-10-27 14:58:45,916]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,916]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,916]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,916]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,918]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,918]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,920]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,920]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,922]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,922]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,936]-[EasyPip]-[INFO]-flake8-12searching down
+[2022-10-27 14:58:45,936]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,936]-[EasyPip]-[INFO]-entrypoints-0searching down
+[2022-10-27 14:58:45,936]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,936]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,938]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,939]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,941]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,941]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,943]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,943]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,944]-[EasyPip]-[INFO]-entrypoints-1searching down
+[2022-10-27 14:58:45,944]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,944]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:45,946]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,946]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,949]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,949]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:45,951]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:45,951]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:46,002]-[EasyPip]-[INFO]-flake8-black-4searching down
+[2022-10-27 14:58:46,006]-[EasyPip]-[INFO]-mypy-0searching down
+[2022-10-27 14:58:46,011]-[EasyPip]-[INFO]-flake8-2searching down
+[2022-10-27 14:58:46,011]-[EasyPip]-[INFO]-[skip]-[fixtures]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,012]-[EasyPip]-[INFO]-[skip]-[entrypoints]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,012]-[EasyPip]-[INFO]-[skip]-[backports.zoneinfo]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,012]-[EasyPip]-[INFO]-[skip]-[astunparse]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,014]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:46,014]-[EasyPip]-[INFO]-black-0  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:46,016]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:46,016]-[EasyPip]-[INFO]-black-1  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:46,018]-[EasyPip]-[INFO]-[stop]-[click]-There is a conflict, init为11-11, actual0-8, start_flag-False,end_flag-False 
+[2022-10-27 14:58:46,018]-[EasyPip]-[INFO]-black-2  Transitive dependency conflict exists, skip
+[2022-10-27 14:58:46,024]-[EasyPip]-[INFO]-black-3searching down
+[2022-10-27 14:58:46,024]-[EasyPip]-[INFO]-[skip]-[tzdata]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,024]-[EasyPip]-[INFO]-[skip]-[urllib3]-This node is a leaf node
+[2022-10-27 14:58:46,025]-[EasyPip]-[INFO]-click-11searching down
+[2022-10-27 14:58:46,025]-[EasyPip]-[INFO]-testtools-1searching down
+[2022-10-27 14:58:46,025]-[EasyPip]-[INFO]-[skip]-[pbr]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,025]-[EasyPip]-[INFO]-[skip]-[typed-ast]-This node is a leaf node
+[2022-10-27 14:58:46,026]-[EasyPip]-[INFO]-mypy-extensions-0searching down
+[2022-10-27 14:58:46,026]-[EasyPip]-[INFO]-[skip]-[setuptools]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,026]-[EasyPip]-[INFO]-[skip]-[setuptools]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,026]-[EasyPip]-[INFO]-[skip]-[setuptools]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,028]-[EasyPip]-[INFO]-importlib-metadata-0searching down
+[2022-10-27 14:58:46,030]-[EasyPip]-[INFO]-importlib-metadata-0searching down
+[2022-10-27 14:58:46,043]-[EasyPip]-[INFO]-importlib-metadata-0searching down
+[2022-10-27 14:58:46,045]-[EasyPip]-[INFO]-importlib-metadata-0searching down
+[2022-10-27 14:58:46,046]-[EasyPip]-[INFO]-importlib-metadata-0searching down
+[2022-10-27 14:58:46,047]-[EasyPip]-[INFO]-typing-extensions-0searching down
+[2022-10-27 14:58:46,047]-[EasyPip]-[INFO]-typing-extensions-0searching down
+[2022-10-27 14:58:46,047]-[EasyPip]-[INFO]-configparser-0searching down
+[2022-10-27 14:58:46,048]-[EasyPip]-[INFO]-configparser-0searching down
+[2022-10-27 14:58:46,048]-[EasyPip]-[INFO]-[skip]-[six]-This node is a leaf node
+[2022-10-27 14:58:46,048]-[EasyPip]-[INFO]-[skip]-[ordereddict]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,048]-[EasyPip]-[INFO]-[skip]-[packaging]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,048]-[EasyPip]-[INFO]-[skip]-[packaging]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,048]-[EasyPip]-[INFO]-tomli-1searching down
+[2022-10-27 14:58:46,049]-[EasyPip]-[INFO]-tomli-1searching down
+[2022-10-27 14:58:46,049]-[EasyPip]-[INFO]-tomli-1searching down
+[2022-10-27 14:58:46,049]-[EasyPip]-[INFO]-[skip]-[typing]-This node is a leaf node
+[2022-10-27 14:58:46,049]-[EasyPip]-[INFO]-[skip]-[wheel]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,049]-[EasyPip]-[INFO]-[skip]-[attrs]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,049]-[EasyPip]-[INFO]-[skip]-[appdirs]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,049]-[EasyPip]-[INFO]-[skip]-[colorama]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,049]-[EasyPip]-[INFO]-[skip]-[toml]-This node is a leaf node
+[2022-10-27 14:58:46,050]-[EasyPip]-[INFO]-[skip]-[pytest]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,050]-[EasyPip]-[INFO]-[skip]-[python-dateutil]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,050]-[EasyPip]-[INFO]-[skip]-[pathlib2]-This node does not have upper-layer dependencies. Skip it
+[2022-10-27 14:58:46,050]-[EasyPip]-[INFO]-the search ends when a feasible solution is found
+[2022-10-27 14:58:46,051]-[EasyPip]-[INFO]-If the Python version is set to cp38,the recommended result is {'tzlocal': '2.1', 'docker': '4.2.0', 'flake8-boto3': '0.3.0b1', 'requests': '2.27.1', 'flake8-black': '0.2.5', 'mypy': '0.971', 'flake8': '3.9.2', 'entrypoints': '0.3', 'black': '21.12b0', 'urllib3': '1.26.11', 'click': '7.1.2', 'testtools': '2.4.0', 'typed-ast': '1.5.4', 'mypy-extensions': '0.4.3', 'importlib-metadata': '4.11.4', 'typing-extensions': '4.2.0', 'configparser': '5.2.0', 'six': '1.16.0', 'tomli': '1.2.3', 'typing': '3.7.4.3', 'toml': '0.10.2'}
+[2022-10-27 14:58:46,051]-[EasyPip]-[INFO]-Recommended package version：{'tzlocal': '2.1', 'docker': '4.2.0', 'flake8-boto3': '0.3.0b1', 'requests': '2.27.1', 'flake8-black': '0.2.5', 'mypy': '0.971', 'flake8': '3.9.2', 'entrypoints': '0.3', 'black': '21.12b0', 'urllib3': '1.26.11', 'click': '7.1.2', 'testtools': '2.4.0', 'typed-ast': '1.5.4', 'mypy-extensions': '0.4.3', 'importlib-metadata': '4.11.4', 'typing-extensions': '4.2.0', 'configparser': '5.2.0', 'six': '1.16.0', 'tomli': '1.2.3', 'typing': '3.7.4.3', 'toml': '0.10.2'}
+[2022-10-27 14:58:46,051]-[EasyPip]-[INFO]-# python version：  cp38
+[2022-10-27 14:58:46,051]-[EasyPip]-[INFO]-testtools==2.4.0
+[2022-10-27 14:58:46,051]-[EasyPip]-[INFO]-docker==4.2.0
+[2022-10-27 14:58:46,051]-[EasyPip]-[INFO]-testtools==2.4.0
+[2022-10-27 14:58:46,051]-[EasyPip]-[INFO]-tzlocal==2.1
+[2022-10-27 14:58:46,051]-[EasyPip]-[INFO]-flake8==3.9.2
+[2022-10-27 14:58:46,051]-[EasyPip]-[INFO]-flake8-boto3==0.3.0b1
+[2022-10-27 14:58:46,051]-[EasyPip]-[INFO]-black==21.12b0
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-flake8-black==0.2.5
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-mypy==0.971
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-requests==2.27.1
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-click==7.1.2
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-scipy
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-types-pycurl
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-types-requests
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-# entrypoints==0.3
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-# tomli==1.2.3
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-# configparser==5.2.0
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-# urllib3==1.26.11
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-# six==1.16.0
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-# typing-extensions==4.2.0
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-# mypy-extensions==0.4.3
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-# typing==3.7.4.3
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-# typed-ast==1.5.4
+[2022-10-27 14:58:46,052]-[EasyPip]-[INFO]-# toml==0.10.2
+[2022-10-27 14:58:46,053]-[EasyPip]-[INFO]-# importlib-metadata==4.11.4
+[2022-10-27 14:58:46,053]-[EasyPip]-[INFO]-running time: 1.9060001373291016

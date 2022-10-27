@@ -1,0 +1,758 @@
+{
+  "dnspython": {
+    "summary": "DNS toolkit",
+    "potential_require": [
+      "cryptography",
+      "curio",
+      "h2",
+      "httpx",
+      "idna",
+      "requests",
+      "requests-toolbelt",
+      "sniffio",
+      "trio",
+      "wmi"
+    ],
+    "version_list": [
+      {
+        "version": "2.2.1",
+        "upload_time": "2022-03-06T23:36:12",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "37.0",
+            "end_node": "2.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "curio",
+            "start_node": "2.0",
+            "end_node": "1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h2",
+            "start_node": "START",
+            "end_node": "4.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.21.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "idna",
+            "start_node": "4.0",
+            "end_node": "2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "0.10.0",
+            "end_node": "0.9.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sniffio",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "trio",
+            "start_node": "0.20",
+            "end_node": "0.14",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wmi",
+            "start_node": "2.0.0",
+            "end_node": "1.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.0",
+        "upload_time": "2022-01-18T13:43:15",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "wmi",
+            "start_node": "2.0.0",
+            "end_node": "1.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "trio",
+            "start_node": "0.20",
+            "end_node": "0.14",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sniffio",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "0.10.0",
+            "end_node": "0.9.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "idna",
+            "start_node": "4.0",
+            "end_node": "2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.21.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h2",
+            "start_node": "START",
+            "end_node": "4.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "curio",
+            "start_node": "2.0",
+            "end_node": "1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "37.0",
+            "end_node": "2.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.0rc1",
+        "upload_time": "2021-12-21T16:09:45",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "37.0",
+            "end_node": "2.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "curio",
+            "start_node": "2.0",
+            "end_node": "1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h2",
+            "start_node": "START",
+            "end_node": "4.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.21.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "idna",
+            "start_node": "4.0",
+            "end_node": "2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests-toolbelt",
+            "start_node": "0.10.0",
+            "end_node": "0.9.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sniffio",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "trio",
+            "start_node": "0.20",
+            "end_node": "0.14",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wmi",
+            "start_node": "2.0.0",
+            "end_node": "1.5.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2021-01-07T17:23:58",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "2.1.0rc1",
+        "upload_time": "2020-10-30T16:32:20",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2020-07-17T13:35:48",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.0.0rc2",
+        "upload_time": "2020-07-04T17:12:11",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.0.0rc1",
+        "upload_time": "2020-06-20T20:25:52",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.16.0",
+        "upload_time": "2018-12-08T19:52:32",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.15.0",
+        "upload_time": "2016-10-08T23:44:34",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.14.0",
+        "upload_time": "2016-05-27T18:26:31",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.13.0",
+        "upload_time": "2016-05-10T18:34:36",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.12.0",
+        "upload_time": "2014-09-01T15:30:58",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.11.1",
+        "upload_time": "2013-09-02T19:43:00",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.11.0",
+        "upload_time": "2013-07-22T12:13:40",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

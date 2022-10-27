@@ -1,0 +1,4881 @@
+{
+  "kfserving": {
+    "summary": "KFServing Python SDK",
+    "potential_require": [
+      "grpcio",
+      "ray",
+      "psutil",
+      "botocore",
+      "boto3",
+      "avro",
+      "cloudevents",
+      "azure-storage-blob",
+      "numpy",
+      "table-logger",
+      "adal",
+      "google-cloud-storage",
+      "minio",
+      "argparse",
+      "tornado",
+      "kubernetes",
+      "urllib3",
+      "setuptools",
+      "python-dateutil",
+      "six",
+      "certifi"
+    ],
+    "version_list": [
+      {
+        "version": "0.6.1",
+        "upload_time": "2021-09-04T03:18:06",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "START",
+            "end_node": "1.34.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ray",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botocore",
+            "start_node": "START",
+            "end_node": "1.20.32",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.17.32",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "avro",
+            "start_node": "START",
+            "end_node": "1.10.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudevents",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "7.0.0",
+            "end_node": "4.0.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "12.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2021-07-01T02:01:18",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "START",
+            "end_node": "1.34.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ray",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botocore",
+            "start_node": "START",
+            "end_node": "1.20.32",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.17.32",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "avro",
+            "start_node": "START",
+            "end_node": "1.10.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudevents",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "7.0.0",
+            "end_node": "4.0.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "12.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.0rc0",
+        "upload_time": "2021-04-26T04:18:28",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "12.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "7.0.0",
+            "end_node": "4.0.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudevents",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "avro",
+            "start_node": "START",
+            "end_node": "1.10.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.17.32",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botocore",
+            "start_node": "START",
+            "end_node": "1.20.32",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2021-03-02T14:45:50",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "avro",
+            "start_node": "START",
+            "end_node": "1.10.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudevents",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "7.0.0",
+            "end_node": "4.0.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "12.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.0.1",
+        "upload_time": "2021-02-14T21:06:46",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "12.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "7.0.0",
+            "end_node": "4.0.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloudevents",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "avro",
+            "start_node": "START",
+            "end_node": "1.10.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2021-01-01T16:51:43",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "7.0.0",
+            "end_node": "4.0.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "12.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.0rc0",
+        "upload_time": "2020-11-21T20:43:28",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "12.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2020-10-20T23:59:21",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "10.0.1",
+            "end_node": "10.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "1.15",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2020-08-03T02:46:30",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "10.0.1",
+            "end_node": "10.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0.2",
+        "upload_time": "2020-06-30T00:37:06",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "10.0.1",
+            "end_node": "10.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0.1",
+        "upload_time": "2020-03-15T09:49:07",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "10.0.1",
+            "end_node": "10.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2020-03-11T22:29:14",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "10.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.2.1",
+        "upload_time": "2019-11-27T03:26:58",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "10.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.1.1",
+        "upload_time": "2019-11-08T01:43:51",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "10.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.2",
+        "upload_time": "2019-11-07T23:21:36",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "2.1.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "10.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.1.0",
+        "upload_time": "2019-11-07T09:17:01",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "1.3.0",
+            "end_node": "1.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.17.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "10.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2019-10-29T01:37:15",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "table-logger",
+            "start_node": "START",
+            "end_node": "0.3.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "START",
+            "end_node": "1.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "10.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2019-08-07T09:19:59",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "START",
+            "end_node": "2.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "9.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2019-08-07T03:27:38",
+        "python_require": [
+          "cp39",
+          "cp37",
+          "cp311",
+          "cp36",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-storage-blob",
+            "start_node": "START",
+            "end_node": "2.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "minio",
+            "start_node": "START",
+            "end_node": "4.0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "1.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "kubernetes",
+            "start_node": "START",
+            "end_node": "9.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp311",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.1",
+        "upload_time": "2019-07-18T03:01:57",
+        "python_require": [
+          "cp34",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp36",
+          "cp38",
+          "cp32",
+          "cp30",
+          "cp27",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

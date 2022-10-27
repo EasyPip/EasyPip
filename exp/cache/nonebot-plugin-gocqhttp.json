@@ -1,0 +1,2140 @@
+{
+  "nonebot-plugin-gocqhttp": {
+    "summary": "A plugin to run go-cqhttp directly in NoneBot2, without additional download and installation.",
+    "potential_require": [
+      "nonebot2",
+      "psutil",
+      "nonebot-adapter-onebot",
+      "py-cpuinfo",
+      "httpx",
+      "chevron",
+      "PyYAML",
+      "tqdm"
+    ],
+    "version_list": [
+      {
+        "version": "0.5.6",
+        "upload_time": "2022-07-18T10:24:41",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "chevron",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.5",
+        "upload_time": "2022-05-18T12:27:22",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "chevron",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.4",
+        "upload_time": "2022-05-04T10:34:51",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "chevron",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.3",
+        "upload_time": "2022-04-29T03:50:06",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "chevron",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2022-04-10T10:57:50",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "chevron",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2022-04-05T16:09:27",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "chevron",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2022-04-05T02:49:22",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "chevron",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.7",
+        "upload_time": "2022-04-03T07:22:56",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.6",
+        "upload_time": "2022-03-05T13:12:47",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.5",
+        "upload_time": "2022-02-21T16:27:42",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.4",
+        "upload_time": "2022-02-14T03:26:34",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.3",
+        "upload_time": "2022-02-12T12:34:57",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "py-cpuinfo",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.2",
+        "upload_time": "2022-02-09T10:10:47",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2022-02-02T08:47:16",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2022-02-01T03:43:15",
+        "python_require": [
+          "cp39",
+          "cp311",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2022-01-30T13:53:04",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.21.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2022-01-30T13:46:00",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.21.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2022-01-30T13:42:36",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.21.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2022-01-28T00:37:34",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.21.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2022-01-27T01:44:29",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.21.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2022-01-25T08:13:10",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "5.0.0",
+            "end_node": "4.62.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.21.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2022-01-24T13:33:17",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0.0",
+            "end_node": "5.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "5.0.0",
+            "end_node": "4.62.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "START",
+            "end_node": "0.21.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "7.0",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

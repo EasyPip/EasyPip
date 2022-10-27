@@ -1,0 +1,6187 @@
+{
+  "jupyter-client": {
+    "summary": "Jupyter protocol implementation and client libraries",
+    "potential_require": [
+      "entrypoints",
+      "jupyter-core",
+      "nest-asyncio",
+      "python-dateutil",
+      "pyzmq",
+      "tornado",
+      "traitlets",
+      "jedi",
+      "pywin32"
+    ],
+    "version_list": [
+      {
+        "version": "7.3.4",
+        "upload_time": "2022-06-08T20:05:19",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.9.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.8.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "7.3.3",
+        "upload_time": "2022-06-07T06:10:02",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.9.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.8.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.3.2",
+        "upload_time": "2022-06-06T07:25:39",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.9.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.8.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.3.1",
+        "upload_time": "2022-05-08T21:01:21",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.9.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.8.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "22.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "7.3.0",
+        "upload_time": "2022-04-25T18:33:03",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.9.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.8.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "22.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.2.2",
+        "upload_time": "2022-04-07T08:15:07",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.9.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.8.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "22.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.2.1",
+        "upload_time": "2022-03-30T15:39:35",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.9.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.8.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "22.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.2.0",
+        "upload_time": "2022-03-29T10:00:29",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.9.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "17",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "7.1.2",
+        "upload_time": "2022-01-21T23:15:30",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "7.1.1",
+        "upload_time": "2022-01-14T19:53:37",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.1.0",
+        "upload_time": "2021-11-22T17:53:19",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.6",
+        "upload_time": "2021-10-05T13:25:19",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.5",
+        "upload_time": "2021-09-29T12:59:58",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.4",
+        "upload_time": "2021-09-28T11:58:46",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.3",
+        "upload_time": "2021-09-16T20:19:22",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.2",
+        "upload_time": "2021-08-30T11:22:07",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.1",
+        "upload_time": "2021-08-20T00:24:21",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.0",
+        "upload_time": "2021-08-19T15:24:00",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.0rc1",
+        "upload_time": "2021-08-11T14:05:20",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.0rc0",
+        "upload_time": "2021-08-05T11:29:08",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.0a1",
+        "upload_time": "2021-07-26T17:18:49",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "7.0.0a0",
+        "upload_time": "2021-04-12T20:29:03",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "6.2.0",
+        "upload_time": "2021-04-12T07:16:17",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "6.1.13",
+        "upload_time": "2021-04-07T07:36:59",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nest-asyncio",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "6.1.12",
+        "upload_time": "2021-03-14T00:46:53",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "6.1.11",
+        "upload_time": "2021-01-09T09:14:50",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "6.1.10",
+        "upload_time": "2021-01-08T11:20:53",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jedi",
+            "start_node": "0.17.2",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "6.1.9",
+        "upload_time": "2021-01-08T10:38:57",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jedi",
+            "start_node": "0.17.2",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "6.1.8",
+        "upload_time": "2021-01-08T09:57:07",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "6.1.7",
+        "upload_time": "2020-08-25T20:46:44",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "6.1.6",
+        "upload_time": "2020-07-14T04:31:13",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "6.1.5",
+        "upload_time": "2020-06-30T00:10:02",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.3.5",
+        "upload_time": "2020-06-30T00:05:49",
+        "python_require": [
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp310",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pywin32",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "6.1.3",
+        "upload_time": "2020-04-13T19:51:26",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "6.1.2",
+        "upload_time": "2020-03-26T19:00:13",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "6.1.1",
+        "upload_time": "2020-03-25T20:45:34",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "6.1.0",
+        "upload_time": "2020-03-20T00:06:35",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "6.0.0",
+        "upload_time": "2020-02-24T05:03:22",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.3.4",
+        "upload_time": "2019-10-08T21:49:49",
+        "python_require": [
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp310",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "4.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pywin32",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.3.3",
+        "upload_time": "2019-09-17T18:13:00",
+        "python_require": [
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp310",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pywin32",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.3.2",
+        "upload_time": "2019-09-13T22:00:49",
+        "python_require": [
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp310",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pywin32",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.3.1",
+        "upload_time": "2019-07-09T22:33:47",
+        "python_require": [
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp310",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.3.0",
+        "upload_time": "2019-07-07T21:42:57",
+        "python_require": [
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp310",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.2.4",
+        "upload_time": "2018-12-10T14:25:57",
+        "python_require": [
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp310",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.2.3",
+        "upload_time": "2018-03-12T16:13:33",
+        "python_require": [
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp310",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp37",
+              "cp311",
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp310",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.2.2",
+        "upload_time": "2018-01-24T17:35:34",
+        "python_require": [
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tornado",
+            "start_node": "START",
+            "end_node": "4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.2.1",
+        "upload_time": "2018-01-03T13:16:39",
+        "python_require": [
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.2.0",
+        "upload_time": "2017-12-18T12:34:06",
+        "python_require": [
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.1.0",
+        "upload_time": "2017-06-22T12:16:30",
+        "python_require": [
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.0.1",
+        "upload_time": "2017-04-04T12:10:16",
+        "python_require": [
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.0.0",
+        "upload_time": "2017-02-20T15:54:16",
+        "python_require": [
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.4.0",
+        "upload_time": "2016-08-31T15:16:45",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.3.0",
+        "upload_time": "2016-06-07T16:48:17",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.2.2",
+        "upload_time": "2016-03-10T09:17:28",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.2.1",
+        "upload_time": "2016-03-06T16:14:45",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.2.0",
+        "upload_time": "2016-03-04T15:20:15",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "jupyter-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyzmq",
+            "start_node": "START",
+            "end_node": "13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.1.1",
+        "upload_time": "2015-10-08T11:41:38",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "4.1.0",
+        "upload_time": "2015-10-08T09:15:10",
+        "python_require": [
+          "cp32",
+          "cp37",
+          "cp311",
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp33",
+          "cp34",
+          "cp35",
+          "cp31",
+          "cp310",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "4.0.0",
+        "upload_time": "2015-07-12T18:44:36",
+        "python_require": [
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

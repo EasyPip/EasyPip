@@ -1,0 +1,116 @@
+{
+  "glog": {
+    "summary": "Simple Google-style logging wrapper for Python.",
+    "potential_require": [
+      "python-gflags",
+      "six"
+    ],
+    "version_list": [
+      {
+        "version": "0.3.1",
+        "upload_time": "2016-12-14T01:52:16",
+        "python_require": [
+          "cp31",
+          "cp27",
+          "cp32",
+          "cp35",
+          "cp33",
+          "cp30",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-gflags",
+            "start_node": "START",
+            "end_node": "3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp33",
+              "cp30",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp33",
+              "cp30",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3",
+        "upload_time": "2016-10-03T00:38:10",
+        "python_require": [
+          "cp31",
+          "cp27",
+          "cp32",
+          "cp35",
+          "cp33",
+          "cp30",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "python-gflags",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp33",
+              "cp30",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1",
+        "upload_time": "2015-07-13T06:10:08",
+        "python_require": [
+          "cp36",
+          "cp31",
+          "cp310",
+          "cp311",
+          "cp27",
+          "cp37",
+          "cp39",
+          "cp38",
+          "cp32",
+          "cp35",
+          "cp33",
+          "cp30",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

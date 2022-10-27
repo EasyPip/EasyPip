@@ -1,0 +1,5905 @@
+{
+  "nipyapi": {
+    "summary": "Nifi-Python-Api: A convenient Python wrapper for the Apache NiFi Rest API",
+    "potential_require": [
+      "setuptools",
+      "six",
+      "future",
+      "packaging",
+      "lxml",
+      "requests",
+      "pysocks",
+      "ruamel.yaml",
+      "docker",
+      "xmltodict",
+      "deepdiff",
+      "urllib3",
+      "docker-compose",
+      "certifi",
+      "python-dateutil",
+      "nifi-python-swagger-client"
+    ],
+    "version_list": [
+      {
+        "version": "0.19.1",
+        "upload_time": "2022-08-08T22:07:42",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.18.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.6.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pysocks",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.18",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xmltodict",
+            "start_node": "START",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.19.0",
+        "upload_time": "2022-05-13T20:10:25",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.18.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.6.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pysocks",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.18",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xmltodict",
+            "start_node": "START",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.18.0",
+        "upload_time": "2021-11-29T17:46:42",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.18.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.6.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pysocks",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.18",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xmltodict",
+            "start_node": "START",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.17.1",
+        "upload_time": "2021-10-21T09:11:28",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.18.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.6.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pysocks",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.17.16",
+            "end_node": "0.17.16",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xmltodict",
+            "start_node": "START",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.3",
+        "upload_time": "2021-10-11T15:19:30",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.18.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.6.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pysocks",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.16.12",
+            "end_node": "0.16.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xmltodict",
+            "start_node": "START",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.2",
+        "upload_time": "2021-02-10T17:43:16",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "0.18.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.6.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pysocks",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.16.12",
+            "end_node": "0.16.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xmltodict",
+            "start_node": "START",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.1",
+        "upload_time": "2020-12-10T22:26:05",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "0.18.2",
+            "end_node": "0.18.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "4.4.0",
+            "end_node": "4.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.16.12",
+            "end_node": "0.16.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xmltodict",
+            "start_node": "START",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.0",
+        "upload_time": "2020-12-09T19:35:24",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "0.18.2",
+            "end_node": "0.18.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "4.4.0",
+            "end_node": "4.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.16.12",
+            "end_node": "0.16.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xmltodict",
+            "start_node": "START",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.0",
+        "upload_time": "2020-11-06T12:24:58",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "4.4.0",
+            "end_node": "4.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.16.10",
+            "end_node": "0.16.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xmltodict",
+            "start_node": "START",
+            "end_node": "0.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.14.3",
+        "upload_time": "2020-04-15T12:41:41",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "4.4.0",
+            "end_node": "4.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.16.10",
+            "end_node": "0.16.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.14.2",
+        "upload_time": "2020-03-25T20:48:56",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "4.4.0",
+            "end_node": "4.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.16.10",
+            "end_node": "0.16.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.14.1",
+        "upload_time": "2020-03-17T09:02:37",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "4.4.0",
+            "end_node": "4.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.16.10",
+            "end_node": "0.16.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.14.0",
+        "upload_time": "2019-11-06T13:50:58",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "4.4.0",
+            "end_node": "4.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.16.5",
+            "end_node": "0.16.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "4.0",
+            "end_node": "3.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.13.3",
+        "upload_time": "2019-10-09T16:34:41",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "4.4.0",
+            "end_node": "4.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.16.5",
+            "end_node": "0.16.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "4.0",
+            "end_node": "3.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.13.2",
+        "upload_time": "2019-05-04T16:03:04",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.15.94",
+            "end_node": "0.15.94",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "4.0",
+            "end_node": "3.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.13.1",
+        "upload_time": "2019-04-28T08:15:19",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.15.93",
+            "end_node": "0.15.93",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "4.0",
+            "end_node": "3.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.13.0",
+        "upload_time": "2019-04-22T14:17:08",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.15.89",
+            "end_node": "0.15.89",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "4.0",
+            "end_node": "3.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.12.1",
+        "upload_time": "2019-03-22T12:40:36",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.15.87",
+            "end_node": "0.15.87",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "4.0",
+            "end_node": "3.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.12.0",
+        "upload_time": "2018-12-20T13:38:39",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "START",
+            "end_node": "3.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.15.72",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.0",
+        "upload_time": "2018-10-12T09:12:01",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "38.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "1.11.0",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.22",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.15.72",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "START",
+            "end_node": "3.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "2.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.3",
+        "upload_time": "2018-08-28T15:33:13",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.14.12",
+            "end_node": "0.14.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.2",
+        "upload_time": "2018-08-27T20:27:12",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.14.12",
+            "end_node": "0.14.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.10.1",
+        "upload_time": "2018-08-21T12:14:54",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.14.12",
+            "end_node": "0.14.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.0",
+        "upload_time": "2018-08-03T13:04:25",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.14.12",
+            "end_node": "0.14.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp37",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.1",
+        "upload_time": "2018-05-18T12:21:08",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.14.12",
+            "end_node": "0.14.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.9.0",
+        "upload_time": "2018-05-16T07:25:21",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.14.12",
+            "end_node": "0.14.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2018-03-06T23:40:35",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deepdiff",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "0.14.12",
+            "end_node": "0.14.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2018-01-30T23:24:18",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2018-01-04T19:40:22",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nifi-python-swagger-client",
+            "start_node": "1.3",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2017-12-31T11:32:39",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nifi-python-swagger-client",
+            "start_node": "1.3",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2017-12-07T21:58:51",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nifi-python-swagger-client",
+            "start_node": "1.3",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2017-12-06T18:48:21",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nifi-python-swagger-client",
+            "start_node": "1.3",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2017-10-29T18:59:37",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2017-09-04T20:52:44",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2017-09-04T20:25:40",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "certifi",
+            "start_node": "START",
+            "end_node": "14.05.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-dateutil",
+            "start_node": "START",
+            "end_node": "2.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "21.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "urllib3",
+            "start_node": "START",
+            "end_node": "1.15.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp35",
+              "cp32",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2017-09-04T19:20:08",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2017-08-25T23:29:06",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2017-08-24T16:23:55",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2017-08-24T15:47:31",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp32",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

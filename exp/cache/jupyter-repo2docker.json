@@ -1,0 +1,2144 @@
+{
+  "jupyter-repo2docker": {
+    "summary": "Repo2docker: Turn code repositories into Jupyter enabled Docker Images",
+    "potential_require": [
+      "chardet",
+      "docker",
+      "entrypoints",
+      "escapism",
+      "iso8601",
+      "jinja2",
+      "python-json-logger",
+      "requests",
+      "ruamel.yaml",
+      "semver",
+      "toml",
+      "traitlets"
+    ],
+    "version_list": [
+      {
+        "version": "2022.2.0",
+        "upload_time": "2022-02-06T14:20:14",
+        "python_require": [
+          "cp39",
+          "cp310",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "chardet",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [
+              "5.0.0"
+            ],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "semver",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.8.0",
+        "upload_time": "2021-08-24T16:57:08",
+        "python_require": [
+          "cp39",
+          "cp310",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "chardet",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [
+              "5.0.0"
+            ],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "semver",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2021.3.0",
+        "upload_time": "2021-03-22T08:01:20",
+        "python_require": [
+          "cp39",
+          "cp310",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "semver",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.1.0",
+        "upload_time": "2021-01-23T22:59:12",
+        "python_require": [
+          "cp39",
+          "cp310",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "semver",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2020.3.0",
+        "upload_time": "2021-03-22T07:52:05",
+        "python_require": [
+          "cp39",
+          "cp310",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "semver",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.0",
+        "upload_time": "2020-02-05T08:48:39",
+        "python_require": [
+          "cp35",
+          "cp39",
+          "cp310",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "semver",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.0",
+        "upload_time": "2019-08-07T12:35:39",
+        "python_require": [
+          "cp35",
+          "cp39",
+          "cp310",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "semver",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp39",
+              "cp310",
+              "cp311",
+              "cp36",
+              "cp38",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.0",
+        "upload_time": "2019-05-05T19:59:28",
+        "python_require": [
+          "cp35",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "semver",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2019-02-21T15:07:11",
+        "python_require": [
+          "cp35",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2018-12-12T13:59:17",
+        "python_require": [
+          "cp35",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.0rc2",
+        "upload_time": "2018-09-08T22:31:26",
+        "python_require": [
+          "cp35",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2018-09-10T09:54:51",
+        "python_require": [
+          "cp35",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2018-02-07T20:17:33",
+        "python_require": [
+          "cp35",
+          "cp311",
+          "cp36",
+          "cp38",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jinja2",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ruamel.yaml",
+            "start_node": "START",
+            "end_node": "0.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp34",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4",
+        "upload_time": "2017-08-14T18:43:22",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2017-09-06T19:55:50",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2017-05-25T00:23:49",
+        "python_require": [
+          "cp35",
+          "cp30",
+          "cp36",
+          "cp33",
+          "cp27",
+          "cp32",
+          "cp31",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp30",
+              "cp36",
+              "cp33",
+              "cp27",
+              "cp32",
+              "cp31",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "escapism",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp30",
+              "cp36",
+              "cp33",
+              "cp27",
+              "cp32",
+              "cp31",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-json-logger",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp30",
+              "cp36",
+              "cp33",
+              "cp27",
+              "cp32",
+              "cp31",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "traitlets",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp30",
+              "cp36",
+              "cp33",
+              "cp27",
+              "cp32",
+              "cp31",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1",
+        "upload_time": "2017-05-23T06:03:39",
+        "python_require": [
+          "cp35",
+          "cp30",
+          "cp311",
+          "cp36",
+          "cp33",
+          "cp27",
+          "cp38",
+          "cp32",
+          "cp31",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2017-05-23T06:59:45",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

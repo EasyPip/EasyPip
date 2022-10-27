@@ -1,0 +1,2298 @@
+{
+  "h2": {
+    "summary": "HTTP/2 State-Machine based protocol implementation",
+    "potential_require": [
+      "hyperframe",
+      "hpack",
+      "enum34"
+    ],
+    "version_list": [
+      {
+        "version": "4.1.0",
+        "upload_time": "2021-10-05T18:27:39",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "7",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "5",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0",
+        "upload_time": "2020-09-19T13:53:24",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "7",
+            "end_node": "6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "5",
+            "end_node": "4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.2.0",
+        "upload_time": "2020-02-08T16:45:57",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "6",
+            "end_node": "5.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "4",
+            "end_node": "3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.1.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.1",
+        "upload_time": "2019-08-02T13:10:55",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "6",
+            "end_node": "5.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "4",
+            "end_node": "2.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.1.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.0",
+        "upload_time": "2019-01-22T17:43:41",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.1.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "4",
+            "end_node": "2.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "6",
+            "end_node": "5.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp37",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.1",
+        "upload_time": "2017-04-03T08:07:26",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "6",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "4",
+            "end_node": "2.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.1.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.6.2",
+        "upload_time": "2017-04-03T07:56:30",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "4.0.0<6>=3.1"
+            ],
+            "package_name": "hyperframe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "4",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.4",
+        "upload_time": "2017-04-03T07:43:54",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "4.0.0<6>=3.1"
+            ],
+            "package_name": "hyperframe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "4",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2017-03-24T16:25:19",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "6",
+            "end_node": "5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.1.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.6.1",
+        "upload_time": "2017-03-16T09:24:11",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "4.0.0<6>=3.1"
+            ],
+            "package_name": "hyperframe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.3",
+        "upload_time": "2017-03-16T09:13:16",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "4.0.0<6>=3.1"
+            ],
+            "package_name": "hyperframe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.4",
+        "upload_time": "2017-03-16T09:01:01",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "4.0.0<6>=3.1"
+            ],
+            "package_name": "hyperframe",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.6.0",
+        "upload_time": "2017-02-28T09:28:38",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.2",
+        "upload_time": "2017-01-27T14:35:18",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.3",
+        "upload_time": "2017-01-27T14:32:55",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.3.4",
+        "upload_time": "2017-01-27T14:29:28",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.5.1",
+        "upload_time": "2016-12-17T17:21:41",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.0",
+        "upload_time": "2016-10-25T12:04:16",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.4.2",
+        "upload_time": "2016-10-25T11:57:04",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.3.3",
+        "upload_time": "2016-10-25T11:51:05",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.2.7",
+        "upload_time": "2016-10-25T11:43:46",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.4.1",
+        "upload_time": "2016-08-23T13:39:38",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.3.2",
+        "upload_time": "2016-08-23T13:35:19",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.2.6",
+        "upload_time": "2016-08-23T13:28:00",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.4.0",
+        "upload_time": "2016-07-01T09:17:29",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.3.1",
+        "upload_time": "2016-05-12T08:24:15",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.2.5",
+        "upload_time": "2016-05-12T08:22:31",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.3.0",
+        "upload_time": "2016-04-26T09:50:00",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.4",
+        "upload_time": "2016-04-25T14:57:08",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.5",
+        "upload_time": "2016-04-25T14:39:25",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.2.3",
+        "upload_time": "2016-04-13T11:18:49",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "START",
+            "end_node": "3.1!=4.0.0<5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.4",
+        "upload_time": "2016-04-13T11:14:32",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp34",
+          "cp31",
+          "cp30",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "hpack",
+            "start_node": "3",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hyperframe",
+            "start_node": "5>=3.1!=4.0.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp35",
+              "cp34",
+              "cp27",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.2",
+        "upload_time": "2016-04-05T14:00:31",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "2.2.1",
+        "upload_time": "2016-03-23T18:18:52",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.2.0",
+        "upload_time": "2016-03-23T13:35:06",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.1.3",
+        "upload_time": "2016-03-16T16:05:08",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.1.2",
+        "upload_time": "2016-02-17T13:59:09",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.1.1",
+        "upload_time": "2016-02-05T14:52:58",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2016-02-02T15:01:33",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2016-01-25T12:16:01",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.1.1",
+        "upload_time": "2015-11-17T11:19:23",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2015-10-28T08:24:45",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2015-10-15T17:19:46",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

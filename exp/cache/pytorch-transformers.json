@@ -1,0 +1,617 @@
+{
+  "pytorch-transformers": {
+    "summary": "Repository of pre-trained NLP Transformer models: BERT & RoBERTa, GPT & GPT-2, Transformer-XL, XLNet and XLM",
+    "potential_require": [
+      "sacremoses",
+      "sentencepiece",
+      "regex",
+      "tqdm",
+      "requests",
+      "boto3",
+      "numpy",
+      "torch"
+    ],
+    "version_list": [
+      {
+        "version": "1.2.0",
+        "upload_time": "2019-09-04T11:36:34",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp32",
+          "cp27",
+          "cp34",
+          "cp30",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sacremoses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sentencepiece",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "regex",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torch",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp30",
+              "cp27",
+              "cp34",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2019-08-15T21:14:28",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sentencepiece",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "regex",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torch",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2019-07-16T14:13:32",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sentencepiece",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "regex",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torch",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2019-07-05T10:23:15",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "sentencepiece",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "regex",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torch",
+            "start_node": "START",
+            "end_node": "0.4.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp30",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

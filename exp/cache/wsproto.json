@@ -1,0 +1,472 @@
+{
+  "wsproto": {
+    "summary": "WebSockets state-machine based protocol implementation",
+    "potential_require": [
+      "h11",
+      "dataclasses",
+      "enum34"
+    ],
+    "version_list": [
+      {
+        "version": "1.1.0",
+        "upload_time": "2022-02-27T09:39:16",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "h11",
+            "start_node": "1",
+            "end_node": "0.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2020-11-22T22:25:58",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp311",
+          "cp37",
+          "cp36",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp37",
+              "cp36",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h11",
+            "start_node": "1",
+            "end_node": "0.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp37",
+              "cp36",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.0",
+        "upload_time": "2019-08-10T12:31:27",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp311",
+          "cp37",
+          "cp36",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "h11",
+            "start_node": "START",
+            "end_node": "0.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp37",
+              "cp36",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dataclasses",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp37",
+              "cp36",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.14.1",
+        "upload_time": "2019-05-30T18:55:23",
+        "python_require": [
+          "cp31",
+          "cp35",
+          "cp33",
+          "cp34",
+          "cp27",
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "h11",
+            "start_node": "START",
+            "end_node": "0.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.14.0",
+        "upload_time": "2019-04-06T18:06:53",
+        "python_require": [
+          "cp31",
+          "cp35",
+          "cp33",
+          "cp34",
+          "cp27",
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "h11",
+            "start_node": "START",
+            "end_node": "0.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.13.0",
+        "upload_time": "2019-01-24T09:45:20",
+        "python_require": [
+          "cp31",
+          "cp35",
+          "cp33",
+          "cp34",
+          "cp27",
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "h11",
+            "start_node": "START",
+            "end_node": "0.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.12.0",
+        "upload_time": "2018-09-23T11:27:49",
+        "python_require": [
+          "cp31",
+          "cp35",
+          "cp33",
+          "cp34",
+          "cp27",
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "h11",
+            "start_node": "START",
+            "end_node": "0.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.11.0",
+        "upload_time": "2017-12-31T17:31:29",
+        "python_require": [
+          "cp31",
+          "cp35",
+          "cp33",
+          "cp34",
+          "cp27",
+          "cp30",
+          "cp36",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "h11",
+            "start_node": "START",
+            "end_node": "0.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp36",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp35",
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp36",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.0",
+        "upload_time": "2017-05-03T19:01:42",
+        "python_require": [
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.9.0",
+        "upload_time": "2016-08-24T22:00:18",
+        "python_require": [
+          "cp31",
+          "cp35",
+          "cp33",
+          "cp34",
+          "cp27",
+          "cp30",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "h11",
+            "start_node": "0.5.0",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "2",
+            "end_node": "1.0.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp27",
+              "cp34",
+              "cp30",
+              "cp31",
+              "cp35",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

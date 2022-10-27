@@ -1,0 +1,3829 @@
+{
+  "mkdocstrings": {
+    "summary": "Automatic documentation from sources, for MkDocs.",
+    "potential_require": [
+      "Jinja2",
+      "Markdown",
+      "MarkupSafe",
+      "mkdocs-autorefs",
+      "mkdocs",
+      "pymdown-extensions",
+      "mkdocstrings-crystal",
+      "mkdocstrings-python",
+      "mkdocstrings-python-legacy",
+      "pytkdocs",
+      "beautifulsoup4",
+      "coverage",
+      "invoke",
+      "mkdocs-material",
+      "mypy",
+      "pytest",
+      "pytest-cov",
+      "pytest-randomly",
+      "pytest-sugar",
+      "pytest-xdist"
+    ],
+    "version_list": [
+      {
+        "version": "0.19.0",
+        "upload_time": "2022-05-28T15:55:53",
+        "python_require": [
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "START",
+            "end_node": "2.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "START",
+            "end_node": "3.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-autorefs",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "START",
+            "end_node": "6.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-crystal",
+            "start_node": "START",
+            "end_node": "0.3.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-python",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-python-legacy",
+            "start_node": "START",
+            "end_node": "0.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.18.1",
+        "upload_time": "2022-03-01T18:18:27",
+        "python_require": [
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "START",
+            "end_node": "2.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "START",
+            "end_node": "3.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-autorefs",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-python-legacy",
+            "start_node": "START",
+            "end_node": "0.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "START",
+            "end_node": "6.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-crystal",
+            "start_node": "START",
+            "end_node": "0.3.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-python",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-python-legacy",
+            "start_node": "START",
+            "end_node": "0.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.18.0",
+        "upload_time": "2022-02-06T19:18:22",
+        "python_require": [
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "START",
+            "end_node": "2.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "START",
+            "end_node": "3.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-autorefs",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-python-legacy",
+            "start_node": "START",
+            "end_node": "0.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "START",
+            "end_node": "6.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-crystal",
+            "start_node": "START",
+            "end_node": "0.3.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-python",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocstrings-python-legacy",
+            "start_node": "START",
+            "end_node": "0.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp39",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.17.0",
+        "upload_time": "2021-12-27T17:59:42",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "START",
+            "end_node": "2.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "START",
+            "end_node": "3.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-autorefs",
+            "start_node": "START",
+            "end_node": "0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "START",
+            "end_node": "6.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "START",
+            "end_node": "0.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.2",
+        "upload_time": "2021-10-04T10:44:56",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "4.0",
+            "end_node": "2.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "START",
+            "end_node": "3.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "3.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-autorefs",
+            "start_node": "0.4",
+            "end_node": "0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "10.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.13.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.1",
+        "upload_time": "2021-09-23T19:04:14",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "4.0",
+            "end_node": "2.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "START",
+            "end_node": "3.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "3.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-autorefs",
+            "start_node": "0.4",
+            "end_node": "0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.13.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.0",
+        "upload_time": "2021-09-21T11:44:56",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "4.0",
+            "end_node": "2.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "START",
+            "end_node": "3.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "3.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-autorefs",
+            "start_node": "0.4",
+            "end_node": "0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.13.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.2",
+        "upload_time": "2021-06-09T21:24:38",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "4.0",
+            "end_node": "2.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "4.0",
+            "end_node": "3.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "3.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0.0",
+            "end_node": "1.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-autorefs",
+            "start_node": "0.3",
+            "end_node": "0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.12.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.1",
+        "upload_time": "2021-05-16T15:56:37",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "4.0",
+            "end_node": "2.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "4.0",
+            "end_node": "3.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "3.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-autorefs",
+            "start_node": "0.3",
+            "end_node": "0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.12.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.0",
+        "upload_time": "2021-02-28T12:08:07",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "3.0",
+            "end_node": "2.11",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "4.0",
+            "end_node": "3.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-autorefs",
+            "start_node": "0.2",
+            "end_node": "0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.12.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.14.0",
+        "upload_time": "2021-01-06T21:43:56",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "3.0",
+            "end_node": "2.11",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "4.0",
+            "end_node": "3.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.11.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.14.0b1",
+        "upload_time": "2020-12-31T13:59:49",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Jinja2",
+            "start_node": "3.0",
+            "end_node": "2.11",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Markdown",
+            "start_node": "4.0",
+            "end_node": "3.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "MarkupSafe",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.11.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.13.6",
+        "upload_time": "2020-09-28T12:16:52",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.10.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coverage",
+            "start_node": "6.0.0",
+            "end_node": "5.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "invoke",
+            "start_node": "2.0.0",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-material",
+            "start_node": "6.0.0",
+            "end_node": "5.5.12",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mypy",
+            "start_node": "0.783",
+            "end_node": "0.782",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "7.0.0",
+            "end_node": "6.0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "3.0.0",
+            "end_node": "2.10.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-randomly",
+            "start_node": "4.0.0",
+            "end_node": "3.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-sugar",
+            "start_node": "0.10.0",
+            "end_node": "0.9.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-xdist",
+            "start_node": "3.0.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.13.5",
+        "upload_time": "2020-09-28T11:07:58",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.10.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coverage",
+            "start_node": "6.0.0",
+            "end_node": "5.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "invoke",
+            "start_node": "2.0.0",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-material",
+            "start_node": "6.0.0",
+            "end_node": "5.5.12",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mypy",
+            "start_node": "0.783",
+            "end_node": "0.782",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "7.0.0",
+            "end_node": "6.0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "3.0.0",
+            "end_node": "2.10.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-randomly",
+            "start_node": "4.0.0",
+            "end_node": "3.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-sugar",
+            "start_node": "0.10.0",
+            "end_node": "0.9.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-xdist",
+            "start_node": "3.0.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.13.4",
+        "upload_time": "2020-09-25T11:06:52",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.9.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coverage",
+            "start_node": "6.0.0",
+            "end_node": "5.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "invoke",
+            "start_node": "2.0.0",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-material",
+            "start_node": "6.0.0",
+            "end_node": "5.5.12",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mypy",
+            "start_node": "0.783",
+            "end_node": "0.782",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "7.0.0",
+            "end_node": "6.0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "3.0.0",
+            "end_node": "2.10.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-randomly",
+            "start_node": "4.0.0",
+            "end_node": "3.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-sugar",
+            "start_node": "0.10.0",
+            "end_node": "0.9.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-xdist",
+            "start_node": "3.0.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.13.3",
+        "upload_time": "2020-09-24T23:58:20",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.9.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coverage",
+            "start_node": "6.0.0",
+            "end_node": "5.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "invoke",
+            "start_node": "2.0.0",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs-material",
+            "start_node": "6.0.0",
+            "end_node": "5.5.12",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mypy",
+            "start_node": "0.783",
+            "end_node": "0.782",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "7.0.0",
+            "end_node": "6.0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "3.0.0",
+            "end_node": "2.10.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-randomly",
+            "start_node": "4.0.0",
+            "end_node": "3.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-sugar",
+            "start_node": "0.10.0",
+            "end_node": "0.9.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-xdist",
+            "start_node": "3.0.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.13.2",
+        "upload_time": "2020-09-08T15:07:21",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.8.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "coverage",
+            "start_node": "6.0.0",
+            "end_node": "5.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "invoke",
+            "start_node": "2.0.0",
+            "end_node": "1.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mypy",
+            "start_node": "0.783",
+            "end_node": "0.782",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "7.0.0",
+            "end_node": "6.0.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-randomly",
+            "start_node": "4.0.0",
+            "end_node": "3.4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-sugar",
+            "start_node": "0.10.0",
+            "end_node": "0.9.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-xdist",
+            "start_node": "3.0.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.13.1",
+        "upload_time": "2020-09-03T17:55:23",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.8.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.13.0",
+        "upload_time": "2020-08-21T19:09:33",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "9.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.8.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.12.2",
+        "upload_time": "2020-07-24T19:43:28",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "8.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.8.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.12.1",
+        "upload_time": "2020-07-07T18:20:48",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "8.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.7.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.12.0",
+        "upload_time": "2020-06-16T18:04:28",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.7.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "8.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.4",
+        "upload_time": "2020-06-08T20:56:07",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "8.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.6.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.3",
+        "upload_time": "2020-06-07T14:05:11",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "8.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.5.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.2",
+        "upload_time": "2020-05-20T19:00:56",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "8.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.5.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.11.1",
+        "upload_time": "2020-05-14T17:39:51",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "8.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.4.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.0",
+        "upload_time": "2020-04-23T16:12:26",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.4.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "8.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.3",
+        "upload_time": "2020-04-10T11:22:13",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "8.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.4.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.2",
+        "upload_time": "2020-04-07T16:54:23",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "8.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.3.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.1",
+        "upload_time": "2020-04-03T16:51:20",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pymdown-extensions",
+            "start_node": "7.0",
+            "end_node": "6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.3.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.10.0",
+        "upload_time": "2020-03-27T17:42:58",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.3.0",
+            "end_node": "0.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.9.1",
+        "upload_time": "2020-03-21T15:29:26",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.2.0",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.9.0",
+        "upload_time": "2020-03-21T14:42:43",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pytkdocs",
+            "start_node": "0.2.0",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "2.0",
+            "end_node": "1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2020-03-04T20:28:49",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mkdocs",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.2",
+        "upload_time": "2020-03-04T20:17:13",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.7.1",
+        "upload_time": "2020-02-18T18:07:37",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2020-01-13T22:25:45",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2020-01-02T21:07:53",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2019-12-28T18:33:19",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2019-12-22T22:07:03",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2019-12-22T11:02:45",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2019-12-21T22:02:48",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2019-12-15T21:50:54",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2019-12-12T22:16:17",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

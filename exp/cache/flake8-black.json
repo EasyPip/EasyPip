@@ -1,0 +1,788 @@
+{
+  "flake8-black": {
+    "summary": "flake8 plugin to call black as a code style validator",
+    "potential_require": [
+      "tomli",
+      "black",
+      "flake8",
+      "toml"
+    ],
+    "version_list": [
+      {
+        "version": "0.3.3",
+        "upload_time": "2022-05-16T09:20:23",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tomli",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "22.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flake8",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2022-02-25T16:28:03",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tomli",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "22.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flake8",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2022-02-25T15:06:00",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tomli",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "22.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flake8",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2022-02-25T14:59:39",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "22.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flake8",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.5",
+        "upload_time": "2022-02-25T11:15:24",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flake8",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.4",
+        "upload_time": "2022-01-30T12:36:49",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flake8",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp39",
+              "cp37",
+              "cp32",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.3",
+        "upload_time": "2021-07-16T22:59:22",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "toml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flake8",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2021-07-16T21:24:04",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "flake8",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp33",
+              "cp38",
+              "cp31",
+              "cp35",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2021-04-15T22:33:52",
+        "python_require": [
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2020-05-20T22:29:02",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.2",
+        "upload_time": "2020-05-18T21:44:17",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2019-08-26T13:09:53",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2019-06-03T14:38:06",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.4",
+        "upload_time": "2019-03-15T19:44:32",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.3",
+        "upload_time": "2019-02-21T19:19:02",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.2",
+        "upload_time": "2019-02-15T11:36:53",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.1",
+        "upload_time": "2019-01-10T14:51:17",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp32",
+          "cp39"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

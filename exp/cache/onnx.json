@@ -1,0 +1,779 @@
+{
+  "onnx": {
+    "summary": "Open Neural Network Exchange",
+    "potential_require": [
+      "numpy",
+      "protobuf",
+      "typing-extensions",
+      "six",
+      "typing"
+    ],
+    "version_list": [
+      {
+        "version": "1.12.0",
+        "upload_time": "2022-06-18T02:40:36",
+        "python_require": [
+          "cp310",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.16.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "3.20.1",
+            "end_node": "3.12.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.6.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.11.0",
+        "upload_time": "2022-02-17T19:29:53",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.10.2",
+        "upload_time": "2021-10-26T19:14:09",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.16.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.6.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.10.1",
+        "upload_time": "2021-08-02T20:16:08",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.10.0",
+        "upload_time": "2021-07-31T00:59:04",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.16.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.6.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.9.0",
+        "upload_time": "2021-04-19T19:22:57",
+        "python_require": [
+          "cp36",
+          "cp39",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.16.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.6.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp39",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.6.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": []
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.8.1",
+        "upload_time": "2021-01-29T23:57:20",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.8.0",
+        "upload_time": "2020-11-06T22:46:10",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp37",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.6.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp37",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.6.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": []
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.7.0",
+        "upload_time": "2020-05-08T23:42:27",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp38",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.6.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.6.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp37",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp37",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp37",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp38",
+              "cp35",
+              "cp37",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.6.0",
+        "upload_time": "2019-09-28T00:43:38",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.6.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "3.6.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp37",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp37",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp37",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp36",
+              "cp37",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.0",
+        "upload_time": "2019-04-24T18:41:15",
+        "python_require": [
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.4.1",
+        "upload_time": "2019-01-24T01:43:34",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.4.0",
+        "upload_time": "2019-01-23T21:30:29",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.2.3",
+        "upload_time": "2018-09-10T20:04:19",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.3.0",
+        "upload_time": "2018-08-31T23:26:35",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.2.2",
+        "upload_time": "2018-06-19T21:20:53",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.2.1",
+        "upload_time": "2018-05-25T19:46:50",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.1.2",
+        "upload_time": "2018-04-27T22:38:46",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2018-03-28T00:43:18",
+        "python_require": [
+          "cp35",
+          "cp36",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.1.1",
+        "upload_time": "2018-03-22T17:29:41",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2018-03-21T06:06:04",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2017-12-04T23:39:43",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2017-10-25T02:27:11",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2",
+        "upload_time": "2017-10-10T04:54:37",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1",
+        "upload_time": "2017-09-07T07:46:59",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp35",
+          "cp37",
+          "cp34",
+          "cp39",
+          "cp310",
+          "cp36",
+          "cp31",
+          "cp38",
+          "cp30",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

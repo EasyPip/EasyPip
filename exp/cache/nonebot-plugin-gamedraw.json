@@ -1,0 +1,4158 @@
+{
+  "nonebot-plugin-gamedraw": {
+    "summary": "nonebot2 \u5b9e\u73b0\u81ea\u52a8\u66f4\u65b0\u7684 \u539f\u795e/\u660e\u65e5\u65b9\u821f/\u8d5b\u9a6c\u5a18/\u574e\u516c\u9a91\u51a0\u5251/\u516c\u4e3b\u8fde\u7ed3/\u78a7\u84dd\u822a\u7ebf/FGO/\u9634\u9633\u5e08 \u62bd\u5361\u63d2\u4ef6",
+    "potential_require": [
+      "nonebot2",
+      "nonebot-adapter-onebot",
+      "nonebot-plugin-apscheduler",
+      "aiofiles",
+      "aiohttp",
+      "cachetools",
+      "cn2an",
+      "dateparser",
+      "lxml",
+      "Pillow",
+      "pypinyin",
+      "typing-extensions",
+      "ujson",
+      "beautifulsoup4"
+    ],
+    "version_list": [
+      {
+        "version": "0.3.8",
+        "upload_time": "2022-06-18T12:14:31",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "6.0.0",
+            "end_node": "5.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cn2an",
+            "start_node": "0.6.0",
+            "end_node": "0.5.16",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dateparser",
+            "start_node": "2.0.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "10.0.0",
+            "end_node": "9.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "6.0.0",
+            "end_node": "5.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.6",
+        "upload_time": "2022-06-18T11:05:55",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "6.0.0",
+            "end_node": "5.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cn2an",
+            "start_node": "0.6.0",
+            "end_node": "0.5.16",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dateparser",
+            "start_node": "2.0.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.5",
+        "upload_time": "2022-03-20T06:12:58",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dateparser",
+            "start_node": "2.0.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cn2an",
+            "start_node": "0.6.0",
+            "end_node": "0.5.16",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "6.0.0",
+            "end_node": "5.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.4",
+        "upload_time": "2022-02-26T03:34:18",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dateparser",
+            "start_node": "2.0.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cn2an",
+            "start_node": "0.6.0",
+            "end_node": "0.5.16",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cachetools",
+            "start_node": "6.0.0",
+            "end_node": "5.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.3",
+        "upload_time": "2022-02-25T14:14:21",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dateparser",
+            "start_node": "2.0.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cn2an",
+            "start_node": "0.6.0",
+            "end_node": "0.5.16",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2022-02-25T13:27:14",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dateparser",
+            "start_node": "2.0.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cn2an",
+            "start_node": "0.6.0",
+            "end_node": "0.5.16",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2022-02-25T10:55:46",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dateparser",
+            "start_node": "2.0.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cn2an",
+            "start_node": "0.6.0",
+            "end_node": "0.5.16",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2022-02-23T13:46:00",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.9",
+        "upload_time": "2022-02-23T13:12:52",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.8",
+        "upload_time": "2022-02-18T12:42:46",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.7",
+        "upload_time": "2022-02-18T09:26:11",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.6",
+        "upload_time": "2022-02-12T03:10:53",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.5",
+        "upload_time": "2022-02-11T14:00:11",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "5.0.0",
+            "end_node": "4.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "5.0.0",
+            "end_node": "3.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypinyin",
+            "start_node": "0.43.0",
+            "end_node": "0.42.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pillow",
+            "start_node": "9.0.0",
+            "end_node": "8.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "beautifulsoup4",
+            "start_node": "5.0.0",
+            "end_node": "4.9.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4.0.0",
+            "end_node": "3.7.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.9.0",
+            "end_node": "0.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-plugin-apscheduler",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot-adapter-onebot",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.4",
+        "upload_time": "2022-02-09T04:27:18",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.2.3",
+        "upload_time": "2022-02-07T10:35:02",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2022-02-02T03:17:04",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2022-01-28T06:40:21",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2022-01-06T12:26:52",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.9",
+        "upload_time": "2022-01-06T11:59:15",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.9.9",
+        "upload_time": "2021-12-31T10:37:06",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.9.8",
+        "upload_time": "2021-12-29T07:15:38",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.9.7",
+        "upload_time": "2021-12-17T08:13:03",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.9.6",
+        "upload_time": "2021-12-16T03:40:58",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.9.5",
+        "upload_time": "2021-12-01T13:19:56",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.9.4",
+        "upload_time": "2021-11-26T07:17:34",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.9.3",
+        "upload_time": "2021-10-14T08:54:50",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.9.2",
+        "upload_time": "2021-10-01T05:34:19",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.8.9.1",
+        "upload_time": "2021-10-01T05:24:22",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.9.0",
+        "upload_time": "2021-09-01T12:05:36",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.8.9",
+        "upload_time": "2021-07-29T15:03:38",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.8.7",
+        "upload_time": "2021-07-11T06:45:37",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.8.6",
+        "upload_time": "2021-07-04T18:28:29",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.8.4",
+        "upload_time": "2021-07-02T03:57:19",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.8.8.3",
+        "upload_time": "2021-06-29T12:07:41",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.8.5",
+        "upload_time": "2021-07-02T09:10:59",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.8.3",
+        "upload_time": "2021-06-28T13:04:43",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.8.2",
+        "upload_time": "2021-06-29T08:17:29",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.8.1",
+        "upload_time": "2021-06-28T00:27:39",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.8.0",
+        "upload_time": "2021-06-24T07:02:58",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.7",
+        "upload_time": "2021-06-20T13:35:38",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.7.9",
+        "upload_time": "2021-06-24T06:24:10",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.7.8",
+        "upload_time": "2021-06-23T08:19:05",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.7.7",
+        "upload_time": "2021-06-22T15:24:01",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.7.6",
+        "upload_time": "2021-06-22T15:22:22",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.7.5",
+        "upload_time": "2021-06-22T15:17:31",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.7.7.1",
+        "upload_time": "2021-06-20T13:59:03",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.7.8",
+        "upload_time": "2021-06-17T02:17:43",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.7.7",
+        "upload_time": "2021-06-17T01:11:14",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.7.6",
+        "upload_time": "2021-06-17T00:42:49",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.7.5",
+        "upload_time": "2021-06-16T16:53:31",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.7.3",
+        "upload_time": "2021-06-13T10:07:03",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.7.2",
+        "upload_time": "2021-06-16T16:40:30",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.7.1",
+        "upload_time": "2021-06-09T07:58:15",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.7.0",
+        "upload_time": "2021-06-07T14:20:07",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.6.8",
+        "upload_time": "2021-06-07T13:36:45",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.6.7",
+        "upload_time": "2021-06-07T01:29:56",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.6.6",
+        "upload_time": "2021-06-05T09:30:35",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.6.5",
+        "upload_time": "2021-06-05T08:59:00",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.6.4",
+        "upload_time": "2021-06-03T07:25:33",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.6.3",
+        "upload_time": "2021-06-03T06:43:30",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.6.2",
+        "upload_time": "2021-06-03T06:25:21",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.6.1",
+        "upload_time": "2021-06-03T06:22:46",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.6.0",
+        "upload_time": "2021-06-03T05:53:40",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.5",
+        "upload_time": "2021-05-31T04:27:55",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.5.9",
+        "upload_time": "2021-06-03T01:39:01",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.5.8",
+        "upload_time": "2021-06-03T01:02:07",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.5.7",
+        "upload_time": "2021-06-02T14:42:27",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.5.6",
+        "upload_time": "2021-06-02T12:47:22",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.5.5",
+        "upload_time": "2021-05-31T14:03:00",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.5.3",
+        "upload_time": "2021-05-31T07:59:31",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.5.2",
+        "upload_time": "2021-05-31T07:47:19",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.5.1",
+        "upload_time": "2021-05-31T06:15:17",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.4",
+        "upload_time": "2021-05-31T04:07:52",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.3",
+        "upload_time": "2021-05-31T03:12:22",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.2",
+        "upload_time": "2021-05-29T08:39:25",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.1",
+        "upload_time": "2021-05-28T12:18:47",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.6.0",
+        "upload_time": "2021-05-28T11:49:19",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.5.9",
+        "upload_time": "2021-05-28T10:48:36",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.5.8",
+        "upload_time": "2021-05-27T09:27:28",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.5.7",
+        "upload_time": "2021-05-27T02:06:31",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.5.6",
+        "upload_time": "2021-05-26T11:14:42",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.5.5",
+        "upload_time": "2021-05-26T09:31:18",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.5.4",
+        "upload_time": "2021-05-26T09:04:58",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.5.3",
+        "upload_time": "2021-05-24T08:58:18",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.5.2",
+        "upload_time": "2021-05-24T03:31:56",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.5.1",
+        "upload_time": "2021-05-24T03:21:00",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4",
+        "upload_time": "2021-05-18T15:49:38",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4.9",
+        "upload_time": "2021-05-23T06:15:48",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4.8",
+        "upload_time": "2021-05-21T08:26:26",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4.7",
+        "upload_time": "2021-05-21T08:17:41",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4.6",
+        "upload_time": "2021-05-21T08:06:35",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4.5",
+        "upload_time": "2021-05-21T08:04:29",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4.4",
+        "upload_time": "2021-05-21T02:36:44",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4.3",
+        "upload_time": "2021-05-19T11:21:59",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4.2",
+        "upload_time": "2021-05-19T03:00:25",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.4.1",
+        "upload_time": "2021-05-19T00:22:13",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.3",
+        "upload_time": "2021-05-18T15:44:15",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.2",
+        "upload_time": "2021-05-18T15:30:38",
+        "python_require": [
+          "cp012"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2021-05-17T02:47:44",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

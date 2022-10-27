@@ -1,0 +1,73 @@
+{
+  "asyncodbc": {
+    "summary": "Forked from aioodbc and make improvement",
+    "potential_require": [
+      "pyodbc"
+    ],
+    "version_list": [
+      {
+        "version": "0.1.1",
+        "upload_time": "2022-05-20T04:44:42",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyodbc",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2022-04-13T13:04:16",
+        "python_require": [
+          "cp311",
+          "cp35",
+          "cp39",
+          "cp37",
+          "cp38",
+          "cp310",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyodbc",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp36",
+              "cp35",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

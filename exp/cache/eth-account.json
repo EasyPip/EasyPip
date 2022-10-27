@@ -1,0 +1,1860 @@
+{
+  "eth-account": {
+    "summary": "eth-account: Sign Ethereum transactions and messages with local private keys",
+    "potential_require": [
+      "rlp",
+      "hexbytes",
+      "eth-utils",
+      "eth-rlp",
+      "eth-keys",
+      "eth-keyfile",
+      "eth-abi",
+      "bitarray",
+      "attrdict"
+    ],
+    "version_list": [
+      {
+        "version": "0.5.9",
+        "upload_time": "2022-08-04T21:22:58",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "3",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "2",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keys",
+            "start_node": "0.4.0",
+            "end_node": "0.3.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "3",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.8",
+        "upload_time": "2022-06-06T21:08:44",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "3",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "2",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keys",
+            "start_node": "0.4.0",
+            "end_node": "0.3.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "3",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2022-02-24T18:39:41",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "4",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "3",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "1",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keys",
+            "start_node": "0.5",
+            "end_node": "0.4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "4",
+            "end_node": "3.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "1.3.0",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.7",
+        "upload_time": "2022-01-27T21:52:18",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "3",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "2",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keys",
+            "start_node": "0.4.0",
+            "end_node": "0.3.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "1.3.0",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2022-01-20T20:54:34",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "4",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "3",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "1",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keys",
+            "start_node": "0.5",
+            "end_node": "0.4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "4",
+            "end_node": "3.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "1.3.0",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.6",
+        "upload_time": "2021-09-22T22:15:35",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "3",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "2",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.3.2<0.4.0>=0.2.1"
+            ],
+            "package_name": "eth-keys",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "1.3.0",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.5",
+        "upload_time": "2021-07-21T23:14:57",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "3",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "2",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.3.2<0.4.0>=0.2.1"
+            ],
+            "package_name": "eth-keys",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "1.3.0",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.4",
+        "upload_time": "2020-10-14T17:30:10",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "3",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "2",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.3.2<0.4.0>=0.2.1"
+            ],
+            "package_name": "eth-keys",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "1.3.0",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.3",
+        "upload_time": "2020-08-31T22:31:58",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "2.0.0.alpha-1",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "1",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.3.2<0.4.0>=0.2.1"
+            ],
+            "package_name": "eth-keys",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "1.3.0",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2020-04-30T17:33:46",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "2",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "1",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.3.2<0.4.0>=0.2.1"
+            ],
+            "package_name": "eth-keys",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "1.3.0",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2020-04-23T20:36:43",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "2",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "1",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "0.3.2<0.4.0>=0.2.1"
+            ],
+            "package_name": "eth-keys",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "1.3.0",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2020-03-30T19:50:36",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "2",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "1",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keys",
+            "start_node": "0.4.0",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "bitarray",
+            "start_node": "1.3.0",
+            "end_node": "1.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrdict",
+            "start_node": "3",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2019-05-06T18:53:21",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "rlp",
+            "start_node": "2",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hexbytes",
+            "start_node": "1",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-utils",
+            "start_node": "2",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-rlp",
+            "start_node": "1",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keys",
+            "start_node": "0.3.0",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-keyfile",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "eth-abi",
+            "start_node": "3",
+            "end_node": "2.0.0b7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "attrdict",
+            "start_node": "3",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp38",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2018-07-24T19:12:51",
+        "python_require": [
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.2.3",
+        "upload_time": "2018-05-27T20:06:05",
+        "python_require": [
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2018-04-26T02:07:00",
+        "python_require": [
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2018-04-24T00:58:47",
+        "python_require": [
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2018-04-20T00:29:52",
+        "python_require": [
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0a0",
+        "upload_time": "2018-04-07T00:52:11",
+        "python_require": [
+          "cp36"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.0a2",
+        "upload_time": "2018-02-01T23:17:39",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.0a1",
+        "upload_time": "2018-01-24T21:54:56",
+        "python_require": [
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

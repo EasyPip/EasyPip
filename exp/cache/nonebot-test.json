@@ -1,0 +1,72 @@
+{
+  "nonebot-test": {
+    "summary": "Test frontend for nonebot v2+",
+    "potential_require": [
+      "nonebot2",
+      "python-socketio",
+      "aiofiles"
+    ],
+    "version_list": [
+      {
+        "version": "0.1.0",
+        "upload_time": "2020-10-08T13:11:43",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-socketio",
+            "start_node": "5.0.0",
+            "end_node": "4.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiofiles",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

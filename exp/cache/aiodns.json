@@ -1,0 +1,632 @@
+{
+  "aiodns": {
+    "summary": "Simple DNS resolver for asyncio",
+    "potential_require": [
+      "pycares",
+      "typing",
+      "asyncio",
+      "trollius"
+    ],
+    "version_list": [
+      {
+        "version": "3.0.0",
+        "upload_time": "2021-05-14T08:52:08",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp34",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycares",
+            "start_node": "START",
+            "end_node": "4.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp39",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp34",
+              "cp38",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2019-03-02T12:02:22",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycares",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0b2",
+        "upload_time": "2019-02-06T08:19:59",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycares",
+            "start_node": "START",
+            "end_node": "3.0.0b4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0b1",
+        "upload_time": "2019-01-29T14:35:00",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycares",
+            "start_node": "START",
+            "end_node": "3.0.0b2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0b0",
+        "upload_time": "2019-01-18T19:50:45",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycares",
+            "start_node": "START",
+            "end_node": "3.0.0b2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.2.0",
+        "upload_time": "2019-01-17T08:03:25",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "asyncio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "trollius",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycares",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.1",
+        "upload_time": "2016-08-28T08:48:21",
+        "python_require": [
+          "cp31",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycares",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "trollius",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncio",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2016-08-27T19:32:50",
+        "python_require": [
+          "cp31",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pycares",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "trollius",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp35",
+              "cp32",
+              "cp27",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2016-01-25T08:28:43",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp310",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp311",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2015-09-12T10:01:43",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp310",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp311",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2015-04-20T06:47:43",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp310",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp311",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2014-09-24T19:27:28",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp310",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp311",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2014-04-06T10:58:11",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp310",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp311",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2014-03-29T08:05:15",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp310",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp311",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2014-03-27T08:03:42",
+        "python_require": [
+          "cp31",
+          "cp37",
+          "cp39",
+          "cp33",
+          "cp35",
+          "cp32",
+          "cp310",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp311",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

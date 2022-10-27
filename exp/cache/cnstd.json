@@ -1,0 +1,2545 @@
+{
+  "cnstd": {
+    "summary": "Python3 package for Chinese/English STR (Scene Text Recognition), with small pretrained models",
+    "potential_require": [
+      "onnxruntime",
+      "onnx",
+      "matplotlib",
+      "pyclipper",
+      "Polygon3",
+      "shapely",
+      "opencv-python",
+      "pillow",
+      "pytorch-lightning",
+      "scipy",
+      "numpy",
+      "torchvision",
+      "torch",
+      "unidecode",
+      "tqdm",
+      "click",
+      "gluoncv",
+      "mxnet",
+      "TensorboardX"
+    ],
+    "version_list": [
+      {
+        "version": "1.2",
+        "upload_time": "2022-07-06T12:58:01",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "onnxruntime",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "onnx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyclipper",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Polygon3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "shapely",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "opencv-python",
+            "start_node": "START",
+            "end_node": "4.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pillow",
+            "start_node": "START",
+            "end_node": "5.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytorch-lightning",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torchvision",
+            "start_node": "START",
+            "end_node": "0.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torch",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "unidecode",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.2",
+        "upload_time": "2022-05-27T13:24:25",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyclipper",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Polygon3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "shapely",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "opencv-python",
+            "start_node": "START",
+            "end_node": "4.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pillow",
+            "start_node": "START",
+            "end_node": "5.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytorch-lightning",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torchvision",
+            "start_node": "START",
+            "end_node": "0.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torch",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "unidecode",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.1",
+        "upload_time": "2021-12-05T08:12:39",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyclipper",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Polygon3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "shapely",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "opencv-python",
+            "start_node": "START",
+            "end_node": "4.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pillow",
+            "start_node": "START",
+            "end_node": "5.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytorch-lightning",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torchvision",
+            "start_node": "START",
+            "end_node": "0.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torch",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "unidecode",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2021-09-20T10:56:00",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyclipper",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Polygon3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "shapely",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "opencv-python",
+            "start_node": "START",
+            "end_node": "4.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pillow",
+            "start_node": "START",
+            "end_node": "5.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytorch-lightning",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torchvision",
+            "start_node": "START",
+            "end_node": "0.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torch",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "unidecode",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2021-08-30T05:34:21",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyclipper",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Polygon3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "shapely",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "opencv-python",
+            "start_node": "START",
+            "end_node": "4.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pillow",
+            "start_node": "START",
+            "end_node": "5.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytorch-lightning",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torchvision",
+            "start_node": "START",
+            "end_node": "0.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torch",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "unidecode",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2021-08-26T09:52:00",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyclipper",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Polygon3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "shapely",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "opencv-python",
+            "start_node": "START",
+            "end_node": "4.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pillow",
+            "start_node": "START",
+            "end_node": "5.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytorch-lightning",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torchvision",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "torch",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "unidecode",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tqdm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.2",
+        "upload_time": "2021-08-24T03:27:52",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gluoncv",
+            "start_node": "0.7.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mxnet",
+            "start_node": "1.8.0",
+            "end_node": "1.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pillow",
+            "start_node": "START",
+            "end_node": "5.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "1.20.0",
+            "end_node": "1.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "opencv-python",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "TensorboardX",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyclipper",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Polygon3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "shapely",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp39",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2020-07-01T04:11:16",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gluoncv",
+            "start_node": "0.7.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mxnet",
+            "start_node": "1.8.0",
+            "end_node": "1.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pillow",
+            "start_node": "START",
+            "end_node": "5.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "1.20.0",
+            "end_node": "1.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "opencv-python",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "TensorboardX",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyclipper",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Polygon3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "shapely",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2020-06-02T11:34:43",
+        "python_require": [
+          "cp33",
+          "cp31",
+          "cp36",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gluoncv",
+            "start_node": "0.7.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mxnet",
+            "start_node": "1.8.0",
+            "end_node": "1.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pillow",
+            "start_node": "START",
+            "end_node": "5.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "1.20.0",
+            "end_node": "1.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "opencv-python",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "TensorboardX",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyclipper",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Polygon3",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "shapely",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp35",
+              "cp34",
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

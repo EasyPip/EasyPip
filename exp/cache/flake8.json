@@ -1,0 +1,6214 @@
+{
+  "flake8": {
+    "summary": "the modular source code checker: pep8 pyflakes and co",
+    "potential_require": [
+      "mccabe",
+      "pycodestyle",
+      "pyflakes",
+      "importlib-metadata",
+      "configparser",
+      "functools32",
+      "enum34",
+      "typing",
+      "entrypoints",
+      "setuptools",
+      "pep8"
+    ],
+    "version_list": [
+      {
+        "version": "4.0.1",
+        "upload_time": "2021-10-11T12:42:47",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.9.0",
+            "end_node": "2.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.5.0",
+            "end_node": "2.4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "4.3",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0",
+        "upload_time": "2021-10-11T02:09:38",
+        "python_require": [
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.9.0",
+            "end_node": "2.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.5.0",
+            "end_node": "2.4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp37",
+              "cp311",
+              "cp38",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "4.3",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.9.2",
+        "upload_time": "2021-05-08T19:52:32",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.4.0",
+            "end_node": "2.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.8.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.9.1",
+        "upload_time": "2021-04-16T03:54:10",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.4.0",
+            "end_node": "2.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.8.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.9.0",
+        "upload_time": "2021-03-14T23:32:11",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.4.0",
+            "end_node": "2.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.8.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.8.4",
+        "upload_time": "2020-10-02T23:34:01",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.3.0",
+            "end_node": "2.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.7.0",
+            "end_node": "2.6.0a1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.8.3",
+        "upload_time": "2020-06-08T19:30:37",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.3.0",
+            "end_node": "2.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.7.0",
+            "end_node": "2.6.0a1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.8.2",
+        "upload_time": "2020-05-22T22:39:12",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.3.0",
+            "end_node": "2.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.7.0",
+            "end_node": "2.6.0a1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.8.1",
+        "upload_time": "2020-05-12T05:35:46",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.3.0",
+            "end_node": "2.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.7.0",
+            "end_node": "2.6.0a1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.8.0",
+        "upload_time": "2020-05-11T20:45:14",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.3.0",
+            "end_node": "2.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.7.0",
+            "end_node": "2.6.0a1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.8.0a2",
+        "upload_time": "2020-04-24T17:58:43",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.3.0",
+            "end_node": "2.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.7.0",
+            "end_node": "2.6.0a1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.8.0a1",
+        "upload_time": "2020-04-24T17:38:27",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.3.0",
+            "end_node": "2.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.7.0",
+            "end_node": "2.6.0a1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.7.9",
+        "upload_time": "2019-10-28T17:36:56",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.2.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.6.0",
+            "end_node": "2.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.7.8",
+        "upload_time": "2019-07-08T18:25:09",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.2.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.6.0",
+            "end_node": "2.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.7.7",
+        "upload_time": "2019-02-25T16:37:27",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.2.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.6.0",
+            "end_node": "2.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.7.6",
+        "upload_time": "2019-02-18T20:00:49",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.2.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.6.0",
+            "end_node": "2.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.7.5",
+        "upload_time": "2019-02-04T16:37:56",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.2.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.6.0",
+            "end_node": "2.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.7.4",
+        "upload_time": "2019-02-01T03:53:17",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.2.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.6.0",
+            "end_node": "2.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "functools32",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.7.3",
+        "upload_time": "2019-01-31T03:56:14",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.2.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.6.0",
+            "end_node": "2.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.7.2",
+        "upload_time": "2019-01-30T20:52:28",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.2.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.6.0",
+            "end_node": "2.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.7.1",
+        "upload_time": "2019-01-30T08:08:51",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.2.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.6.0",
+            "end_node": "2.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.7.0",
+        "upload_time": "2019-01-30T04:44:02",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "entrypoints",
+            "start_node": "0.4.0",
+            "end_node": "0.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.2.0",
+            "end_node": "2.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.6.0",
+            "end_node": "2.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.6.0",
+        "upload_time": "2018-10-24T04:05:14",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "2.1.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.5.0",
+            "end_node": "2.4.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools",
+            "start_node": "START",
+            "end_node": "30",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.5.0",
+        "upload_time": "2017-10-23T11:16:10",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "1.7.0",
+            "end_node": "1.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.4.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.4.1",
+        "upload_time": "2017-07-28T11:22:39",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "1.6.0",
+            "end_node": "1.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.4.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.4.0",
+        "upload_time": "2017-07-27T23:58:00",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "1.6.0",
+            "end_node": "1.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.4.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.3.0",
+        "upload_time": "2017-02-07T02:11:55",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "1.6.0",
+            "end_node": "1.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.4.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.7.0",
+            "end_node": "0.6.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp33",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.2.1",
+        "upload_time": "2016-11-21T21:55:03",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.4.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.3.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.2.0",
+        "upload_time": "2016-11-14T22:39:13",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.4.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.3.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.1.1",
+        "upload_time": "2016-11-14T15:55:46",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.4.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.2.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.0",
+        "upload_time": "2016-11-14T12:56:02",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.4",
+        "upload_time": "2016-08-08T10:37:18",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.3",
+        "upload_time": "2016-07-30T11:59:25",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.2",
+        "upload_time": "2016-07-27T00:51:29",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.1",
+        "upload_time": "2016-07-26T00:44:47",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2016-07-25T11:12:57",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.0b2",
+        "upload_time": "2016-06-29T01:48:53",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.6.2",
+        "upload_time": "2016-06-25T17:11:50",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.0b1",
+        "upload_time": "2016-06-25T17:02:30",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "configparser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1.0",
+            "end_node": "2.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6.0",
+            "end_node": "0.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.6.1",
+        "upload_time": "2016-06-25T16:39:30",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.0",
+              "1.2.1",
+              "1.2.2"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.6.0",
+        "upload_time": "2016-06-16T00:39:22",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.6",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pycodestyle",
+            "start_node": "2.1",
+            "end_node": "2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.2.1",
+              "1.2.2",
+              "1.2.0"
+            ],
+            "package_name": "pyflakes",
+            "start_node": "1.3",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.5",
+        "upload_time": "2016-06-14T14:08:29",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.5",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.6.0",
+              "1.6.1",
+              "1.6.2"
+            ],
+            "package_name": "pep8",
+            "start_node": "START",
+            "end_node": "1.5.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "1.1",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.4",
+        "upload_time": "2016-02-11T17:54:30",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "1.1",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.6.0",
+              "1.6.1",
+              "1.6.2"
+            ],
+            "package_name": "pep8",
+            "start_node": "START",
+            "end_node": "1.5.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.5",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.3",
+        "upload_time": "2016-02-11T17:21:45",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "1.1",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.6.0",
+              "1.6.1",
+              "1.6.2"
+            ],
+            "package_name": "pep8",
+            "start_node": "START",
+            "end_node": "1.5.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.5",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.5.2",
+        "upload_time": "2016-01-30T14:50:20",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "1.1",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.6.0",
+              "1.6.1",
+              "1.6.2"
+            ],
+            "package_name": "pep8",
+            "start_node": "START",
+            "end_node": "1.5.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.5",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.5.1",
+        "upload_time": "2015-12-08T04:57:03",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "1.1",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.6.0",
+              "1.6.1",
+              "1.6.2"
+            ],
+            "package_name": "pep8",
+            "start_node": "START",
+            "end_node": "1.5.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.4",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.0",
+        "upload_time": "2015-10-26T14:15:28",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "1.1",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.6.0",
+              "1.6.1",
+              "1.6.2"
+            ],
+            "package_name": "pep8",
+            "start_node": "START",
+            "end_node": "1.5.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.4",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.1",
+        "upload_time": "2015-05-18T23:46:04",
+        "python_require": [
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "0.9",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.6.0",
+              "1.6.1",
+              "1.6.2"
+            ],
+            "package_name": "pep8",
+            "start_node": "START",
+            "end_node": "1.5.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.4",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.4.0",
+        "upload_time": "2015-03-08T02:44:29",
+        "python_require": [
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "0.9",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pep8",
+            "start_node": "1.6",
+            "end_node": "1.5.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "0.4",
+            "end_node": "0.2.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.3.0",
+        "upload_time": "2015-01-04T20:50:25",
+        "python_require": [
+          "cp27",
+          "cp31",
+          "cp30",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyflakes",
+            "start_node": "START",
+            "end_node": "0.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pep8",
+            "start_node": "START",
+            "end_node": "1.5.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mccabe",
+            "start_node": "START",
+            "end_node": "0.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp33",
+              "cp34",
+              "cp31",
+              "cp30",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.5",
+        "upload_time": "2014-10-20T02:27:40",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "2.2.4",
+        "upload_time": "2014-10-09T21:57:59",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.2.3",
+        "upload_time": "2014-08-26T00:05:36",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "2.2.2",
+        "upload_time": "2014-07-05T02:53:55",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.2.1",
+        "upload_time": "2014-06-30T13:50:45",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.2.0",
+        "upload_time": "2014-06-23T02:22:33",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2013-10-26T20:26:00",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "2.0",
+        "upload_time": "2013-02-23T22:37:03",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.7.0",
+        "upload_time": "2012-12-21T22:51:32",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.6.2",
+        "upload_time": "2012-11-25T10:55:24",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.6.1",
+        "upload_time": "2012-11-25T01:54:44",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.6",
+        "upload_time": "2012-11-17T00:51:12",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.5",
+        "upload_time": "2012-10-13T14:14:06",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.4",
+        "upload_time": "2012-07-10T16:32:37",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.3.1",
+        "upload_time": "2012-05-19T19:22:16",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.3",
+        "upload_time": "2012-03-22T10:35:41",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.2",
+        "upload_time": "2012-03-10T16:37:51",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.1",
+        "upload_time": "2012-02-14T13:27:41",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.0",
+        "upload_time": "2011-11-29T13:44:29",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.9",
+        "upload_time": "2011-11-09T14:49:54",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.8",
+        "upload_time": "2011-02-27T17:32:56",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7",
+        "upload_time": "2011-02-18T09:24:28",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6",
+        "upload_time": "2011-02-15T11:56:37",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5",
+        "upload_time": "2011-02-13T13:23:15",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.4",
+        "upload_time": "2011-02-08T12:09:38",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3",
+        "upload_time": "2011-02-08T11:48:48",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2",
+        "upload_time": "2011-01-26T12:00:15",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1",
+        "upload_time": "2010-08-12T15:36:04",
+        "python_require": [
+          "cp35",
+          "cp27",
+          "cp36",
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp39",
+          "cp32",
+          "cp33",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

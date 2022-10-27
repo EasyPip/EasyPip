@@ -1,0 +1,640 @@
+{
+  "pandas-ods-reader": {
+    "summary": "Read in .ods and .fods files and return a pandas.DataFrame.",
+    "potential_require": [
+      "pandas",
+      "lxml",
+      "importlib_metadata",
+      "ezodf"
+    ],
+    "version_list": [
+      {
+        "version": "0.1.4",
+        "upload_time": "2021-10-04T15:54:31",
+        "python_require": [
+          "cp38",
+          "cp310",
+          "cp37",
+          "cp39",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "2.0.0",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp37",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "5.0.0",
+            "end_node": "4.6.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp37",
+              "cp39",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib_metadata",
+            "start_node": "5.0.0",
+            "end_node": "4.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ezodf",
+            "start_node": "0.4.0",
+            "end_node": "0.3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp37",
+              "cp39",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2021-10-04T15:15:16",
+        "python_require": [
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp38",
+          "cp32",
+          "cp34",
+          "cp39",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp32",
+              "cp34",
+              "cp39",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp32",
+              "cp34",
+              "cp39",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ezodf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp32",
+              "cp34",
+              "cp39",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.2",
+        "upload_time": "2021-08-22T17:58:37",
+        "python_require": [
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp38",
+          "cp32",
+          "cp34",
+          "cp39",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp32",
+              "cp34",
+              "cp39",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp32",
+              "cp34",
+              "cp39",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ezodf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp32",
+              "cp34",
+              "cp39",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2021-08-22T17:16:18",
+        "python_require": [
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp38",
+          "cp32",
+          "cp34",
+          "cp39",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp32",
+              "cp34",
+              "cp39",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp32",
+              "cp34",
+              "cp39",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ezodf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp38",
+              "cp32",
+              "cp34",
+              "cp39",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.7",
+        "upload_time": "2019-06-08T14:27:10",
+        "python_require": [
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp32",
+          "cp34",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ezodf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.0.6",
+        "upload_time": "2019-01-31T22:47:29",
+        "python_require": [
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp32",
+          "cp34",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ezodf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.3",
+        "upload_time": "2019-01-28T22:36:28",
+        "python_require": [
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp32",
+          "cp34",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "lxml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ezodf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.0.2",
+        "upload_time": "2019-01-28T20:54:46",
+        "python_require": [
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp32",
+          "cp34",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ezodf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.0.1",
+        "upload_time": "2019-01-28T20:25:14",
+        "python_require": [
+          "cp31",
+          "cp30",
+          "cp35",
+          "cp37",
+          "cp36",
+          "cp32",
+          "cp34",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ezodf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

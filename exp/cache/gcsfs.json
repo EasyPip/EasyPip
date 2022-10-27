@@ -1,0 +1,3624 @@
+{
+  "gcsfs": {
+    "summary": "Convenient Filesystem interface over GCS",
+    "potential_require": [
+      "aiohttp",
+      "fsspec",
+      "decorator",
+      "requests",
+      "google-cloud-storage",
+      "google-auth-oauthlib",
+      "google-auth",
+      "ujson",
+      "oauth2client"
+    ],
+    "version_list": [
+      {
+        "version": "2022.7.1",
+        "upload_time": "2022-07-29T01:02:46",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.7.1",
+            "end_node": "2022.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "4.1.2",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2022.5.0",
+        "upload_time": "2022-05-20T14:38:11",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "4.1.2",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.5.0",
+            "end_node": "2022.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2022.3.0",
+        "upload_time": "2022-04-04T14:38:06",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "4.1.2",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.3.0",
+            "end_node": "2022.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2022.2.0",
+        "upload_time": "2022-02-22T17:58:00",
+        "python_require": [
+          "cp310",
+          "cp38",
+          "cp37",
+          "cp311",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "4.1.2",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.02.0",
+            "end_node": "2022.02.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp37",
+              "cp311",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2022.1.0",
+        "upload_time": "2022-01-12T15:44:33",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "4.1.2",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2022.01.0",
+            "end_node": "2022.01.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.11.1",
+        "upload_time": "2021-11-26T21:34:06",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "4",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.11.1",
+            "end_node": "2021.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "4.1.2",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.11.0",
+        "upload_time": "2021-11-05T19:46:26",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "4.1.2",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.11.0",
+            "end_node": "2021.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.10.1",
+        "upload_time": "2021-10-15T15:15:00",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-storage",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "4.1.2",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.10.1",
+            "end_node": "2021.10.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.10.0",
+        "upload_time": "2021-10-02T01:31:22",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "4.1.2",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.10.0",
+            "end_node": "2021.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.9.0",
+        "upload_time": "2021-09-24T14:35:26",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.09.0",
+            "end_node": "2021.09.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.8.1",
+        "upload_time": "2021-08-31T17:41:59",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.08.1",
+            "end_node": "2021.08.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.7.0",
+        "upload_time": "2021-07-13T15:10:01",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.07.0",
+            "end_node": "2021.07.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.6.1",
+        "upload_time": "2021-06-23T13:31:25",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.06.1",
+            "end_node": "2021.06.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.6.0",
+        "upload_time": "2021-06-07T18:50:03",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.06.0",
+            "end_node": "2021.06.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.5.0",
+        "upload_time": "2021-05-14T15:08:04",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.05.0",
+            "end_node": "2021.05.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2021.4.0",
+        "upload_time": "2021-04-21T14:19:42",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "2021.04.0",
+            "end_node": "2021.04.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2021-04-05T21:14:49",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "ujson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.2",
+        "upload_time": "2021-02-10T20:20:56",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.1",
+        "upload_time": "2020-09-09T15:29:54",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2020-08-21T20:21:22",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiohttp",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.2",
+        "upload_time": "2020-05-07T12:47:37",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2020-03-27T16:12:35",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2019-12-12T14:20:38",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.3",
+        "upload_time": "2019-12-05T20:54:58",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2019-12-04T17:00:32",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2019-12-02T17:26:39",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2019-11-27T16:47:31",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2019-11-13T16:58:58",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2019-10-06T16:25:34",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2019-07-17T20:12:59",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp37",
+          "cp36",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "fsspec",
+            "start_node": "START",
+            "end_node": "0.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "decorator",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.3",
+        "upload_time": "2019-06-30T02:46:30",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2019-05-16T13:21:37",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2019-02-24T22:10:57",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2018-11-21T21:25:05",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.2",
+        "upload_time": "2018-08-19T19:37:05",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2018-07-03T21:33:24",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2018-04-21T01:17:05",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.6",
+        "upload_time": "2018-03-23T13:34:58",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.5",
+        "upload_time": "2018-03-01T13:59:30",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.4",
+        "upload_time": "2018-01-16T14:33:48",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp32",
+          "cp34",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "START",
+            "end_node": "1.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp32",
+              "cp34",
+              "cp27",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth-oauthlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp32",
+              "cp34",
+              "cp27",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp32",
+              "cp34",
+              "cp27",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.0.3",
+        "upload_time": "2017-09-24T01:48:02",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp32",
+          "cp34",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "oauth2client",
+            "start_node": "START",
+            "end_node": "1.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp32",
+              "cp34",
+              "cp27",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp32",
+              "cp34",
+              "cp27",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.0.2",
+        "upload_time": "2017-07-19T19:13:58",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.0.1",
+        "upload_time": "2017-06-28T20:37:16",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp34",
+          "cp37",
+          "cp27",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

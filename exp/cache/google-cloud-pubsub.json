@@ -1,0 +1,7311 @@
+{
+  "google-cloud-pubsub": {
+    "summary": "Google Cloud Pub/Sub API client library",
+    "potential_require": [
+      "grpcio",
+      "google-api-core",
+      "proto-plus",
+      "protobuf",
+      "grpc-google-iam-v1",
+      "grpcio-status",
+      "libcst",
+      "packaging",
+      "enum34",
+      "psutil",
+      "google-auth",
+      "google-cloud-core",
+      "google-gax",
+      "googleapis-common-protos",
+      "gapic-google-cloud-pubsub-v1",
+      "gapic-google-pubsub-v1",
+      "grpc-google-pubsub-v1"
+    ],
+    "version_list": [
+      {
+        "version": "2.13.6",
+        "upload_time": "2022-08-12T01:02:28",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.22.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "5.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "1.0.0dev",
+            "end_node": "0.12.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.13.5",
+        "upload_time": "2022-08-10T20:20:36",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "1.0.0dev",
+            "end_node": "0.12.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.13.4",
+        "upload_time": "2022-07-16T17:23:53",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "1.0.0dev",
+            "end_node": "0.12.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.13.3",
+        "upload_time": "2022-07-13T17:54:56",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "1.0.0dev",
+            "end_node": "0.12.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.13.2",
+        "upload_time": "2022-07-11T22:22:14",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "1.0.0dev",
+            "end_node": "0.12.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.13.1",
+        "upload_time": "2022-07-07T21:11:46",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "1.0.0dev",
+            "end_node": "0.12.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.13.0",
+        "upload_time": "2022-06-07T01:48:26",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "1.0.0dev",
+            "end_node": "0.12.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.12.1",
+        "upload_time": "2022-05-11T20:48:31",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.12.0",
+        "upload_time": "2022-04-06T21:58:08",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.11.1",
+        "upload_time": "2022-06-09T14:39:53",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "2.0.0dev",
+            "end_node": "1.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.11.0",
+        "upload_time": "2022-03-09T23:44:51",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.10.0",
+        "upload_time": "2022-03-04T16:16:45",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio-status",
+            "start_node": "START",
+            "end_node": "1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.9.0",
+        "upload_time": "2021-11-10T16:52:05",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.8.0",
+        "upload_time": "2021-09-06T11:35:57",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.7.1",
+        "upload_time": "2021-08-19T17:52:19",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.7.0",
+        "upload_time": "2021-07-28T14:51:36",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.6.1",
+        "upload_time": "2021-07-12T15:21:20",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.38.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.6.0",
+        "upload_time": "2021-06-21T10:56:23",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.0",
+        "upload_time": "2021-05-18T14:21:20",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.2",
+        "upload_time": "2021-05-10T16:21:21",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.1",
+        "upload_time": "2021-03-31T14:04:29",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.0",
+        "upload_time": "2021-02-22T21:52:27",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.3.0",
+        "upload_time": "2021-02-08T23:23:36",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.0",
+        "upload_time": "2020-12-04T20:58:00",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2020-09-21T18:50:16",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2020-09-14T09:35:14",
+        "python_require": [
+          "cp39",
+          "cp36",
+          "cp38",
+          "cp311",
+          "cp37",
+          "cp310"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp36",
+              "cp38",
+              "cp311",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.7.2",
+        "upload_time": "2022-06-09T14:50:47",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.7.1",
+        "upload_time": "2022-04-06T22:17:46",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.7.0",
+        "upload_time": "2020-07-13T16:49:22",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.17.*!=1.18.*!=1.19.*"
+            ],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.6.1",
+        "upload_time": "2020-07-06T16:19:27",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "1.17.*!=1.18.*!=1.19.*"
+            ],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.6.0",
+        "upload_time": "2020-06-09T23:34:19",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.17.*!=1.18.*!=1.19.*"
+            ],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.0",
+        "upload_time": "2020-05-12T16:19:11",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "1.17.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.3",
+        "upload_time": "2020-04-16T17:59:30",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "1.17.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.2",
+        "upload_time": "2020-03-26T18:49:21",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.1",
+        "upload_time": "2020-03-23T21:22:57",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.4.0",
+        "upload_time": "2020-03-23T17:19:32",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.1",
+        "upload_time": "2020-02-28T16:49:26",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.0",
+        "upload_time": "2020-02-20T18:04:01",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.2.0",
+        "upload_time": "2020-02-05T20:04:52",
+        "python_require": [
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2019-12-11T18:03:15",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.2",
+        "upload_time": "2019-09-30T21:39:56",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2019-09-27T17:35:30",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2019-08-29T17:53:58",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.45.0",
+        "upload_time": "2019-07-31T17:53:54",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.44.0",
+        "upload_time": "2019-07-29T19:26:48",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.43.0",
+        "upload_time": "2019-07-30T16:33:52",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.13dev",
+            "end_node": "0.12.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.42.1",
+        "upload_time": "2019-06-18T22:52:31",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.42.0",
+        "upload_time": "2019-06-18T19:25:25",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.41.0",
+        "upload_time": "2019-05-15T22:54:14",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.40.0",
+        "upload_time": "2019-03-15T21:52:59",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.39.1",
+        "upload_time": "2018-12-18T22:12:52",
+        "python_require": [
+          "cp33",
+          "cp38",
+          "cp311",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp310",
+          "cp37",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp38",
+              "cp311",
+              "cp35",
+              "cp36",
+              "cp39",
+              "cp34",
+              "cp37",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.39.0",
+        "upload_time": "2018-11-27T21:52:40",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.38.0",
+        "upload_time": "2018-09-12T23:40:40",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.37.2",
+        "upload_time": "2018-08-21T21:13:41",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.37.1",
+        "upload_time": "2018-08-16T16:57:56",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.37.0",
+        "upload_time": "2018-08-14T17:47:22",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.36.0",
+        "upload_time": "2018-08-10T20:09:24",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp37",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp37",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.35.4",
+        "upload_time": "2018-06-06T22:03:28",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.35.3",
+        "upload_time": "2018-06-05T21:12:33",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.35.2",
+        "upload_time": "2018-05-30T19:58:41",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.35.1",
+        "upload_time": "2018-05-29T21:20:10",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.35.0",
+        "upload_time": "2018-05-23T23:49:55",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.34.0",
+        "upload_time": "2018-04-27T22:44:42",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "0.1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.33.1",
+        "upload_time": "2018-04-03T16:26:22",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.33.0",
+        "upload_time": "2018-03-20T21:17:53",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.32.1",
+        "upload_time": "2018-03-07T19:02:26",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.32.0",
+        "upload_time": "2018-02-23T18:28:17",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "0.2.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.31.0",
+        "upload_time": "2018-02-20T22:15:22",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "0.2.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.30.1",
+        "upload_time": "2017-12-21T17:34:02",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "0.1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.30.0",
+        "upload_time": "2017-12-19T16:53:01",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "0.2.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.29.4",
+        "upload_time": "2017-12-11T17:58:10",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "0.2.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.29.3",
+        "upload_time": "2017-12-08T23:48:40",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "0.2.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.29.2",
+        "upload_time": "2017-11-30T01:50:22",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "0.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.29.1",
+        "upload_time": "2017-11-27T22:48:46",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "0.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-auth",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.29.0",
+        "upload_time": "2017-10-31T22:56:34",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "0.2.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-gax",
+            "start_node": "0.16dev",
+            "end_node": "0.15.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.28.4",
+        "upload_time": "2017-10-13T14:56:50",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "START",
+            "end_node": "0.27.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-gax",
+            "start_node": "0.16dev",
+            "end_node": "0.15.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.28.3",
+        "upload_time": "2017-09-05T21:30:54",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.28dev",
+            "end_node": "0.27.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-gax",
+            "start_node": "0.16dev",
+            "end_node": "0.15.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "2.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.28.2",
+        "upload_time": "2017-08-25T06:05:47",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.28dev",
+            "end_node": "0.27.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-gax",
+            "start_node": "0.16dev",
+            "end_node": "0.15.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "START",
+            "end_node": "1.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.28.1",
+        "upload_time": "2017-08-24T20:49:07",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.28dev",
+            "end_node": "0.27.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-gax",
+            "start_node": "0.16dev",
+            "end_node": "0.15.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "START",
+            "end_node": "1.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.28.0",
+        "upload_time": "2017-08-24T18:08:46",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-gax",
+            "start_node": "0.16dev",
+            "end_node": "0.15.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "googleapis-common-protos",
+            "start_node": "2.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-iam-v1",
+            "start_node": "0.12dev",
+            "end_node": "0.11.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psutil",
+            "start_node": "6.0dev",
+            "end_node": "5.2.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.27.0",
+        "upload_time": "2017-08-05T00:15:43",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gapic-google-cloud-pubsub-v1",
+            "start_node": "0.16dev",
+            "end_node": "0.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.27dev",
+            "end_node": "0.26.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.26.0",
+        "upload_time": "2017-06-26T23:46:11",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gapic-google-cloud-pubsub-v1",
+            "start_node": "0.16dev",
+            "end_node": "0.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.26dev",
+            "end_node": "0.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.25.0",
+        "upload_time": "2017-04-28T18:29:42",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gapic-google-cloud-pubsub-v1",
+            "start_node": "0.16dev",
+            "end_node": "0.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.25dev",
+            "end_node": "0.24.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.24.0",
+        "upload_time": "2017-03-31T19:13:27",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gapic-google-cloud-pubsub-v1",
+            "start_node": "0.16dev",
+            "end_node": "0.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.25dev",
+            "end_node": "0.24.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.23.0",
+        "upload_time": "2017-02-25T00:12:11",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp36",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gapic-google-cloud-pubsub-v1",
+            "start_node": "0.16dev",
+            "end_node": "0.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.24dev",
+            "end_node": "0.23.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp36",
+              "cp34",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.22.0",
+        "upload_time": "2016-12-10T20:09:58",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gapic-google-cloud-pubsub-v1",
+            "start_node": "0.15dev",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.23dev",
+            "end_node": "0.22.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.21.0",
+        "upload_time": "2016-11-14T22:53:11",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "gapic-google-pubsub-v1",
+            "start_node": "0.11dev",
+            "end_node": "0.10.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-gax",
+            "start_node": "0.15dev",
+            "end_node": "0.14.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-pubsub-v1",
+            "start_node": "0.11dev",
+            "end_node": "0.10.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.20.0",
+        "upload_time": "2016-09-29T00:17:54",
+        "python_require": [
+          "cp27",
+          "cp30",
+          "cp33",
+          "cp31",
+          "cp35",
+          "cp34",
+          "cp32"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpcio",
+            "start_node": "2.0dev",
+            "end_node": "1.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-gax",
+            "start_node": "0.15dev",
+            "end_node": "0.14.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "gapic-google-pubsub-v1",
+            "start_node": "0.11dev",
+            "end_node": "0.10.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grpc-google-pubsub-v1",
+            "start_node": "0.11dev",
+            "end_node": "0.10.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp34",
+              "cp33",
+              "cp32"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

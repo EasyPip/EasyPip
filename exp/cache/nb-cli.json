@@ -1,0 +1,2941 @@
+{
+  "nb-cli": {
+    "summary": "CLI for nonebot2",
+    "potential_require": [
+      "click",
+      "tomlkit",
+      "wcwidth",
+      "colorama",
+      "pyfiglet",
+      "cookiecutter",
+      "httpx",
+      "prompt-toolkit",
+      "nonebot2",
+      "docker-compose",
+      "pyinquirer"
+    ],
+    "version_list": [
+      {
+        "version": "0.6.7",
+        "upload_time": "2022-05-23T13:27:05",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.11.0",
+            "end_node": "0.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wcwidth",
+            "start_node": "0.3.0",
+            "end_node": "0.2.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.6",
+        "upload_time": "2022-02-15T06:34:08",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.10.0",
+            "end_node": "0.9.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wcwidth",
+            "start_node": "0.3.0",
+            "end_node": "0.2.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.5",
+        "upload_time": "2022-01-26T06:48:20",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wcwidth",
+            "start_node": "0.3.0",
+            "end_node": "0.2.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.4",
+        "upload_time": "2022-01-14T03:21:18",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.3",
+        "upload_time": "2022-01-10T03:41:30",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.2",
+        "upload_time": "2022-01-08T12:53:33",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2022-01-08T12:01:47",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-beta.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.4",
+        "upload_time": "2022-02-15T03:04:11",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "2.0.0b1",
+            "end_node": "2.0.0-alpha.14",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wcwidth",
+            "start_node": "0.3.0",
+            "end_node": "0.2.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.3",
+        "upload_time": "2022-01-20T05:36:51",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "2.0.0b1",
+            "end_node": "2.0.0-alpha.14",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "wcwidth",
+            "start_node": "0.3.0",
+            "end_node": "0.2.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2022-01-20T04:16:03",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "wcwidth",
+            "start_node": "0.3.0",
+            "end_node": "0.2.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "2.0.0b1",
+            "end_node": "2.0.0-alpha.14",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2021-10-14T05:56:27",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.14",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "1.0.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2021-08-04T06:26:20",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.30.0",
+            "end_node": "1.29.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.14",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "prompt-toolkit",
+            "start_node": "4.0.0",
+            "end_node": "3.0.19",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.19.0",
+            "end_node": "0.18.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "9.0.0",
+            "end_node": "8.0.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.2",
+        "upload_time": "2021-05-09T16:12:22",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.29.0",
+            "end_node": "1.28.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.12",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyinquirer",
+            "start_node": "1.0.3",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.18.0",
+            "end_node": "0.17.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0.0",
+            "end_node": "7.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2021-03-31T14:04:24",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.29.0",
+            "end_node": "1.28.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.12",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyinquirer",
+            "start_node": "1.0.3",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.18.0",
+            "end_node": "0.17.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0.0",
+            "end_node": "7.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2021-03-05T13:14:54",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "1.29.0",
+            "end_node": "1.28.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.11",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyinquirer",
+            "start_node": "1.0.3",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tomlkit",
+            "start_node": "0.8.0",
+            "end_node": "0.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "httpx",
+            "start_node": "0.18.0",
+            "end_node": "0.17.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0.0",
+            "end_node": "7.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2021-01-19T08:33:27",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "2.0.0",
+            "end_node": "1.27.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyinquirer",
+            "start_node": "1.0.3",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0.0",
+            "end_node": "7.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2020-12-16T05:39:59",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "2.0.0",
+            "end_node": "1.27.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyinquirer",
+            "start_node": "1.0.3",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0.0",
+            "end_node": "7.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2020-12-05T07:52:23",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.7",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "2.0.0",
+            "end_node": "1.27.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyinquirer",
+            "start_node": "1.0.3",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0.0",
+            "end_node": "7.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2020-11-04T05:35:55",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "2.0.0",
+            "end_node": "1.27.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyinquirer",
+            "start_node": "1.0.3",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0.0",
+            "end_node": "7.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2020-09-24T08:08:59",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "nonebot2",
+            "start_node": "3.0.0",
+            "end_node": "2.0.0-alpha.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docker-compose",
+            "start_node": "2.0.0",
+            "end_node": "1.27.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cookiecutter",
+            "start_node": "2.0.0",
+            "end_node": "1.7.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyfiglet",
+            "start_node": "0.9",
+            "end_node": "0.8.post1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyinquirer",
+            "start_node": "1.0.3",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "colorama",
+            "start_node": "0.5.0",
+            "end_node": "0.4.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "click",
+            "start_node": "8.0.0",
+            "end_node": "7.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

@@ -1,0 +1,6346 @@
+{
+  "tortoise-orm": {
+    "summary": "Easy async ORM for python, built with relations in mind",
+    "potential_require": [
+      "aiomysql",
+      "aiosqlite",
+      "asyncmy",
+      "asyncodbc",
+      "asyncpg",
+      "ciso8601",
+      "iso8601",
+      "orjson",
+      "psycopg",
+      "pypika-tortoise",
+      "pytz",
+      "uvloop",
+      "python-rapidjson",
+      "Pygments",
+      "cloud_sptheme",
+      "docutils",
+      "sphinx",
+      "pypika"
+    ],
+    "version_list": [
+      {
+        "version": "0.19.2",
+        "upload_time": "2022-07-11T09:41:56",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.18.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "0.3.0",
+            "end_node": "0.2.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncodbc",
+            "start_node": "0.2.0",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "2.0.0",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "orjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psycopg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.19.1",
+        "upload_time": "2022-05-20T04:51:33",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.18.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "0.3.0",
+            "end_node": "0.2.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncodbc",
+            "start_node": "0.2.0",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "2.0.0",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "orjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psycopg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.5",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.19.0",
+        "upload_time": "2022-03-27T14:52:54",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.18.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "0.3.0",
+            "end_node": "0.2.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "2.0.0",
+            "end_node": "1.0.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "orjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "psycopg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.18.1",
+        "upload_time": "2022-01-10T12:58:01",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.18.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "orjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.18.0",
+        "upload_time": "2021-12-20T08:31:11",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.18.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "orjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.8",
+        "upload_time": "2021-10-06T15:41:43",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.18.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.7",
+        "upload_time": "2021-08-31T09:30:39",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.18.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.17.6",
+        "upload_time": "2021-07-26T09:01:29",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.5",
+        "upload_time": "2021-07-07T02:30:59",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloud_sptheme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.4",
+        "upload_time": "2021-06-03T03:51:28",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloud_sptheme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.17.3",
+        "upload_time": "2021-05-23T00:40:32",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloud_sptheme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.2",
+        "upload_time": "2021-04-09T15:49:42",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloud_sptheme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "2021.0",
+            "end_node": "2020.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.1",
+        "upload_time": "2021-03-27T06:45:53",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloud_sptheme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "2021.0",
+            "end_node": "2020.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.17.0",
+        "upload_time": "2021-03-20T16:16:06",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncmy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloud_sptheme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika-tortoise",
+            "start_node": "0.2.0",
+            "end_node": "0.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "2021.0",
+            "end_node": "2020.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.16.21",
+        "upload_time": "2021-02-04T12:08:26",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloud_sptheme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika",
+            "start_node": "0.45.0",
+            "end_node": "0.44.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "2021.0",
+            "end_node": "2020.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.20",
+        "upload_time": "2021-01-23T03:22:39",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloud_sptheme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika",
+            "start_node": "0.45.0",
+            "end_node": "0.44.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "2021.0",
+            "end_node": "2020.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.16.19",
+        "upload_time": "2020-12-23T07:55:59",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloud_sptheme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika",
+            "start_node": "0.45.0",
+            "end_node": "0.44.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "2021.0",
+            "end_node": "2020.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.15.0",
+            "end_node": "0.14.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.16.18",
+        "upload_time": "2020-11-16T13:21:16",
+        "python_require": [
+          "cp311",
+          "cp37",
+          "cp310",
+          "cp38",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Pygments",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiomysql",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "aiosqlite",
+            "start_node": "0.17.0",
+            "end_node": "0.16.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "asyncpg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "ciso8601",
+            "start_node": "3.0.0",
+            "end_node": "2.1.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cloud_sptheme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "0.2.0",
+            "end_node": "0.1.13",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pypika",
+            "start_node": "0.45.0",
+            "end_node": "0.44.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-rapidjson",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "2021.0",
+            "end_node": "2020.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uvloop",
+            "start_node": "0.13.0",
+            "end_node": "0.12.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp37",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.17",
+        "upload_time": "2020-10-23T16:49:16",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.16.16",
+        "upload_time": "2020-09-24T14:58:01",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.15",
+        "upload_time": "2020-09-16T09:03:48",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.14",
+        "upload_time": "2020-07-25T13:15:11",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.13",
+        "upload_time": "2020-06-02T14:53:45",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.12",
+        "upload_time": "2020-05-22T15:31:40",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.11",
+        "upload_time": "2020-05-14T06:30:59",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.10",
+        "upload_time": "2020-04-30T10:57:33",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.9",
+        "upload_time": "2020-04-26T19:52:51",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.8",
+        "upload_time": "2020-04-22T14:01:45",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.7",
+        "upload_time": "2020-04-19T13:57:49",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.6",
+        "upload_time": "2020-04-18T18:49:00",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.5",
+        "upload_time": "2020-04-10T20:22:52",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.4",
+        "upload_time": "2020-04-01T14:40:36",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.3",
+        "upload_time": "2020-03-26T13:05:29",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.2",
+        "upload_time": "2020-03-22T09:54:41",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.1",
+        "upload_time": "2020-03-18T08:09:44",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.16.0",
+        "upload_time": "2020-03-12T08:32:31",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.24",
+        "upload_time": "2020-04-22T14:00:46",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.23",
+        "upload_time": "2020-04-18T18:44:45",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.22",
+        "upload_time": "2020-04-10T19:56:47",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.21",
+        "upload_time": "2020-03-26T13:03:46",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.20",
+        "upload_time": "2020-03-22T09:53:24",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.19",
+        "upload_time": "2020-03-11T09:31:50",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.18",
+        "upload_time": "2020-02-29T19:34:04",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.17",
+        "upload_time": "2020-02-25T14:02:01",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.16",
+        "upload_time": "2020-02-25T09:12:50",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.15",
+        "upload_time": "2020-02-22T10:34:06",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.14",
+        "upload_time": "2020-02-21T06:45:15",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.13",
+        "upload_time": "2020-02-15T19:43:44",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.12",
+        "upload_time": "2020-02-11T08:46:04",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.11",
+        "upload_time": "2020-02-10T19:13:28",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.10",
+        "upload_time": "2020-02-10T09:24:34",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.9",
+        "upload_time": "2020-01-19T06:52:01",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.8",
+        "upload_time": "2020-01-17T19:40:37",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.7",
+        "upload_time": "2019-12-23T13:37:53",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.6",
+        "upload_time": "2019-12-20T12:06:27",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.5",
+        "upload_time": "2019-12-09T21:51:56",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.4",
+        "upload_time": "2019-12-02T21:06:24",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.3",
+        "upload_time": "2019-11-28T06:45:28",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.2",
+        "upload_time": "2019-11-27T16:00:59",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.1",
+        "upload_time": "2019-11-25T10:10:40",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.15.0",
+        "upload_time": "2019-11-23T22:08:05",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.14.2",
+        "upload_time": "2019-11-11T15:32:55",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.14.1",
+        "upload_time": "2019-11-07T06:24:03",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.14.0",
+        "upload_time": "2019-10-27T06:51:16",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.12",
+        "upload_time": "2019-10-10T19:11:22",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.11",
+        "upload_time": "2019-10-10T10:52:02",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.10",
+        "upload_time": "2019-10-01T18:54:13",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.9",
+        "upload_time": "2019-10-01T07:33:16",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.8",
+        "upload_time": "2019-09-25T06:00:41",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.7",
+        "upload_time": "2019-09-23T19:39:23",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.6",
+        "upload_time": "2019-09-21T16:39:29",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.5",
+        "upload_time": "2019-09-11T10:01:56",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.4",
+        "upload_time": "2019-09-06T14:56:36",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.3",
+        "upload_time": "2019-09-05T08:58:42",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.2",
+        "upload_time": "2019-09-01T06:23:34",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.1",
+        "upload_time": "2019-08-26T18:26:08",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.0",
+        "upload_time": "2019-08-15T07:15:38",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.12.8",
+        "upload_time": "2019-07-25T06:22:37",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.12.7",
+        "upload_time": "2019-07-23T06:56:41",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.12.6",
+        "upload_time": "2019-07-21T10:07:28",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.12.5",
+        "upload_time": "2019-07-10T14:17:01",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.12.4",
+        "upload_time": "2019-07-07T18:49:43",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.12.3",
+        "upload_time": "2019-07-05T12:48:49",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.12.2",
+        "upload_time": "2019-06-18T12:51:23",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.12.1",
+        "upload_time": "2019-06-15T07:04:15",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.12.0",
+        "upload_time": "2019-06-11T10:55:55",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.13",
+        "upload_time": "2019-06-05T15:38:34",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.12",
+        "upload_time": "2019-05-26T08:08:21",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.11",
+        "upload_time": "2019-05-15T21:22:34",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.10",
+        "upload_time": "2019-05-02T21:34:20",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.9",
+        "upload_time": "2019-04-18T10:41:53",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.8",
+        "upload_time": "2019-04-01T15:30:43",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.7",
+        "upload_time": "2019-03-23T07:09:59",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.6",
+        "upload_time": "2019-03-20T12:12:33",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.5",
+        "upload_time": "2019-03-20T06:22:21",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.4",
+        "upload_time": "2019-02-20T09:13:14",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.3",
+        "upload_time": "2019-02-06T05:44:18",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.2",
+        "upload_time": "2019-01-06T19:07:31",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.1",
+        "upload_time": "2018-12-25T20:43:18",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.0",
+        "upload_time": "2018-12-24T09:32:18",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.11",
+        "upload_time": "2018-11-16T14:04:04",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.10",
+        "upload_time": "2018-10-31T05:39:16",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.9",
+        "upload_time": "2018-10-17T07:41:58",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.8",
+        "upload_time": "2018-10-01T16:23:43",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.7",
+        "upload_time": "2018-09-25T16:16:27",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.6",
+        "upload_time": "2018-09-12T12:15:14",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.5",
+        "upload_time": "2018-09-10T10:32:28",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.4",
+        "upload_time": "2018-09-08T08:16:46",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.3",
+        "upload_time": "2018-09-04T12:37:09",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.2",
+        "upload_time": "2018-08-31T07:28:03",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.1",
+        "upload_time": "2018-08-01T11:50:01",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.0",
+        "upload_time": "2018-08-01T09:42:22",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.9.4",
+        "upload_time": "2018-07-17T08:16:23",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.9.2",
+        "upload_time": "2018-07-06T14:03:30",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.9.1",
+        "upload_time": "2018-07-02T14:17:24",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.9.0",
+        "upload_time": "2018-07-02T07:37:31",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.8.2",
+        "upload_time": "2018-06-26T10:58:52",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.8.1",
+        "upload_time": "2018-06-26T10:49:04",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2018-06-26T10:42:16",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.10",
+        "upload_time": "2018-05-29T14:31:50",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.9",
+        "upload_time": "2018-04-26T12:02:27",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.8",
+        "upload_time": "2018-04-26T10:32:57",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.7",
+        "upload_time": "2018-04-20T09:59:30",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.6",
+        "upload_time": "2018-04-20T08:24:07",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.5",
+        "upload_time": "2018-04-19T14:38:26",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.4",
+        "upload_time": "2018-04-17T14:43:55",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.3",
+        "upload_time": "2018-04-17T14:16:56",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.2",
+        "upload_time": "2018-04-17T11:31:27",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.1",
+        "upload_time": "2018-04-17T11:29:26",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2018-04-16T15:04:43",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.2",
+        "upload_time": "2018-04-16T14:01:20",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2018-04-16T11:43:42",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2018-04-16T10:37:13",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.5",
+        "upload_time": "2018-04-16T08:41:54",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.4",
+        "upload_time": "2018-04-13T14:14:08",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.3",
+        "upload_time": "2018-04-13T14:07:01",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2018-04-13T13:14:28",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2018-04-13T12:17:05",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2018-04-13T10:46:39",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2018-04-12T13:03:19",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.3",
+        "upload_time": "2018-04-11T11:02:58",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2018-04-11T11:00:40",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2018-04-04T11:58:56",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2018-04-04T09:08:13",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2018-03-30T14:47:23",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.3",
+        "upload_time": "2018-03-30T10:36:34",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.2",
+        "upload_time": "2018-03-29T17:25:19",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2018-03-29T17:19:26",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2018-03-29T17:03:36",
+        "python_require": [
+          "cp33",
+          "cp311",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp34",
+          "cp35",
+          "cp37",
+          "cp32",
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

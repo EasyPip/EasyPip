@@ -1,0 +1,392 @@
+{
+  "mxnet-cu101mkl": {
+    "summary": "MXNet is an ultra-scalable deep learning framework. This version uses CUDA-10.1 and MKLDNN.",
+    "potential_require": [
+      "numpy",
+      "requests",
+      "graphviz"
+    ],
+    "version_list": [
+      {
+        "version": "1.6.0.post0",
+        "upload_time": "2020-08-10T06:55:24",
+        "python_require": [
+          "cp37",
+          "cp31",
+          "cp33",
+          "cp38",
+          "cp32",
+          "cp36",
+          "cp35",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "2.0.0",
+            "end_node": "1.16.0",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp38",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp38",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphviz",
+            "start_node": "0.9.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp38",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.1.post0",
+        "upload_time": "2019-10-01T22:56:04",
+        "python_require": [
+          "cp37",
+          "cp31",
+          "cp33",
+          "cp32",
+          "cp36",
+          "cp35",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "2.0.0",
+            "end_node": "1.16.0",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphviz",
+            "start_node": "0.9.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.1",
+        "upload_time": "2019-09-30T04:35:22",
+        "python_require": [
+          "cp37",
+          "cp31",
+          "cp33",
+          "cp32",
+          "cp36",
+          "cp35",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "2.0.0",
+            "end_node": "1.16.0",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3",
+            "end_node": "2.20.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphviz",
+            "start_node": "0.9.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.5.0",
+        "upload_time": "2019-07-19T21:53:48",
+        "python_require": [
+          "cp37",
+          "cp31",
+          "cp33",
+          "cp32",
+          "cp36",
+          "cp35",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "graphviz",
+            "start_node": "0.9.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.19.0",
+            "end_node": "2.18.4",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "2.0.0",
+            "end_node": "1.16.0",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.1",
+        "upload_time": "2019-05-17T07:59:57",
+        "python_require": [
+          "cp37",
+          "cp31",
+          "cp33",
+          "cp32",
+          "cp36",
+          "cp35",
+          "cp27",
+          "cp34",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "graphviz",
+            "start_node": "0.9.0",
+            "end_node": "0.8.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "1.15.0",
+            "end_node": "1.8.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp31",
+              "cp33",
+              "cp32",
+              "cp36",
+              "cp37",
+              "cp27",
+              "cp35",
+              "cp34",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}
