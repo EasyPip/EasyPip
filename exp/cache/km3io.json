@@ -1,0 +1,4943 @@
+{
+  "km3io": {
+    "summary": "\"KM3NeT I/O library without ROOT\"",
+    "potential_require": [
+      "docopt",
+      "numba",
+      "awkward",
+      "awkward0",
+      "uproot3",
+      "uproot",
+      "setuptools-scm",
+      "awkward1"
+    ],
+    "version_list": [
+      {
+        "version": "0.29.2",
+        "upload_time": "2022-12-21T13:05:29",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "2",
+            "end_node": "1.9",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "0.15.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.29.1",
+        "upload_time": "2022-12-01T14:15:18",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "2",
+            "end_node": "1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "0.15.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.29.0",
+        "upload_time": "2022-11-07T16:25:14",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "2",
+            "end_node": "1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "0.15.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.28.0",
+        "upload_time": "2022-11-02T21:56:55",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "2",
+            "end_node": "1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "0.15.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.27.3",
+        "upload_time": "2022-10-20T13:43:50",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.27.2",
+        "upload_time": "2022-10-04T11:57:30",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.27.1",
+        "upload_time": "2022-09-20T10:13:40",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.27.0",
+        "upload_time": "2022-07-25T16:16:19",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.26.1",
+        "upload_time": "2022-07-06T09:36:12",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.26.0",
+        "upload_time": "2022-06-27T09:30:16",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.25.2",
+        "upload_time": "2022-03-28T06:43:11",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.25.0",
+        "upload_time": "2022-03-14T21:55:31",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.24.1",
+        "upload_time": "2021-11-05T08:42:21",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.24.0",
+        "upload_time": "2021-11-02T10:47:36",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.23.1",
+        "upload_time": "2021-09-28T09:20:00",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.23.0",
+        "upload_time": "2021-07-03T15:58:52",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.22.0",
+        "upload_time": "2021-06-14T22:28:12",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.21.0",
+        "upload_time": "2021-04-08T07:21:10",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.20.0",
+        "upload_time": "2021-02-18T10:06:20",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.19.6",
+        "upload_time": "2021-02-01T21:37:10",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.19.5",
+        "upload_time": "2021-02-01T18:27:12",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.19.4",
+        "upload_time": "2021-02-01T18:09:57",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.19.3",
+        "upload_time": "2020-12-17T18:11:33",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.19.2",
+        "upload_time": "2020-12-15T15:20:37",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.19.1",
+        "upload_time": "2020-12-11T22:43:12",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.19.0",
+        "upload_time": "2020-12-11T15:30:18",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.0.0rc5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.18.1",
+        "upload_time": "2020-12-04T13:57:20",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.1",
+        "upload_time": "2020-10-19T12:50:07",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward1",
+            "start_node": "START",
+            "end_node": "0.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.17.0",
+        "upload_time": "2020-10-13T12:16:38",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward1",
+            "start_node": "START",
+            "end_node": "0.2.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.2",
+        "upload_time": "2020-10-07T16:02:48",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward1",
+            "start_node": "START",
+            "end_node": "0.2.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.16.1",
+        "upload_time": "2020-09-30T13:34:46",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward1",
+            "start_node": "START",
+            "end_node": "0.2.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.16.0",
+        "upload_time": "2020-09-30T12:33:50",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward1",
+            "start_node": "START",
+            "end_node": "0.2.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.5",
+        "upload_time": "2020-09-30T09:11:35",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward1",
+            "start_node": "START",
+            "end_node": "0.2.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.4",
+        "upload_time": "2020-09-29T22:13:30",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward1",
+            "start_node": "START",
+            "end_node": "0.2.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.3",
+        "upload_time": "2020-09-25T14:38:41",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward1",
+            "start_node": "START",
+            "end_node": "0.2.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.2",
+        "upload_time": "2020-09-23T17:12:34",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward1",
+            "start_node": "START",
+            "end_node": "0.2.35",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.1",
+        "upload_time": "2020-07-15T11:26:51",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward1",
+            "start_node": "START",
+            "end_node": "0.2.13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.0",
+        "upload_time": "2020-05-22T10:57:18",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.14.2",
+        "upload_time": "2020-05-21T19:38:34",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.14.1",
+        "upload_time": "2020-05-21T16:39:52",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.14.0",
+        "upload_time": "2020-04-29T10:18:02",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.13.0",
+        "upload_time": "2020-04-26T09:13:03",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.12.0",
+        "upload_time": "2020-04-26T07:08:15",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.0",
+        "upload_time": "2020-04-01T14:56:20",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.9.1",
+        "upload_time": "2020-03-29T17:49:40",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.9.0",
+        "upload_time": "2020-03-03T18:06:30",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.8.3",
+        "upload_time": "2020-02-25T13:02:41",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.8.2",
+        "upload_time": "2020-02-14T07:27:17",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.8.1",
+        "upload_time": "2020-02-10T13:18:45",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2020-01-23T23:04:38",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2020-01-23T20:22:12",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.3",
+        "upload_time": "2020-01-09T16:15:32",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.2",
+        "upload_time": "2019-12-22T14:04:16",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2019-12-21T19:06:41",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2019-12-21T19:06:05",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2019-12-18T14:45:09",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2019-12-16T16:39:40",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2019-11-22T12:35:53",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2019-11-19T00:15:34",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2019-11-15T23:01:53",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2019-11-15T16:31:00",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2019-11-15T12:30:51",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.0",
+        "upload_time": "2022-03-24T12:52:47",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "docopt",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numba",
+            "start_node": "START",
+            "end_node": "0.50",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "1.0.0rc2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward0",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot3",
+            "start_node": "START",
+            "end_node": "3.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "uproot",
+            "start_node": "START",
+            "end_node": "4.2.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools-scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

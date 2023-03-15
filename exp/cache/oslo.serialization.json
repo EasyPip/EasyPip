@@ -1,0 +1,7598 @@
+{
+  "oslo.serialization": {
+    "summary": "Oslo Serialization library",
+    "potential_require": [
+      "msgpack",
+      "oslo.utils",
+      "pbr",
+      "pytz",
+      "PyYAML",
+      "debtcollector",
+      "six",
+      "msgpack-python",
+      "Babel",
+      "iso8601"
+    ],
+    "version_list": [
+      {
+        "version": "5.1.1",
+        "upload_time": "2023-02-21T17:27:02",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "5.1.0",
+        "upload_time": "2023-02-10T16:07:20",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "5.0.0",
+        "upload_time": "2022-07-12T09:21:44",
+        "python_require": [
+          "cp311",
+          "cp310",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp310",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.3.0",
+        "upload_time": "2022-02-16T16:21:26",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.2.0",
+        "upload_time": "2021-08-19T12:43:59",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.1.1",
+        "upload_time": "2022-02-22T15:16:54",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.1.0",
+        "upload_time": "2021-02-08T13:23:52",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.2",
+        "upload_time": "2021-02-08T13:20:26",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.1",
+        "upload_time": "2020-09-11T19:21:09",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0",
+        "upload_time": "2020-06-16T20:22:00",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.2.0",
+        "upload_time": "2020-06-04T10:45:40",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "debtcollector",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.2",
+        "upload_time": "2021-02-08T13:17:51",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "debtcollector",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.1",
+        "upload_time": "2020-04-07T10:10:24",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "debtcollector",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.0",
+        "upload_time": "2020-03-03T14:26:03",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "debtcollector",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2020-02-05T21:47:06",
+        "python_require": [
+          "cp36",
+          "cp310",
+          "cp311",
+          "cp37",
+          "cp39",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp310",
+              "cp311",
+              "cp37",
+              "cp39",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.29.3",
+        "upload_time": "2021-02-09T13:40:12",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp38",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp38",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp38",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp38",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp38",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp38",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp38",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.29.2",
+        "upload_time": "2019-09-04T14:26:14",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.29.1",
+        "upload_time": "2019-05-16T06:49:58",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.29.0",
+        "upload_time": "2019-04-26T16:51:51",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.28.2",
+        "upload_time": "2019-02-28T18:06:51",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.28.1",
+        "upload_time": "2018-09-25T19:48:15",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.28.0",
+        "upload_time": "2018-09-24T15:14:18",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.27.0",
+        "upload_time": "2018-06-19T15:02:05",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.26.0",
+        "upload_time": "2018-06-05T18:07:50",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.5.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.25.0",
+        "upload_time": "2018-03-14T17:29:48",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.24.0",
+        "upload_time": "2018-02-07T04:04:51",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.23.0",
+        "upload_time": "2018-01-08T14:19:53",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.22.0",
+        "upload_time": "2017-12-04T10:34:23",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.31.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.21.2",
+        "upload_time": "2017-10-24T20:45:47",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.28.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.21.1",
+        "upload_time": "2017-10-04T14:07:33",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.28.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.21.0",
+        "upload_time": "2017-09-25T14:21:31",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.28.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.20.3",
+        "upload_time": "2019-04-16T19:12:07",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp37",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.20.2",
+        "upload_time": "2018-01-08T16:16:09",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.20.1",
+        "upload_time": "2017-11-20T13:03:34",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.20.0",
+        "upload_time": "2017-07-18T13:16:43",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.19.1",
+        "upload_time": "2017-07-10T20:17:00",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.19.0",
+        "upload_time": "2017-07-03T20:07:44",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.18.0",
+        "upload_time": "2017-03-28T02:04:48",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.17.0",
+        "upload_time": "2017-03-06T17:19:02",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.16.1",
+        "upload_time": "2017-09-27T04:27:14",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.16.0",
+        "upload_time": "2017-01-19T19:17:48",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.15.0",
+        "upload_time": "2016-12-01T16:43:40",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.14.0",
+        "upload_time": "2016-10-19T04:49:06",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.13.2",
+        "upload_time": "2017-10-09T20:48:20",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.13.1",
+        "upload_time": "2017-07-05T08:35:11",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.13.0",
+        "upload_time": "2016-08-10T12:22:30",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.12.0",
+        "upload_time": "2016-08-02T18:20:46",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.11.0",
+        "upload_time": "2016-07-13T14:23:16",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.10.0",
+        "upload_time": "2016-06-28T11:18:32",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.9.0",
+        "upload_time": "2016-06-14T15:03:57",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.8.0",
+        "upload_time": "2016-06-10T01:37:48",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.7.0",
+        "upload_time": "2016-05-24T22:10:59",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.6.0",
+        "upload_time": "2016-05-11T14:47:26",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.5.0",
+        "upload_time": "2016-05-09T15:42:37",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.0",
+        "upload_time": "2016-02-25T06:11:41",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.3.0",
+        "upload_time": "2016-02-09T23:21:58",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.0",
+        "upload_time": "2015-12-21T19:58:03",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2015-12-07T19:27:26",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2015-11-23T20:58:02",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.11.0",
+        "upload_time": "2015-10-19T17:12:29",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "2.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.10.0",
+        "upload_time": "2015-10-06T16:59:54",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.9.0",
+        "upload_time": "2015-09-08T16:01:45",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "2.0",
+            "end_node": "1.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.8.0",
+        "upload_time": "2015-08-03T17:23:44",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "2.0",
+            "end_node": "1.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.7.0",
+        "upload_time": "2015-07-06T20:15:14",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "2.0",
+            "end_node": "0.11",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.6.0",
+        "upload_time": "2015-06-02T15:10:22",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "2.0",
+            "end_node": "0.11",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.0",
+        "upload_time": "2015-04-21T17:22:13",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "0.6!=0.7<1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.0",
+        "upload_time": "2015-03-09T14:33:38",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "0.6!=0.7<1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.0",
+        "upload_time": "2015-02-16T19:25:53",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "0.6!=0.7<1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msgpack-python",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytz",
+            "start_node": "START",
+            "end_node": "2013.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.2.0",
+        "upload_time": "2015-01-08T21:33:34",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "0.6!=0.7<1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "Babel",
+            "start_node": "START",
+            "end_node": "1.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "iso8601",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp27",
+              "cp32",
+              "cp34",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2014-12-01T22:21:49",
+        "python_require": [
+          "cp32",
+          "cp33",
+          "cp30",
+          "cp31",
+          "cp27",
+          "cp34"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2014-09-18T13:57:17",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2014-09-15T15:20:12",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2014-09-08T14:36:35",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2014-08-27T13:24:02",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

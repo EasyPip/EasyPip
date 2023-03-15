@@ -1,0 +1,2426 @@
+{
+  "perceval-opnfv": {
+    "summary": "Bundle of Perceval backends for OPNFV ecosystem.",
+    "potential_require": [
+      "requests",
+      "grimoirelab-toolkit",
+      "perceval"
+    ],
+    "version_list": [
+      {
+        "version": "0.2.7",
+        "upload_time": "2023-02-03T08:18:53",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.2.6rc5",
+        "upload_time": "2023-02-01T08:54:04",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.6rc4",
+        "upload_time": "2023-01-23T10:20:36",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.6rc3",
+        "upload_time": "2023-01-20T15:22:17",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.6rc2",
+        "upload_time": "2023-01-18T18:17:09",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.6rc1",
+        "upload_time": "2023-01-09T19:45:27",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.6",
+        "upload_time": "2023-02-01T10:47:31",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.5",
+        "upload_time": "2022-11-07T09:09:56",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.4rc3",
+        "upload_time": "2022-10-26T11:04:33",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.4rc2",
+        "upload_time": "2022-10-25T16:16:37",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.4rc1",
+        "upload_time": "2022-10-25T14:18:43",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.4",
+        "upload_time": "2022-10-31T09:14:56",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.3",
+        "upload_time": "2022-09-27T12:27:48",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc9",
+        "upload_time": "2022-09-23T18:01:05",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc8",
+        "upload_time": "2022-09-23T14:56:25",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc7",
+        "upload_time": "2022-09-23T09:56:52",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc6",
+        "upload_time": "2022-09-09T16:27:12",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc5",
+        "upload_time": "2022-09-07T14:04:48",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc4",
+        "upload_time": "2022-09-07T11:03:24",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc3",
+        "upload_time": "2022-09-06T14:05:30",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc2",
+        "upload_time": "2022-08-23T09:08:30",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc12",
+        "upload_time": "2022-09-26T11:52:40",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc11",
+        "upload_time": "2022-09-26T10:21:13",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc10",
+        "upload_time": "2022-09-26T08:54:59",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2rc1",
+        "upload_time": "2022-07-22T14:18:54",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2022-09-26T14:01:03",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2022-06-24T10:38:25",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2022-06-02T10:36:33",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp311",
+          "cp310",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "3.0.0",
+            "end_node": "2.7.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "0.4",
+            "end_node": "0.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "0.19",
+            "end_node": "0.18",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp311",
+              "cp310",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.22",
+        "upload_time": "2022-03-18T17:06:03",
+        "python_require": [
+          "cp37",
+          "cp32",
+          "cp30",
+          "cp38",
+          "cp310",
+          "cp39",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp30",
+              "cp310",
+              "cp39",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp30",
+              "cp310",
+              "cp39",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.12.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp30",
+              "cp310",
+              "cp39",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.21",
+        "upload_time": "2021-08-17T17:11:11",
+        "python_require": [
+          "cp37",
+          "cp32",
+          "cp30",
+          "cp38",
+          "cp39",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.12.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.19",
+        "upload_time": "2020-12-09T13:21:26",
+        "python_require": [
+          "cp37",
+          "cp32",
+          "cp30",
+          "cp38",
+          "cp39",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.12.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.16",
+        "upload_time": "2019-10-01T21:28:42",
+        "python_require": [
+          "cp37",
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.13",
+        "upload_time": "2019-06-05T10:23:32",
+        "python_require": [
+          "cp37",
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.12.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.12",
+        "upload_time": "2018-08-24T11:11:58",
+        "python_require": [
+          "cp37",
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.8",
+        "upload_time": "2018-05-17T22:32:54",
+        "python_require": [
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.9.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.7",
+        "upload_time": "2018-03-22T23:18:06",
+        "python_require": [
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.9.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.6",
+        "upload_time": "2018-03-13T22:10:50",
+        "python_require": [
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.9.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.1.4",
+        "upload_time": "2018-01-23T15:52:37",
+        "python_require": [
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.2",
+        "upload_time": "2017-10-26T17:44:59",
+        "python_require": [
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2017-10-20T15:55:56",
+        "python_require": [
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2017-07-18T17:01:17",
+        "python_require": [
+          "cp32",
+          "cp30",
+          "cp34",
+          "cp31",
+          "cp36",
+          "cp33",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "grimoirelab-toolkit",
+            "start_node": "START",
+            "end_node": "0.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "perceval",
+            "start_node": "START",
+            "end_node": "0.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp32",
+              "cp30",
+              "cp34",
+              "cp31",
+              "cp36",
+              "cp33",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

@@ -1,0 +1,3949 @@
+{
+  "aws-sam-translator": {
+    "summary": "AWS SAM Translator is a library that transform SAM templates into AWS CloudFormation templates",
+    "potential_require": [
+      "boto3",
+      "jsonschema",
+      "pydantic",
+      "typing-extensions",
+      "six",
+      "pyrsistent",
+      "enum34"
+    ],
+    "version_list": [
+      {
+        "version": "1.59.0",
+        "upload_time": "2023-02-08T21:33:26",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "5",
+            "end_node": "3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pydantic",
+            "start_node": "START",
+            "end_node": "1.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.58.1",
+        "upload_time": "2023-01-24T19:42:13",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "5",
+            "end_node": "3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pydantic",
+            "start_node": "START",
+            "end_node": "1.10.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.58.0",
+        "upload_time": "2023-01-23T23:33:44",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "5",
+            "end_node": "3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pydantic",
+            "start_node": "START",
+            "end_node": "1.10.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.57.0",
+        "upload_time": "2023-01-12T17:37:03",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "5",
+            "end_node": "3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pydantic",
+            "start_node": "START",
+            "end_node": "1.10.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.56.0",
+        "upload_time": "2023-01-05T21:52:51",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "5",
+            "end_node": "3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pydantic",
+            "start_node": "START",
+            "end_node": "1.10.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.55.0",
+        "upload_time": "2022-11-29T03:29:25",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.54.0",
+        "upload_time": "2022-11-10T19:50:22",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.53.0",
+        "upload_time": "2022-10-11T17:21:38",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.52.0",
+        "upload_time": "2022-10-06T19:08:56",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.51.0",
+        "upload_time": "2022-09-13T18:28:27",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.50.0",
+        "upload_time": "2022-08-17T17:29:46",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.49.0",
+        "upload_time": "2022-08-08T18:19:45",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.48.0",
+        "upload_time": "2022-07-25T20:27:14",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.47.0",
+        "upload_time": "2022-07-12T19:59:44",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.46.0",
+        "upload_time": "2022-06-07T17:16:16",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "1.*",
+            "end_node": "1.19.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.45.0",
+        "upload_time": "2022-04-06T18:04:45",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.44.0",
+        "upload_time": "2022-03-28T18:03:51",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.43.0",
+        "upload_time": "2022-03-22T21:41:06",
+        "python_require": [
+          "cp38",
+          "cp39",
+          "cp310",
+          "cp37",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp39",
+              "cp310",
+              "cp37",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.42.0",
+        "upload_time": "2021-11-23T19:58:25",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp310",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp310",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp310",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp310",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp310",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.40.0",
+        "upload_time": "2021-11-02T21:35:25",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp310",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp310",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp310",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp310",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp310",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.39.0",
+        "upload_time": "2021-09-29T20:21:45",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.38.0",
+        "upload_time": "2021-07-19T15:15:37",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.37.0",
+        "upload_time": "2021-07-06T15:51:49",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.36.0",
+        "upload_time": "2021-05-31T20:28:14",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.35.0",
+        "upload_time": "2021-03-12T18:17:23",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.34.0",
+        "upload_time": "2021-01-30T00:19:22",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.33.0",
+        "upload_time": "2020-12-17T20:41:45",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.32.0",
+        "upload_time": "2020-12-01T16:54:33",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.31.0",
+        "upload_time": "2020-11-23T19:46:45",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.30.1",
+        "upload_time": "2020-11-19T02:56:31",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.30.0",
+        "upload_time": "2020-11-18T18:37:53",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.15.16",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.29.0",
+        "upload_time": "2020-11-05T22:17:09",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.28.1",
+        "upload_time": "2020-10-28T21:46:53",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp39",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.27.0",
+        "upload_time": "2020-09-18T21:11:57",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyrsistent",
+            "start_node": "START",
+            "end_node": "0.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.26.0",
+        "upload_time": "2020-08-11T21:30:01",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.25.0",
+        "upload_time": "2020-06-16T18:45:19",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.24.0",
+        "upload_time": "2020-05-27T16:05:08",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.23.0",
+        "upload_time": "2020-05-06T18:33:13",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "boto3",
+            "start_node": "START",
+            "end_node": "1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp27",
+              "cp35",
+              "cp32",
+              "cp36",
+              "cp33",
+              "cp31",
+              "cp30",
+              "cp37",
+              "cp34"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.22.0",
+        "upload_time": "2020-03-16T20:53:00",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.21.0",
+        "upload_time": "2020-02-21T21:39:12",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.20.1",
+        "upload_time": "2020-01-15T21:56:15",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.20.0",
+        "upload_time": "2020-01-13T23:09:28",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.19.1",
+        "upload_time": "2019-12-23T20:00:13",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.19.0",
+        "upload_time": "2019-12-04T18:59:44",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.18.0",
+        "upload_time": "2019-12-03T22:45:43",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.17.0",
+        "upload_time": "2019-12-02T18:05:41",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.16.0",
+        "upload_time": "2019-11-26T16:49:35",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.15.1",
+        "upload_time": "2019-10-14T19:21:04",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.15.0",
+        "upload_time": "2019-10-03T23:30:27",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.14.0",
+        "upload_time": "2019-08-29T19:32:42",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.13.2",
+        "upload_time": "2019-08-15T00:18:29",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.13.1",
+        "upload_time": "2019-08-06T23:08:48",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.13.0",
+        "upload_time": "2019-07-27T00:02:23",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.12.0",
+        "upload_time": "2019-06-26T17:14:09",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.11.0",
+        "upload_time": "2019-04-25T22:44:26",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.10.0",
+        "upload_time": "2019-03-06T22:25:57",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.9.1",
+        "upload_time": "2019-02-07T23:22:05",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.9.0",
+        "upload_time": "2018-11-29T17:58:31",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.8.0",
+        "upload_time": "2018-10-25T23:57:40",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.7.0",
+        "upload_time": "2018-09-26T18:18:03",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.6.1",
+        "upload_time": "2018-06-28T23:07:17",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.6.0",
+        "upload_time": "2018-06-12T23:40:13",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.5.4",
+        "upload_time": "2018-05-03T21:49:40",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.5.3",
+        "upload_time": "2018-05-03T17:00:07",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.5.2",
+        "upload_time": "2018-04-25T23:35:26",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "1.5.1",
+        "upload_time": "2018-04-18T17:30:35",
+        "python_require": [
+          "cp38",
+          "cp27",
+          "cp39",
+          "cp35",
+          "cp32",
+          "cp36",
+          "cp33",
+          "cp310",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34",
+          "cp311"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

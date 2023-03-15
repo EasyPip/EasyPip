@@ -1,0 +1,3556 @@
+{
+  "particle": {
+    "summary": "Extended PDG particle data and MC identification codes",
+    "potential_require": [
+      "attrs",
+      "hepunits",
+      "importlib-resources",
+      "typing-extensions",
+      "deprecated",
+      "enum34",
+      "typing"
+    ],
+    "version_list": [
+      {
+        "version": "0.21.2",
+        "upload_time": "2023-01-30T17:56:03",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.21.1",
+        "upload_time": "2023-01-04T11:48:40",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.21.0",
+        "upload_time": "2022-11-08T14:19:14",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.20.1",
+        "upload_time": "2022-03-29T13:52:12",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.20.0",
+        "upload_time": "2022-01-15T17:12:22",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deprecated",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.3",
+        "upload_time": "2021-12-15T17:46:28",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deprecated",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.16.2",
+        "upload_time": "2021-11-11T11:44:41",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deprecated",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.16.1",
+        "upload_time": "2021-09-11T02:51:47",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deprecated",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.16.0",
+        "upload_time": "2021-09-01T19:12:47",
+        "python_require": [
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp310",
+          "cp35",
+          "cp36",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "deprecated",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp311",
+              "cp39",
+              "cp38",
+              "cp310",
+              "cp35",
+              "cp36",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.1",
+        "upload_time": "2021-06-24T09:38:03",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.15.0",
+        "upload_time": "2021-05-18T21:19:08",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.14.1",
+        "upload_time": "2021-03-23T09:56:19",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.14.0",
+        "upload_time": "2020-11-26T14:32:52",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.13.1",
+        "upload_time": "2020-11-10T17:33:06",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.13.0",
+        "upload_time": "2020-10-30T19:56:53",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.12.0",
+        "upload_time": "2020-09-29T09:43:55",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.0",
+        "upload_time": "2020-08-13T15:26:14",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.10.0",
+        "upload_time": "2020-05-21T14:44:28",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "19.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing",
+            "start_node": "START",
+            "end_node": "3.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.2",
+        "upload_time": "2020-02-14T14:23:09",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.9.1",
+        "upload_time": "2020-01-14T11:26:16",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.0",
+        "upload_time": "2020-01-07T20:32:58",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.1",
+        "upload_time": "2019-12-14T13:46:49",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2019-12-03T11:00:01",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.7.1",
+        "upload_time": "2019-11-22T19:42:41",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2019-11-19T09:00:18",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp310",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp34",
+              "cp38",
+              "cp35",
+              "cp36",
+              "cp311",
+              "cp310",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.2",
+        "upload_time": "2019-09-19T08:57:21",
+        "python_require": [
+          "cp34",
+          "cp27",
+          "cp35",
+          "cp36",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2019-09-06T19:04:15",
+        "python_require": [
+          "cp34",
+          "cp27",
+          "cp35",
+          "cp36",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2019-09-01T21:36:45",
+        "python_require": [
+          "cp34",
+          "cp27",
+          "cp35",
+          "cp36",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2019-08-26T12:23:30",
+        "python_require": [
+          "cp34",
+          "cp27",
+          "cp35",
+          "cp36",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2019-08-21T22:09:20",
+        "python_require": [
+          "cp34",
+          "cp27",
+          "cp35",
+          "cp36",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2019-06-14T13:07:13",
+        "python_require": [
+          "cp34",
+          "cp27",
+          "cp35",
+          "cp36",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "0.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.4",
+        "upload_time": "2019-05-13T13:06:07",
+        "python_require": [
+          "cp34",
+          "cp27",
+          "cp35",
+          "cp36",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "0.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.3",
+        "upload_time": "2019-05-10T19:03:12",
+        "python_require": [
+          "cp34",
+          "cp27",
+          "cp35",
+          "cp36",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "0.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.2",
+        "upload_time": "2019-05-02T16:12:56",
+        "python_require": [
+          "cp34",
+          "cp27",
+          "cp35",
+          "cp36",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "attrs",
+            "start_node": "START",
+            "end_node": "17.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "hepunits",
+            "start_node": "START",
+            "end_node": "0.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "enum34",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-resources",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp34",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp30",
+              "cp32",
+              "cp27",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2019-04-02T12:35:21",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp27",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp310",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2019-03-20T20:31:53",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp27",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp310",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2019-03-06T17:19:20",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp27",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp310",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.2",
+        "upload_time": "2019-02-05T20:29:56",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp27",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp310",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2019-02-04T18:51:01",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp27",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp310",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2019-01-29T16:29:17",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp27",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp310",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.0",
+        "upload_time": "2019-01-09T21:38:05",
+        "python_require": [
+          "cp39",
+          "cp34",
+          "cp27",
+          "cp38",
+          "cp35",
+          "cp36",
+          "cp311",
+          "cp30",
+          "cp32",
+          "cp37",
+          "cp310",
+          "cp33",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

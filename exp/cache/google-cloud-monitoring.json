@@ -1,0 +1,2643 @@
+{
+  "google-cloud-monitoring": {
+    "summary": "Stackdriver Monitoring API client library",
+    "potential_require": [
+      "google-api-core",
+      "proto-plus",
+      "protobuf",
+      "packaging",
+      "libcst",
+      "google-cloud-core"
+    ],
+    "version_list": [
+      {
+        "version": "2.14.1",
+        "upload_time": "2023-01-23T16:03:50",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.22.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [
+              "3.20.0!=3.20.1!=4.21.0!=4.21.1!=4.21.2!=4.21.3!=4.21.4!=4.21.5<5.0.0dev>=3.19.5"
+            ],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.22.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.14.0",
+        "upload_time": "2023-01-10T18:24:09",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.22.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [
+              "3.20.0!=3.20.1!=4.21.0!=4.21.1!=4.21.2!=4.21.3!=4.21.4!=4.21.5<5.0.0dev>=3.19.5"
+            ],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.22.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.13.0",
+        "upload_time": "2023-01-09T16:42:06",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.22.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [
+              "3.20.0!=3.20.1!=4.21.0!=4.21.1!=4.21.2!=4.21.3!=4.21.4!=4.21.5<5.0.0dev>=3.19.5"
+            ],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.12.0",
+        "upload_time": "2022-12-15T17:57:36",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.22.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [
+              "3.20.0!=3.20.1!=4.21.0!=4.21.1!=4.21.2!=4.21.3!=4.21.4!=4.21.5<5.0.0dev>=3.19.5"
+            ],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.11.3",
+        "upload_time": "2022-10-10T17:47:48",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.22.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [
+              "3.20.0!=3.20.1!=4.21.0!=4.21.1!=4.21.2!=4.21.3!=4.21.4!=4.21.5<5.0.0dev>=3.19.5"
+            ],
+            "package_name": "protobuf",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.11.2",
+        "upload_time": "2022-10-04T00:17:08",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.22.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "5.0.0dev",
+            "end_node": "3.20.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.11.1",
+        "upload_time": "2022-08-16T14:53:41",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.22.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "5.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.11.0",
+        "upload_time": "2022-08-08T19:09:01",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.10.1",
+        "upload_time": "2022-07-14T14:11:58",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.10.0",
+        "upload_time": "2022-07-07T13:49:50",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.9.2",
+        "upload_time": "2022-06-09T14:52:04",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "2.0.0dev",
+            "end_node": "1.15.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "3.19.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.9.1",
+        "upload_time": "2022-03-07T16:02:23",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.9.0",
+        "upload_time": "2022-02-28T22:50:22",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.8.0",
+        "upload_time": "2021-11-16T20:20:59",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.7.0",
+        "upload_time": "2021-11-09T18:20:40",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.6.0",
+        "upload_time": "2021-10-07T10:54:25",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.5.1",
+        "upload_time": "2021-09-27T16:13:19",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.5.0",
+        "upload_time": "2021-08-30T20:24:48",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.2",
+        "upload_time": "2021-07-28T11:37:11",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.1",
+        "upload_time": "2021-07-21T23:36:47",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "3.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.4.0",
+        "upload_time": "2021-07-01T10:52:15",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.3.0",
+        "upload_time": "2021-06-18T15:51:22",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.2.1",
+        "upload_time": "2021-03-29T15:52:52",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.2.0",
+        "upload_time": "2021-03-25T20:53:30",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.2.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2021-03-12T01:07:28",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.2.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.1",
+        "upload_time": "2021-02-18T17:24:52",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.2.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2020-10-06T20:05:25",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "proto-plus",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "libcst",
+            "start_node": "START",
+            "end_node": "0.2.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.2",
+        "upload_time": "2022-06-09T14:51:45",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.1",
+        "upload_time": "2022-04-04T16:56:59",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2020-08-20T01:59:28",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2020-06-03T19:04:12",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.36.2",
+        "upload_time": "2022-06-09T14:51:18",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "protobuf",
+            "start_node": "4.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.36.1",
+        "upload_time": "2022-05-19T15:40:23",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.36.0",
+        "upload_time": "2020-05-13T01:20:15",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.35.0",
+        "upload_time": "2020-04-21T21:19:20",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.34.0",
+        "upload_time": "2019-11-21T01:12:19",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.33.0",
+        "upload_time": "2019-08-15T16:54:14",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.32.0",
+        "upload_time": "2019-07-30T16:33:51",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.31.1",
+        "upload_time": "2018-12-19T18:20:41",
+        "python_require": [
+          "cp34",
+          "cp37",
+          "cp311",
+          "cp310",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp37",
+              "cp311",
+              "cp36",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp38",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.31.0",
+        "upload_time": "2018-11-30T00:49:41",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.30.1",
+        "upload_time": "2018-07-13T21:19:41",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.30.0",
+        "upload_time": "2018-06-25T21:13:54",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.29.0",
+        "upload_time": "2018-04-24T18:03:48",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "START",
+            "end_node": "0.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.28.1",
+        "upload_time": "2018-02-28T20:18:30",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "2.0.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.28.0",
+        "upload_time": "2017-10-31T22:23:58",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-api-core",
+            "start_node": "0.2.0dev",
+            "end_node": "0.1.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.29dev",
+            "end_node": "0.28.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.27.0",
+        "upload_time": "2017-08-24T21:28:44",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.28dev",
+            "end_node": "0.27.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.26.0",
+        "upload_time": "2017-08-05T00:15:47",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.27dev",
+            "end_node": "0.26.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.25.0",
+        "upload_time": "2017-06-26T23:48:30",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.26dev",
+            "end_node": "0.25.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.24.0",
+        "upload_time": "2017-03-31T19:14:52",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.25dev",
+            "end_node": "0.24.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.23.0",
+        "upload_time": "2017-02-24T23:58:19",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.24dev",
+            "end_node": "0.23.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.22.0",
+        "upload_time": "2016-12-10T20:23:47",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "0.23dev",
+            "end_node": "0.22.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp32",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.21.0",
+        "upload_time": "2016-11-14T22:53:34",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp32",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.20.0",
+        "upload_time": "2016-09-29T00:20:43",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "google-cloud-core",
+            "start_node": "START",
+            "end_node": "0.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp32",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

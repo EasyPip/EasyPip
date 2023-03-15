@@ -1,0 +1,5809 @@
+{
+  "python-mistralclient": {
+    "summary": "Mistral Client Library",
+    "potential_require": [
+      "PyYAML",
+      "cliff",
+      "keystoneauth1",
+      "osc-lib",
+      "oslo.i18n",
+      "oslo.serialization",
+      "oslo.utils",
+      "pbr",
+      "requests",
+      "stevedore",
+      "six",
+      "python-keystoneclient",
+      "osprofiler",
+      "python-openstackclient"
+    ],
+    "version_list": [
+      {
+        "version": "5.0.0",
+        "upload_time": "2023-01-23T10:41:04",
+        "python_require": [
+          "cp38",
+          "cp310",
+          "cp311",
+          "cp39"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.5.0",
+        "upload_time": "2022-09-02T09:40:18",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.4.0",
+        "upload_time": "2022-02-25T16:21:46",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.3.0",
+        "upload_time": "2021-09-03T14:34:05",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.2.0",
+        "upload_time": "2021-01-25T20:42:45",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.1.1",
+        "upload_time": "2020-09-11T14:26:20",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.13",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.1.0",
+        "upload_time": "2020-06-22T19:45:32",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.1",
+        "upload_time": "2020-04-09T11:05:23",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0",
+        "upload_time": "2020-02-14T22:42:25",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp38",
+          "cp33",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp38",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.10.0",
+        "upload_time": "2019-09-13T19:16:04",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.9.0",
+        "upload_time": "2019-05-16T06:49:41",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.8.1",
+        "upload_time": "2019-05-14T14:14:43",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.8.0",
+        "upload_time": "2019-03-08T20:14:06",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.7.0",
+        "upload_time": "2018-07-25T16:31:17",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.19.1"
+            ],
+            "package_name": "oslo.serialization",
+            "start_node": "START",
+            "end_node": "2.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.6.1",
+        "upload_time": "2018-07-09T13:34:23",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.6.0",
+        "upload_time": "2018-06-08T17:47:57",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.5.0",
+        "upload_time": "2018-05-15T15:31:45",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.4.0",
+        "upload_time": "2018-04-20T16:23:47",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.12",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.3.0",
+        "upload_time": "2018-02-14T16:23:31",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.2.0",
+        "upload_time": "2018-01-30T22:13:20",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.33.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "3.15.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "keystoneauth1",
+            "start_node": "START",
+            "end_node": "3.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.1.5",
+        "upload_time": "2019-05-10T16:48:48",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp33",
+          "cp36",
+          "cp31",
+          "cp30",
+          "cp27",
+          "cp37",
+          "cp34"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "3.15.2"
+            ],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "3.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp35",
+              "cp32",
+              "cp33",
+              "cp31",
+              "cp34",
+              "cp30",
+              "cp27",
+              "cp37",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.4",
+        "upload_time": "2017-11-02T23:54:11",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "3.15.2"
+            ],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "3.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.3",
+        "upload_time": "2017-09-07T22:23:34",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "3.15.2"
+            ],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "3.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.1.2",
+        "upload_time": "2017-08-08T16:50:24",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "3.15.2"
+            ],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "3.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.1.1",
+        "upload_time": "2017-07-25T06:13:13",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "3.15.2"
+            ],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "3.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.1.0",
+        "upload_time": "2017-04-24T13:37:40",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "3.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.13.0!=2.12.2"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.20.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.2",
+        "upload_time": "2017-08-07T01:51:24",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "3.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.12.2"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.1",
+        "upload_time": "2017-07-25T11:30:23",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "3.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.12.2"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2017-01-18T21:51:56",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.i18n",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.18.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "3.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.12.2"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "stevedore",
+            "start_node": "START",
+            "end_node": "1.17.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.1.2",
+        "upload_time": "2016-11-30T09:49:13",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.17.0!=1.16.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.0.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.1",
+        "upload_time": "2016-08-31T09:37:29",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.17.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "1.15.0!=1.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "1.0.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "oslo.utils",
+            "start_node": "START",
+            "end_node": "3.16.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2016-08-25T11:43:48",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.16.0!=1.17.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osc-lib",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "osprofiler",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.1.0"
+            ],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "six",
+            "start_node": "START",
+            "end_node": "1.9.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2016-02-29T18:43:59",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "1.16.0"
+            ],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "1.15.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.8.0!=2.1.0"
+            ],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-openstackclient",
+            "start_node": "START",
+            "end_node": "2.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.9.0"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.2.0",
+        "upload_time": "2015-12-07T15:15:04",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "1.8.0"
+            ],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-openstackclient",
+            "start_node": "START",
+            "end_node": "1.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.8.0"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2015-09-18T20:45:46",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "1.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.2",
+        "upload_time": "2015-09-09T11:06:50",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "2.0",
+            "end_node": "1.6",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.1",
+        "upload_time": "2015-08-12T14:30:10",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "1.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "2.0",
+            "end_node": "0.11",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2015-06-29T13:43:56",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "1.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "2.0",
+            "end_node": "0.11",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.0.0b1",
+        "upload_time": "2015-06-26T11:02:05",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "START",
+            "end_node": "1.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "2.0",
+            "end_node": "0.11",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "START",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.5.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2015-04-30T18:48:20",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "cliff",
+            "start_node": "1.11.0",
+            "end_node": "1.10.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pbr",
+            "start_node": "START",
+            "end_node": "0.6!=0.7<1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "python-keystoneclient",
+            "start_node": "1.4.0",
+            "end_node": "1.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "START",
+            "end_node": "3.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [
+              "2.4.0"
+            ],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1",
+        "upload_time": "2014-09-25T04:27:53",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.1.1",
+        "upload_time": "2014-10-24T13:08:03",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.4",
+        "upload_time": "2014-06-24T09:20:00",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.3",
+        "upload_time": "2014-06-24T08:31:05",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.0.2",
+        "upload_time": "2014-04-30T15:19:33",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp310",
+          "cp38",
+          "cp33",
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp311",
+          "cp34",
+          "cp27",
+          "cp37",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.0.1",
+        "upload_time": "2014-04-30T12:05:10",
+        "python_require": [
+          "cp35",
+          "cp32",
+          "cp310",
+          "cp38",
+          "cp33",
+          "cp36",
+          "cp39",
+          "cp31",
+          "cp311",
+          "cp34",
+          "cp27",
+          "cp37",
+          "cp30"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

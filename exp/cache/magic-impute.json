@@ -1,0 +1,2410 @@
+{
+  "magic-impute": {
+    "summary": "MAGIC",
+    "potential_require": [
+      "numpy",
+      "scipy",
+      "matplotlib",
+      "scikit-learn",
+      "future",
+      "tasklogger",
+      "graphtools",
+      "pandas",
+      "scprep"
+    ],
+    "version_list": [
+      {
+        "version": "3.0.0",
+        "upload_time": "2021-03-11T17:49:40",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.25",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.4",
+        "upload_time": "2020-11-02T17:11:24",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.25",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.3",
+        "upload_time": "2019-11-18T22:47:52",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.25",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.0.2",
+        "upload_time": "2019-11-12T18:21:06",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.25",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2019-11-12T15:26:55",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.25",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.5.7",
+        "upload_time": "2019-10-15T16:44:47",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.3.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.25",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.6",
+        "upload_time": "2019-10-10T20:30:03",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.25",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.5",
+        "upload_time": "2019-04-12T22:18:16",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "0.24",
+            "end_node": "0.21.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "0.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.3",
+        "upload_time": "2019-03-18T18:58:56",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "0.24",
+            "end_node": "0.21.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "0.11.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.5.2",
+        "upload_time": "2019-02-23T19:55:33",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "0.24",
+            "end_node": "0.21.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.1",
+        "upload_time": "2019-02-06T19:14:53",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp37",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "0.24",
+            "end_node": "0.21.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.0",
+        "upload_time": "2019-02-06T18:55:56",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "future",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "1.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "0.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "0.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.0",
+        "upload_time": "2018-11-22T17:57:35",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "0.19.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tasklogger",
+            "start_node": "START",
+            "end_node": "0.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "graphtools",
+            "start_node": "START",
+            "end_node": "0.1.9",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scprep",
+            "start_node": "START",
+            "end_node": "0.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.0",
+        "upload_time": "2018-09-21T21:54:22",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "1.2.1",
+        "upload_time": "2018-07-24T23:12:27",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

@@ -1,0 +1,5535 @@
+{
+  "anndata": {
+    "summary": "Annotated data.",
+    "potential_require": [
+      "pandas",
+      "numpy",
+      "scipy",
+      "h5py",
+      "natsort",
+      "packaging",
+      "setuptools_scm",
+      "black",
+      "docutils",
+      "sphinx",
+      "sphinx-rtd-theme",
+      "sphinx-autodoc-typehints",
+      "sphinx_issues",
+      "nbsphinx",
+      "scanpydoc",
+      "zarr",
+      "awkward",
+      "IPython",
+      "myst_parser",
+      "loompy",
+      "pytest",
+      "pytest-cov",
+      "matplotlib",
+      "scikit-learn",
+      "openpyxl",
+      "joblib",
+      "boltons",
+      "scanpy",
+      "dask",
+      "pytest_memray",
+      "importlib_metadata",
+      "typing_extensions",
+      "sklearn",
+      "importlib-metadata",
+      "xlrd",
+      "pytoml"
+    ],
+    "version_list": [
+      {
+        "version": "0.9.0rc1",
+        "upload_time": "2023-02-21T16:31:17",
+        "python_require": [
+          "cp39",
+          "cp310",
+          "cp311",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "1.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.16.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools_scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "20.8b1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "4.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-rtd-theme",
+            "start_node": "START",
+            "end_node": "1.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-autodoc-typehints",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx_issues",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nbsphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpydoc",
+            "start_node": "START",
+            "end_node": "0.7.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "zarr",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "2.0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "IPython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "myst_parser",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "loompy",
+            "start_node": "START",
+            "end_node": "3.0.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "START",
+            "end_node": "2.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "zarr",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "openpyxl",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "joblib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boltons",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dask",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "awkward",
+            "start_node": "START",
+            "end_node": "2.0.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest_memray",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp38",
+              "cp310",
+              "cp311",
+              "cp39"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.0rc1",
+        "upload_time": "2022-01-24T14:02:46",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "1.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.16.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib_metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing_extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools_scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "20.8b1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "4.2",
+            "end_node": "4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-rtd-theme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-autodoc-typehints",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx_issues",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nbsphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpydoc",
+            "start_node": "START",
+            "end_node": "0.7.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing_extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "loompy",
+            "start_node": "START",
+            "end_node": "3.0.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "START",
+            "end_node": "2.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "zarr",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "openpyxl",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "joblib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boltons",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dask",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2022-03-15T14:17:47",
+        "python_require": [
+          "cp310",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "1.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.16.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib_metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing_extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools_scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "20.8b1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "4.2",
+            "end_node": "4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-rtd-theme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-autodoc-typehints",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx_issues",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "nbsphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpydoc",
+            "start_node": "START",
+            "end_node": "0.7.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing_extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "zarr",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "loompy",
+            "start_node": "START",
+            "end_node": "3.0.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "START",
+            "end_node": "2.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "zarr",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "openpyxl",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "joblib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boltons",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "dask",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7rc2",
+        "upload_time": "2020-01-09T12:58:37",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.7rc1",
+        "upload_time": "2019-12-23T16:23:16",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7",
+        "upload_time": "2020-01-22T09:47:48",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.8",
+        "upload_time": "2021-11-09T20:55:19",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "1.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.16.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib_metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools_scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "20.8b1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "4.2",
+            "end_node": "4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-rtd-theme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-autodoc-typehints",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx_issues",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpydoc",
+            "start_node": "START",
+            "end_node": "0.7.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing_extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "loompy",
+            "start_node": "START",
+            "end_node": "3.0.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "START",
+            "end_node": "2.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "zarr",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "openpyxl",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "joblib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boltons",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.7",
+        "upload_time": "2021-11-09T14:28:32",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "1.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.16.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib_metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools_scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "20.8b1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "4.2",
+            "end_node": "4.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-rtd-theme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-autodoc-typehints",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx_issues",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpydoc",
+            "start_node": "START",
+            "end_node": "0.7.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing_extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "loompy",
+            "start_node": "START",
+            "end_node": "3.0.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "START",
+            "end_node": "2.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "zarr",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "openpyxl",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "joblib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boltons",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.7.6",
+        "upload_time": "2021-04-11T07:05:22",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "1.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.16.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.4",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "20",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "2.0",
+            "end_node": "END",
+            "is_skip_start": true,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib_metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "setuptools_scm",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytoml",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "black",
+            "start_node": "START",
+            "end_node": "20.8b1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "docutils",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "2.0.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-rtd-theme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx-autodoc-typehints",
+            "start_node": "START",
+            "end_node": "1.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx_issues",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpydoc",
+            "start_node": "START",
+            "end_node": "0.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing_extensions",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "loompy",
+            "start_node": "START",
+            "end_node": "3.0.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest",
+            "start_node": "START",
+            "end_node": "6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pytest-cov",
+            "start_node": "START",
+            "end_node": "2.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "zarr",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "matplotlib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "xlrd",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "joblib",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "boltons",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.5",
+        "upload_time": "2020-11-12T05:40:28",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [
+              "1.1"
+            ],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.4",
+        "upload_time": "2020-07-09T07:57:53",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.15",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.3",
+        "upload_time": "2020-05-20T08:10:07",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.2a1",
+        "upload_time": "2020-05-18T20:33:36",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.7.2",
+        "upload_time": "2020-05-19T07:25:05",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.7.1",
+        "upload_time": "2020-01-22T13:11:05",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "importlib-metadata",
+            "start_node": "START",
+            "end_node": "0.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6",
+        "upload_time": "2018-05-01T00:37:38",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.22rc1",
+        "upload_time": "2019-06-19T09:23:25",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.22",
+        "upload_time": "2019-07-10T08:42:21",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.22.post1",
+        "upload_time": "2019-07-10T08:43:20",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.21",
+        "upload_time": "2019-06-06T08:58:48",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.20",
+        "upload_time": "2019-05-31T10:38:05",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.19",
+        "upload_time": "2019-05-16T14:03:42",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.18",
+        "upload_time": "2019-01-29T15:10:09",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp35",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp35",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp35",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp35",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp35",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.17",
+        "upload_time": "2019-01-21T10:15:17",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.16",
+        "upload_time": "2018-12-16T05:09:56",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.15",
+        "upload_time": "2018-12-12T17:43:36",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp35",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "1.14",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp35",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp35",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp35",
+              "cp37"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp310",
+              "cp36",
+              "cp311",
+              "cp38",
+              "cp39",
+              "cp35",
+              "cp37"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.14",
+        "upload_time": "2018-12-12T15:31:59",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.13",
+        "upload_time": "2018-11-13T08:38:31",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.12",
+        "upload_time": "2018-10-29T18:44:16",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.11",
+        "upload_time": "2018-10-08T00:53:51",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.10",
+        "upload_time": "2018-09-03T09:30:23",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.9",
+        "upload_time": "2018-08-20T08:44:51",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.8",
+        "upload_time": "2018-08-13T23:07:52",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.7",
+        "upload_time": "2018-08-13T22:43:07",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.6",
+        "upload_time": "2018-08-10T09:03:13",
+        "python_require": [
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.5",
+        "upload_time": "2018-07-03T18:42:27",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.4",
+        "upload_time": "2018-05-25T14:42:33",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.6.3",
+        "upload_time": "2018-05-25T14:27:43",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.2",
+        "upload_time": "2018-05-25T09:37:38",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2018-05-15T14:34:31",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5",
+        "upload_time": "2018-02-09T12:57:50",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.10",
+        "upload_time": "2018-04-17T09:28:17",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.5.10.post2",
+        "upload_time": "2018-04-26T22:37:21",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.10.post1",
+        "upload_time": "2018-04-26T21:25:10",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.9",
+        "upload_time": "2018-04-16T20:21:01",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.8",
+        "upload_time": "2018-04-05T09:53:04",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.5.8.post1",
+        "upload_time": "2018-04-16T19:59:42",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.5.7",
+        "upload_time": "2018-03-20T13:39:07",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.6",
+        "upload_time": "2018-03-19T17:04:22",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.5",
+        "upload_time": "2018-03-05T15:01:42",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.4",
+        "upload_time": "2018-03-03T12:53:27",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.5.3",
+        "upload_time": "2018-02-17T11:40:00",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2018-02-15T11:16:42",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2018-02-09T20:35:04",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "natsort",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4",
+        "upload_time": "2017-12-24T05:27:44",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.4.4",
+        "upload_time": "2018-01-06T08:10:46",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.4.3",
+        "upload_time": "2018-01-03T10:45:57",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.4.2",
+        "upload_time": "2017-12-29T12:55:32",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pandas",
+            "start_node": "START",
+            "end_node": "0.21.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "h5py",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp31"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.1",
+        "upload_time": "2017-12-28T22:15:32",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.3",
+        "upload_time": "2017-11-14T01:55:54",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.4",
+        "upload_time": "2017-11-29T21:45:41",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.3",
+        "upload_time": "2017-11-28T16:12:43",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2017-11-28T15:53:20",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2017-11-17T00:21:28",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.0.3",
+        "upload_time": "2017-11-15T11:18:10",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.0.2",
+        "upload_time": "2017-11-14T14:29:54",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.3.0.1",
+        "upload_time": "2017-11-14T02:35:18",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2",
+        "upload_time": "2017-11-10T06:52:49",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.2.1",
+        "upload_time": "2017-11-10T07:13:28",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.1",
+        "upload_time": "2017-11-07T12:47:42",
+        "python_require": [
+          "cp33",
+          "cp310",
+          "cp36",
+          "cp311",
+          "cp27",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

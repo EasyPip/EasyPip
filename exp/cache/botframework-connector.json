@@ -1,0 +1,4242 @@
+{
+  "botframework-connector": {
+    "summary": "Microsoft Bot Framework Bot Builder SDK for Python.",
+    "potential_require": [
+      "msrest",
+      "PyJWT",
+      "botbuilder-schema",
+      "msal",
+      "requests",
+      "cryptography",
+      "adal"
+    ],
+    "version_list": [
+      {
+        "version": "4.14.3",
+        "upload_time": "2022-11-01T17:20:21",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp39",
+          "cp310",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.*",
+            "end_node": "0.6.*",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "2.4.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "4.14.3",
+            "end_node": "4.14.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.*",
+            "end_node": "1.*",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.14.2",
+        "upload_time": "2022-03-10T23:46:30",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp39",
+          "cp310",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.19",
+            "end_node": "0.6.19",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "2.0.0",
+            "end_node": "1.5.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "4.14.2",
+            "end_node": "4.14.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.6.0",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.14.1",
+        "upload_time": "2022-01-04T17:40:31",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp39",
+          "cp310",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "2.0.0",
+            "end_node": "1.5.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "4.14.1",
+            "end_node": "4.14.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.6.0",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp310",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.14.0",
+        "upload_time": "2021-07-07T22:58:16",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp39",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "2.0.0",
+            "end_node": "1.5.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "4.14.0",
+            "end_node": "4.14.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.6.0",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.13.0",
+        "upload_time": "2021-04-16T00:09:46",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp39",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.26",
+            "end_node": "2.23.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "2.0.0",
+            "end_node": "1.5.3",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "4.13.0",
+            "end_node": "4.13.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.6.0",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.12.0",
+        "upload_time": "2021-03-05T21:24:23",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp39",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.23.0",
+            "end_node": "2.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "3.3.2",
+            "end_node": "3.3.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "4.12.0",
+            "end_node": "4.12.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.6.0",
+            "end_node": "1.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.11.0",
+        "upload_time": "2020-11-09T20:27:50",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp39",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.23.0",
+            "end_node": "2.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "4.11.0",
+            "end_node": "4.11.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.10.1",
+        "upload_time": "2020-09-10T21:02:59",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.23.0",
+            "end_node": "2.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "4.10.1",
+            "end_node": "4.10.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.10.0",
+        "upload_time": "2020-08-14T20:53:44",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.23.0",
+            "end_node": "2.23.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "4.10.0",
+            "end_node": "4.10.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.9.3",
+        "upload_time": "2020-12-04T02:16:02",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp39",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.22.0",
+            "end_node": "2.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.9.2",
+        "upload_time": "2020-07-22T18:25:46",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.22.0",
+            "end_node": "2.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.9.1",
+        "upload_time": "2020-05-28T18:43:29",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.22.0",
+            "end_node": "2.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.9.0",
+        "upload_time": "2020-05-12T17:17:24",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.22.0",
+            "end_node": "2.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.2.0",
+            "end_node": "1.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.8.1",
+        "upload_time": "2020-12-04T02:44:05",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp39",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.22.0",
+            "end_node": "2.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.1.0",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.8.0",
+        "upload_time": "2020-03-17T22:21:55",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.22.0",
+            "end_node": "2.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msal",
+            "start_node": "1.1.0",
+            "end_node": "1.1.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.7.2",
+        "upload_time": "2020-12-04T03:10:30",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp39",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.22.0",
+            "end_node": "2.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.4.0b1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp39",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.7.1",
+        "upload_time": "2020-01-14T20:46:46",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.22.0",
+            "end_node": "2.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.7.0",
+        "upload_time": "2019-12-18T23:39:02",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.6.10",
+            "end_node": "0.6.10",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "2.22.0",
+            "end_node": "2.22.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "2.8.0",
+            "end_node": "2.8.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "1.5.3",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.7.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "adal",
+            "start_node": "1.2.1",
+            "end_node": "1.2.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.5.0b5",
+        "upload_time": "2019-10-29T20:21:33",
+        "python_require": [
+          "cp37",
+          "cp38",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.5.0b5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp38",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.5.0b4",
+        "upload_time": "2019-08-15T20:11:49",
+        "python_require": [
+          "cp37",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.5.0b4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.5.0b3",
+        "upload_time": "2019-07-22T16:50:00",
+        "python_require": [
+          "cp37",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.5.0b3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.5.0b2",
+        "upload_time": "2019-07-11T01:00:55",
+        "python_require": [
+          "cp37",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.5.0b2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.5.0b1",
+        "upload_time": "2019-07-09T17:14:43",
+        "python_require": [
+          "cp37",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.5.0b1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.4.0b2",
+        "upload_time": "2019-06-04T20:41:51",
+        "python_require": [
+          "cp37",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.4.0b2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.4.0b1",
+        "upload_time": "2019-05-03T22:04:31",
+        "python_require": [
+          "cp37",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.4.0b1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0a6",
+        "upload_time": "2018-07-13T17:29:07",
+        "python_require": [
+          "cp37",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.4.29",
+            "end_node": "0.4.29",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.0.0.a6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0a5",
+        "upload_time": "2018-07-06T19:52:27",
+        "python_require": [
+          "cp37",
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "0.4.29",
+            "end_node": "0.4.29",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.0.0.a3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp37",
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0a4",
+        "upload_time": "2018-05-10T19:47:28",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.4.27",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.0.0.a3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0a3",
+        "upload_time": "2018-05-08T00:21:44",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.4.27",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.0.0.a3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0a2",
+        "upload_time": "2018-04-14T00:33:14",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.4.27",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.0.0.a2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0a1",
+        "upload_time": "2018-04-10T22:28:19",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.4.27",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.0.0.a1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0a0",
+        "upload_time": "2018-02-28T00:25:34",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp36",
+          "cp32",
+          "cp35",
+          "cp34",
+          "cp27",
+          "cp33"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.2.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.8.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "cryptography",
+            "start_node": "START",
+            "end_node": "2.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyJWT",
+            "start_node": "START",
+            "end_node": "1.5.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "botbuilder-schema",
+            "start_node": "START",
+            "end_node": "4.0.0.a0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp31",
+              "cp36",
+              "cp32",
+              "cp33",
+              "cp35",
+              "cp34",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

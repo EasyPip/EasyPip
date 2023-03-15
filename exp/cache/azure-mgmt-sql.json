@@ -1,0 +1,4920 @@
+{
+  "azure-mgmt-sql": {
+    "summary": "Microsoft Azure SQL Management Client Library for Python",
+    "potential_require": [
+      "msrest",
+      "azure-common",
+      "azure-mgmt-core",
+      "typing-extensions",
+      "azure-mgmt-nspkg",
+      "msrestazure"
+    ],
+    "version_list": [
+      {
+        "version": "4.0.0b8",
+        "upload_time": "2023-02-20T03:52:56",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0b7",
+        "upload_time": "2023-01-30T03:17:41",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0b6",
+        "upload_time": "2022-12-30T11:10:31",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0b5",
+        "upload_time": "2022-11-11T02:35:45",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "typing-extensions",
+            "start_node": "START",
+            "end_node": "4.3.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "4.0.0b4",
+        "upload_time": "2022-10-03T16:05:04",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.7.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.3.2",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp310",
+              "cp311"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0b3",
+        "upload_time": "2022-07-06T10:02:41",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.21",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.3.1",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0b2",
+        "upload_time": "2022-03-08T07:53:06",
+        "python_require": [
+          "cp39",
+          "cp38",
+          "cp37",
+          "cp310",
+          "cp311",
+          "cp36"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.21",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.3.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp36",
+              "cp311",
+              "cp310"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "4.0.0b1",
+        "upload_time": "2021-12-21T02:58:43",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp310",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.21",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp310",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp310",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp310",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp310",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.1",
+        "upload_time": "2021-07-16T02:07:53",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.21",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2021-06-21T05:43:05",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.21",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.1.0",
+        "upload_time": "2021-05-25T08:41:40",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.21",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "2.0.0",
+        "upload_time": "2021-05-14T07:32:16",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.6.21",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.0b1",
+        "upload_time": "2020-10-29T01:49:54",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2020-11-25T04:37:29",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-core",
+            "start_node": "2.0.0",
+            "end_node": "1.2.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.29.1",
+        "upload_time": "2021-07-14T03:20:28",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.29.0",
+        "upload_time": "2021-06-18T09:10:02",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.28.0",
+        "upload_time": "2021-05-25T08:41:58",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.27.0",
+        "upload_time": "2021-05-14T07:11:10",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.26.0",
+        "upload_time": "2021-01-20T07:54:10",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.25.0",
+        "upload_time": "2020-12-14T09:59:03",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.24.0",
+        "upload_time": "2020-11-04T05:25:54",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.23.0",
+        "upload_time": "2020-10-29T02:35:25",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.22.0",
+        "upload_time": "2020-10-13T09:26:50",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp39",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp39",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.21.0",
+        "upload_time": "2020-09-07T04:07:23",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.20.0",
+        "upload_time": "2020-07-20T03:24:49",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.19.0",
+        "upload_time": "2020-07-03T08:04:30",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.18.0",
+        "upload_time": "2020-03-23T15:39:02",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.17.0",
+        "upload_time": "2020-03-03T05:58:08",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.16.0",
+        "upload_time": "2019-12-17T03:03:22",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.15.0",
+        "upload_time": "2019-11-12T05:54:16",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp38",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp38",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.14.0",
+        "upload_time": "2019-10-04T08:30:27",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.13.0",
+        "upload_time": "2019-09-03T08:49:41",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.12.0",
+        "upload_time": "2019-03-28T23:54:22",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.11.0",
+        "upload_time": "2018-11-08T22:05:52",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.10.0",
+        "upload_time": "2018-10-18T17:02:48",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp37",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrest",
+            "start_node": "START",
+            "end_node": "0.5.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.32",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp37",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.1",
+        "upload_time": "2018-05-25T00:05:41",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.27",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.9.0",
+        "upload_time": "2018-04-25T22:07:52",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.27",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.6",
+        "upload_time": "2018-03-23T16:48:44",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.20",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.5",
+        "upload_time": "2018-01-18T23:44:30",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "2.0.0",
+            "end_node": "0.4.20",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.4",
+        "upload_time": "2017-11-14T19:12:40",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8.3",
+        "upload_time": "2017-10-25T00:20:10",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.2",
+        "upload_time": "2017-10-18T19:50:30",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.1",
+        "upload_time": "2017-10-04T17:48:29",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.8.0",
+        "upload_time": "2017-09-07T22:21:05",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.1",
+        "upload_time": "2017-06-30T15:45:22",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.7.0",
+        "upload_time": "2017-06-29T01:24:46",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.6.0",
+        "upload_time": "2017-06-14T00:20:47",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.5.3",
+        "upload_time": "2017-06-01T15:16:07",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.8",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2017-05-31T23:18:09",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2017-04-28T23:07:54",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.5.0",
+        "upload_time": "2017-04-19T21:25:58",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.5",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "2.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.7",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.4.0",
+        "upload_time": "2017-03-22T18:31:57",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.3",
+        "upload_time": "2017-03-14T20:38:29",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.3.2",
+        "upload_time": "2017-03-08T23:23:17",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.1",
+        "upload_time": "2017-03-01T22:19:41",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.3.0",
+        "upload_time": "2017-02-28T00:45:35",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp36",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "1.1.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "msrestazure",
+            "start_node": "START",
+            "end_node": "0.4.6",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp31",
+              "cp32",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp30",
+              "cp36"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.2.0",
+        "upload_time": "2016-12-12T23:18:41",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp32",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp32",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.1.0",
+        "upload_time": "2016-11-02T16:40:55",
+        "python_require": [
+          "cp34",
+          "cp32",
+          "cp31",
+          "cp27",
+          "cp33",
+          "cp35",
+          "cp30"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "azure-mgmt-nspkg",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp32",
+              "cp30"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "azure-common",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp34",
+              "cp27",
+              "cp33",
+              "cp35",
+              "cp31",
+              "cp32",
+              "cp30"
+            ]
+          }
+        ],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

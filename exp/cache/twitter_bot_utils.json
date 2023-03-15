@@ -1,0 +1,1399 @@
+{
+  "twitter_bot_utils": {
+    "summary": "Python utilities for twitter bots",
+    "potential_require": [
+      "tweepy",
+      "pyYAML",
+      "sphinx",
+      "sphinx_rtd_theme",
+      "pylint",
+      "vcrpy",
+      "mock",
+      "pyyaml",
+      "PyYAML",
+      "argparse"
+    ],
+    "version_list": [
+      {
+        "version": "0.13",
+        "upload_time": "2021-12-27T19:35:44",
+        "python_require": [
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp39",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp310",
+          "cp38",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp39",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp310",
+              "cp38",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyYAML",
+            "start_node": "START",
+            "end_node": "4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp39",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp310",
+              "cp38",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp39",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp310",
+              "cp38",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sphinx_rtd_theme",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp39",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp310",
+              "cp38",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pylint",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp39",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp310",
+              "cp38",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "vcrpy",
+            "start_node": "4.1.1",
+            "end_node": "4.1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp39",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp310",
+              "cp38",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "mock",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp39",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp310",
+              "cp38",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.12.1",
+        "upload_time": "2020-09-06T18:39:25",
+        "python_require": [
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyYAML",
+            "start_node": "START",
+            "end_node": "4.2",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.12.0",
+        "upload_time": "2020-05-11T22:09:57",
+        "python_require": [
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp38",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.8.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pyyaml",
+            "start_node": "START",
+            "end_node": "4.2b1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp37",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp38",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.6",
+        "upload_time": "2017-12-05T21:02:27",
+        "python_require": [
+          "cp30",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp36",
+              "cp31",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.6.post1",
+        "upload_time": "2017-12-05T21:53:11",
+        "python_require": [
+          "cp30",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.5.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp30",
+              "cp36",
+              "cp31",
+              "cp33",
+              "cp34",
+              "cp32",
+              "cp35",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.11.5",
+        "upload_time": "2017-03-20T16:23:20",
+        "python_require": [
+          "cp30",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.11.4",
+        "upload_time": "2016-08-26T22:32:25",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.11.3",
+        "upload_time": "2016-07-14T22:35:30",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.2",
+        "upload_time": "2016-05-12T16:17:24",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.1",
+        "upload_time": "2016-04-18T21:45:33",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.11.0",
+        "upload_time": "2016-04-18T21:13:32",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.post1",
+        "upload_time": "2015-12-23T04:30:35",
+        "python_require": [
+          "cp34",
+          "cp35",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.10.5",
+        "upload_time": "2016-02-14T23:53:03",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.10.4",
+        "upload_time": "2015-12-30T21:42:47",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.3",
+        "upload_time": "2015-12-29T20:21:43",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.2",
+        "upload_time": "2015-12-23T16:19:31",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.10.0",
+        "upload_time": "2015-12-22T17:13:17",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.9.post2",
+        "upload_time": "2015-07-28T02:55:11",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.9.post1",
+        "upload_time": "2015-07-28T02:35:53",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.9.7",
+        "upload_time": "2015-11-09T19:01:12",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.9.7.1",
+        "upload_time": "2015-11-10T05:30:56",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.5",
+        "upload_time": "2015-10-13T23:32:05",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.5.2",
+        "upload_time": "2015-10-14T04:17:06",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.5.1",
+        "upload_time": "2015-10-14T01:04:30",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.4",
+        "upload_time": "2015-10-13T21:37:21",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "0.9.3",
+        "upload_time": "2015-10-02T17:32:07",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.9.2",
+        "upload_time": "2015-10-02T05:06:36",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp27"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33",
+              "cp27"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33",
+              "cp27"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.9.1.post1",
+        "upload_time": "2015-09-30T19:07:11",
+        "python_require": [
+          "cp30",
+          "cp31",
+          "cp33",
+          "cp34",
+          "cp32",
+          "cp35"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "PyYAML",
+            "start_node": "3.11",
+            "end_node": "3.11",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "argparse",
+            "start_node": "START",
+            "end_node": "1.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tweepy",
+            "start_node": "4",
+            "end_node": "3.1.0",
+            "is_skip_start": true,
+            "is_skip_end": false,
+            "python_list": [
+              "cp34",
+              "cp32",
+              "cp30",
+              "cp35",
+              "cp31",
+              "cp33"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.8",
+        "upload_time": "2015-03-20T16:21:41",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.8.post1",
+        "upload_time": "2015-03-20T16:59:05",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.8.1",
+        "upload_time": "2015-03-23T17:47:41",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7",
+        "upload_time": "2015-03-17T18:51:50",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.7.post2",
+        "upload_time": "2015-03-20T16:13:20",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6",
+        "upload_time": "2014-12-18T16:14:23",
+        "python_require": [
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp39",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.7",
+        "upload_time": "2015-03-10T17:03:41",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.5",
+        "upload_time": "2015-02-17T22:46:33",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.4",
+        "upload_time": "2015-02-15T19:49:34",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.3",
+        "upload_time": "2015-02-14T22:59:36",
+        "python_require": [
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.2",
+        "upload_time": "2014-12-18T22:50:02",
+        "python_require": [
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp39",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "0.6.2.1",
+        "upload_time": "2015-01-13T18:27:42",
+        "python_require": [
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp39",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.6.1",
+        "upload_time": "2014-12-18T16:27:21",
+        "python_require": [
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp39",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5",
+        "upload_time": "2014-12-16T18:25:38",
+        "python_require": [
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp39",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.2",
+        "upload_time": "2014-12-18T06:01:18",
+        "python_require": [
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp39",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "0.5.1",
+        "upload_time": "2014-12-16T20:57:52",
+        "python_require": [
+          "cp30",
+          "cp37",
+          "cp36",
+          "cp31",
+          "cp33",
+          "cp39",
+          "cp34",
+          "cp32",
+          "cp35",
+          "cp310",
+          "cp38",
+          "cp311",
+          "cp27"
+        ],
+        "requirement": [],
+        "combine": true
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

@@ -1,0 +1,1968 @@
+{
+  "cert-schema": {
+    "summary": "Blockchain certificates JSON-LD context and JSON schemas",
+    "potential_require": [
+      "pyld",
+      "jsonschema",
+      "requests",
+      "tox",
+      "validators"
+    ],
+    "version_list": [
+      {
+        "version": "3.3.0",
+        "upload_time": "2022-09-09T14:58:23",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "3.2.1",
+        "upload_time": "2022-06-21T14:09:22",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.2.0",
+        "upload_time": "2022-06-21T14:08:38",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.1.0",
+        "upload_time": "2022-04-08T17:36:30",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.7",
+        "upload_time": "2022-04-05T18:32:00",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.6",
+        "upload_time": "2022-04-05T18:04:23",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.5",
+        "upload_time": "2022-04-05T17:21:18",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.4",
+        "upload_time": "2022-04-01T20:21:43",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.3",
+        "upload_time": "2022-03-08T18:06:08",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.2",
+        "upload_time": "2021-12-08T16:09:19",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.1",
+        "upload_time": "2021-12-08T15:12:53",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.0b4",
+        "upload_time": "2021-10-06T12:27:09",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "3.0.0b3",
+        "upload_time": "2021-04-23T17:18:32",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp27",
+          "cp311",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [],
+        "combine": false
+      },
+      {
+        "version": "3.0.0b2",
+        "upload_time": "2021-04-23T17:14:42",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp27",
+          "cp311",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "3.0.0b1",
+        "upload_time": "2020-11-20T22:16:49",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp27",
+          "cp311",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "3.0.0a9",
+        "upload_time": "2020-06-05T20:34:16",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp27",
+          "cp311",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [],
+        "combine": true
+      },
+      {
+        "version": "3.0.0",
+        "upload_time": "2021-12-08T13:00:52",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "2.1.7",
+        "upload_time": "2020-12-08T01:05:06",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "0.0.0",
+        "upload_time": "2022-09-09T14:57:53",
+        "python_require": [
+          "cp36",
+          "cp30",
+          "cp35",
+          "cp33",
+          "cp37",
+          "cp39",
+          "cp31",
+          "cp34",
+          "cp32",
+          "cp310",
+          "cp38"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "pyld",
+            "start_node": "START",
+            "end_node": "1.0.3",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "jsonschema",
+            "start_node": "START",
+            "end_node": "2.6.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "requests",
+            "start_node": "START",
+            "end_node": "2.18.4",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "tox",
+            "start_node": "START",
+            "end_node": "3.0.0",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "validators",
+            "start_node": "START",
+            "end_node": "0.12.1",
+            "is_skip_start": false,
+            "is_skip_end": false,
+            "python_list": [
+              "cp36",
+              "cp30",
+              "cp35",
+              "cp33",
+              "cp37",
+              "cp39",
+              "cp31",
+              "cp34",
+              "cp32",
+              "cp310",
+              "cp38"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}

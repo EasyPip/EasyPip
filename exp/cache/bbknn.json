@@ -1,0 +1,2559 @@
+{
+  "bbknn": {
+    "summary": "Batch balanced KNN",
+    "potential_require": [
+      "Cython",
+      "numpy",
+      "scipy",
+      "annoy",
+      "pynndescent",
+      "umap-learn",
+      "scikit-learn",
+      "packaging",
+      "sklearn",
+      "scanpy"
+    ],
+    "version_list": [
+      {
+        "version": "1.5.1",
+        "upload_time": "2021-06-02T18:59:34",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pynndescent",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.5.0",
+        "upload_time": "2021-06-02T17:41:29",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "pynndescent",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.4.1",
+        "upload_time": "2021-03-22T16:58:29",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.4.0",
+        "upload_time": "2021-01-18T12:17:04",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp39",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp39",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.12",
+        "upload_time": "2020-06-09T11:54:14",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "packaging",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.11",
+        "upload_time": "2020-06-08T16:15:52",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.10",
+        "upload_time": "2020-06-08T09:24:35",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.9",
+        "upload_time": "2020-03-05T10:02:38",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scikit-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.8",
+        "upload_time": "2020-02-17T15:23:01",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.7",
+        "upload_time": "2020-01-27T09:16:18",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp38",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp38",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.6",
+        "upload_time": "2019-08-22T10:18:35",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.5",
+        "upload_time": "2019-07-29T09:42:43",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.4",
+        "upload_time": "2019-06-06T13:12:57",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.3",
+        "upload_time": "2019-05-28T08:48:35",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.2",
+        "upload_time": "2019-05-08T13:37:16",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scipy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "umap-learn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "sklearn",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.3.1",
+        "upload_time": "2018-11-29T20:21:27",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      },
+      {
+        "version": "1.3.0",
+        "upload_time": "2018-11-27T16:45:03",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.2.0",
+        "upload_time": "2018-08-23T10:32:21",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.1.0",
+        "upload_time": "2018-08-16T21:46:11",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "annoy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": true
+      },
+      {
+        "version": "1.0.0",
+        "upload_time": "2018-07-19T09:06:43",
+        "python_require": [
+          "cp33",
+          "cp36",
+          "cp35",
+          "cp37",
+          "cp30",
+          "cp34",
+          "cp32",
+          "cp31"
+        ],
+        "requirement": [
+          {
+            "skip_list": [],
+            "package_name": "Cython",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "numpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          },
+          {
+            "skip_list": [],
+            "package_name": "scanpy",
+            "start_node": "START",
+            "end_node": "END",
+            "is_skip_start": false,
+            "is_skip_end": true,
+            "python_list": [
+              "cp33",
+              "cp36",
+              "cp31",
+              "cp37",
+              "cp30",
+              "cp34",
+              "cp32",
+              "cp35"
+            ]
+          }
+        ],
+        "combine": false
+      }
+    ],
+    "build_version": "0.0.3"
+  }
+}
